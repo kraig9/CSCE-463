@@ -1,8 +1,12 @@
 //This code was taken from the sample code in winsock.cpp
 //written by Dr. Dmitri Loguinov, modified by Kraig Orcutt
+#define _WINSOCK_DEPRECATED_NO_WARNINGS
+#pragma comment(lib, "Ws2_32.lib")
 
 #include <stdio.h>
 #include <winsock2.h>
+
+
 
 void winsock_test(void)
 {
@@ -68,6 +72,7 @@ void winsock_test(void)
 	printf("Successfully connected to %s (%s) on port %d\n", str, inet_ntoa(server.sin_addr), htons(server.sin_port));
 
 	// send HTTP requests here
+
 
 	// close the socket to this server; open again for the next one
 	closesocket(sock);

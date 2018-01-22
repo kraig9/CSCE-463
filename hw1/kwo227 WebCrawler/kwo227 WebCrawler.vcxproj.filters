@@ -32,10 +32,10 @@
     <ClCompile Include="URLParser.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="RecieveLoop.cpp">
+    <ClCompile Include="Winsock.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Winsock.cpp">
+    <ClCompile Include="RecieveLoop.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
