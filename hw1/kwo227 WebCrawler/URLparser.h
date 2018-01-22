@@ -5,12 +5,15 @@
 	test project by Dr. Dmitri Loguinov
 */
 struct parsed {
-	char* query, *path, *port, *host;
+	char* query;
+	char* path = (char*)"/";
+	char* port = (char*)"80";
+	char* host;
 	parsed(char* query, char* path, char* port, char* host) {
 		this->query = query;
 		this->path = path;
-		this->port = port;
 		this->host = host;
+		if(port!=NULL) this->port = port;
 	}
 };
 

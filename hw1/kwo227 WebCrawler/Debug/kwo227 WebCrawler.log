@@ -1,4 +1,18 @@
-﻿  URLParser.cpp
-  Main.cpp
+﻿  Winsock.cpp
+c:\users\kraig\source\repos\csce-463\hw1\kwo227 webcrawler\winsock.cpp(39): error C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\um\winsock2.h(1830): note: see declaration of 'inet_addr'
+c:\users\kraig\source\repos\csce-463\hw1\kwo227 webcrawler\winsock.cpp(43): error C4996: 'gethostbyname': Use getaddrinfo() or GetAddrInfoW() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\um\winsock2.h(2218): note: see declaration of 'gethostbyname'
+c:\users\kraig\source\repos\csce-463\hw1\kwo227 webcrawler\winsock.cpp(68): error C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\um\winsock2.h(1848): note: see declaration of 'inet_ntoa'
+  RecieveLoop.cpp
+c:\users\kraig\source\repos\csce-463\hw1\kwo227 webcrawler\recieveloop.cpp(20): warning C4101: 'len': unreferenced local variable
+c:\users\kraig\source\repos\csce-463\hw1\kwo227 webcrawler\recieveloop.cpp(18): warning C4101: 's': unreferenced local variable
   Generating Code...
-  kwo227 WebCrawler.vcxproj -> C:\Users\kraig\source\repos\kwo227 WebCrawler\hw1\Debug\kwo227 WebCrawler.exe
+c:\users\kraig\source\repos\csce-463\hw1\kwo227 webcrawler\recieveloop.cpp(25): error C4700: uninitialized local variable 'timeout' used
+c:\users\kraig\source\repos\csce-463\hw1\kwo227 webcrawler\recieveloop.cpp(25): error C4700: uninitialized local variable 'exceptfds' used
+c:\users\kraig\source\repos\csce-463\hw1\kwo227 webcrawler\recieveloop.cpp(25): error C4700: uninitialized local variable 'writefds' used
+c:\users\kraig\source\repos\csce-463\hw1\kwo227 webcrawler\recieveloop.cpp(25): error C4700: uninitialized local variable 'readfds' used
+c:\users\kraig\source\repos\csce-463\hw1\kwo227 webcrawler\recieveloop.cpp(25): error C4700: uninitialized local variable 'nfds' used
+c:\users\kraig\source\repos\csce-463\hw1\kwo227 webcrawler\recieveloop.cpp(27): error C4700: uninitialized local variable 'flags' used
+c:\users\kraig\source\repos\csce-463\hw1\kwo227 webcrawler\recieveloop.cpp(27): error C4700: uninitialized local variable 'buf' used

@@ -52,7 +52,7 @@ parsed URL::URLparse(char* URL) {
 		cout << "extracted host is: " << host << endl;
 	}
 	else if (portPart == NULL) {
-		*host = *URL;
+		strncpy_s(host, URL, strlen(URL));
 		cout << "extracted port is NULL " << endl;
 		cout << "extracted host is: " << host << endl;
 	}
