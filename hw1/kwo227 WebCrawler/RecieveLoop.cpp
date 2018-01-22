@@ -1,4 +1,5 @@
 #include "RecieveLoop.h"
+#include "Socket.h"
 
 Socket::Socket(void) {
 	buf = new char[INITIAL_BUF_SIZE];

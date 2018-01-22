@@ -5,8 +5,7 @@
 
 #include <stdio.h>
 #include <winsock2.h>
-
-
+#include "Socket.h"
 
 void winsock_test(void)
 {
@@ -72,7 +71,8 @@ void winsock_test(void)
 	printf("Successfully connected to %s (%s) on port %d\n", str, inet_ntoa(server.sin_addr), htons(server.sin_port));
 
 	// send HTTP requests here
-
+	//https://msdn.microsoft.com/en-us/library/windows/desktop/bb530747(v=vs.85).aspx
+	int result = send(sock, sock);
 
 	// close the socket to this server; open again for the next one
 	closesocket(sock);
