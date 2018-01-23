@@ -1,6 +1,7 @@
 #include "common.h"
 #include "URLparser.h"
 #include <process.h>
+#include "Socket.h"
 
 int main(int argc, char** argv) {
 	cout << argc << endl;
@@ -20,6 +21,7 @@ int main(int argc, char** argv) {
 		<< "path: " << parsedURL.path << endl
 		<< "port: " << parsedURL.port << endl
 		<< "host: " << parsedURL.host << endl;
+	winsock_test(parsedURL);
 	system("pause");
 	return 0;
 }

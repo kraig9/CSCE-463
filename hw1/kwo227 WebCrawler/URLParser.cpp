@@ -41,11 +41,12 @@ parsed URL::URLparse(char* URL) {
 	}
 	//4) Find :, extract port, truncate, obtain host
 	cout << "URL is: " << URL << endl;
-	char* port = NULL;
+	char port[128];
+	strcpy_s(port, "80");
 	char host[10000];
 	char* portPart = strchr(URL, ':');
 	if (portPart != NULL) {
-		port = portPart + 1;
+		strcpy_s(port, portPart + 1);
 		strncpy_s(host, URL, portPart - URL);
 		*portPart = '\0';
 		cout << "extracted port is: " << port << endl;
@@ -53,7 +54,7 @@ parsed URL::URLparse(char* URL) {
 	}
 	else if (portPart == NULL) {
 		strncpy_s(host, URL, strlen(URL));
-		cout << "extracted port is NULL " << endl;
+		cout << "extracted port is :80 " << endl;
 		cout << "extracted host is: " << host << endl;
 	}
 	parsed parsedURL(query, path, port, host);

@@ -1,0 +1,8 @@
+﻿  Winsock.cpp
+Winsock.cpp(80): warning C4129: '%': unrecognized character escape sequence
+  Generating code
+  1 of 26 functions ( 3.8%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    1 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  kwo227 WebCrawler.vcxproj -> C:\Users\kraig\source\repos\CSCE-463\hw1\Release\kwo227 WebCrawler.exe

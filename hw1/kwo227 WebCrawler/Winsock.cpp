@@ -1,16 +1,19 @@
 //This code was taken from the sample code in winsock.cpp
 //written by Dr. Dmitri Loguinov, modified by Kraig Orcutt
+
 #define _WINSOCK_DEPRECATED_NO_WARNINGS
 #pragma comment(lib, "Ws2_32.lib")
 
 #include <stdio.h>
 #include <winsock2.h>
 #include "Socket.h"
+#include "URLparser.h"
 
-void winsock_test(void)
+void winsock_test(parsed parsedURL)
 {
 	// string pointing to an HTTP server (DNS name or IP)
-	char str[] = "www.tamu.edu";
+	printf(parsedURL.host);
+	char* str = parsedURL.host;
 	//char str [] = "128.194.135.72";
 
 	WSADATA wsaData;
@@ -24,8 +27,9 @@ void winsock_test(void)
 	}
 
 	// open a TCP socket
-	SOCKET sock = socket(AF_INET, SOCK_STREAM, IPPROTO_TCP);
-	if (sock == INVALID_SOCKET)
+	Socket sock;
+	sock.sockt = socket(AF_INET, SOCK_STREAM, IPPROTO_TCP);
+	if (sock.sockt == INVALID_SOCKET)
 	{
 		printf("socket() generated error %d\n", WSAGetLastError());
 		WSACleanup();
@@ -62,7 +66,7 @@ void winsock_test(void)
 	server.sin_port = htons(80);		// host-to-network flips the byte order
 
 										// connect to the server on port 80
-	if (connect(sock, (struct sockaddr*) &server, sizeof(struct sockaddr_in)) == SOCKET_ERROR)
+	if (connect(sock.sockt, (struct sockaddr*) &server, sizeof(struct sockaddr_in)) == SOCKET_ERROR)
 	{
 		printf("Connection error: %d\n", WSAGetLastError());
 		return;
@@ -72,10 +76,17 @@ void winsock_test(void)
 
 	// send HTTP requests here
 	//https://msdn.microsoft.com/en-us/library/windows/desktop/bb530747(v=vs.85).aspx
-	int result = send(sock, sock);
-
+	char sendBuf[1000];
+	string thing = "GET /?status=15 HTTP/1.0\r\n\r\n";
+	strcpy_s(sendBuf, thing.c_str());
+	int result = send(sock.sockt, sendBuf, (int)strlen(sendBuf), 0);
+	printf("THE RESULT FROM THE GET WAS: %d", result);
 	// close the socket to this server; open again for the next one
-	closesocket(sock);
+	sock.Read();
+	//recv(sock.sockt, sock.buf, sock.allocatedSize, 0);
+	printf("%s",sock.buf);
+
+	closesocket(sock.sockt);
 
 	// call cleanup when done with everything and ready to exit program
 	WSACleanup();

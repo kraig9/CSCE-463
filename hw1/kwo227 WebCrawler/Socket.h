@@ -1,20 +1,29 @@
 #pragma once
-#define INITIAL_BUF_SIZE 8000
+#define INITIAL_BUF_SIZE 20000
 #define THRESHOLD 8000
 
 #include "common.h"
+#include <winsock2.h>
+#include "URLparser.h"
 
-class Socket {
-	SOCKET sock;
-	char *buf;
-	int allocatedSize;
-	int curPos;
+struct Socket {
+	SOCKET sockt;
+	char* buf = new char[INITIAL_BUF_SIZE];
+	int allocatedSize = INITIAL_BUF_SIZE;
+	int curPos = 0;
 
-public:
-	Socket();
+	//constructors
+	Socket() {
 
-	char* getBuf();
-	int getSize();
-	int getCurPos();
+	}
+	Socket(char* buffer, int allSize, int currPos) {
+		memset(buf, 0, INITIAL_BUF_SIZE);
+		strcpy_s(buf, allSize, buffer);
+		allocatedSize = allSize;
+		curPos = currPos;
+	}
+	//member functions
 	bool Read();
 };
+
+void winsock_test(parsed parsedURL);

@@ -1,2 +1,10 @@
-﻿  Winsock.cpp
-  kwo227 WebCrawler.vcxproj -> C:\Users\kraig\source\repos\CSCE-463\hw1\Debug\kwo227 WebCrawler.exe
+﻿  URLParser.cpp
+  Main.cpp
+  HTMLParser.cpp
+  Generating Code...
+  Compiling...
+  Winsock.cpp
+  RecieveLoop.cpp
+  Generating Code...
+Main.obj : error LNK2005: _main already defined in HTMLParser.obj
+C:\Users\kraig\source\repos\CSCE-463\hw1\Debug\kwo227 WebCrawler.exe : fatal error LNK1169: one or more multiply defined symbols found
