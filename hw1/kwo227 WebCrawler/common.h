@@ -12,6 +12,7 @@
 #include <string>
 #include <iostream>
 #include <tchar.h>
+#include <fstream>
 #include "targetver.h"
 
 

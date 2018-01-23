@@ -8,6 +8,7 @@
 #include <winsock2.h>
 #include "Socket.h"
 #include "URLparser.h"
+#include "HTMLParserBase.h"
 
 void winsock_test(parsed parsedURL)
 {
@@ -83,6 +84,7 @@ void winsock_test(parsed parsedURL)
 	printf("THE RESULT FROM THE GET WAS: %d", result);
 	// close the socket to this server; open again for the next one
 	sock.Read();
+	//createParser(sock);
 	//recv(sock.sockt, sock.buf, sock.allocatedSize, 0);
 	printf("%s",sock.buf);
 

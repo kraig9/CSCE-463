@@ -1,5 +1,6 @@
 #include "HTMLParserBase.h"
 #include "common.h"
+#include "Socket.h"
 
 void createParser() {
 	// create new parser object
@@ -16,3 +17,4 @@ void createParser() {
 
 	printf("Found %d links:\n", nLinks);
 }
+
