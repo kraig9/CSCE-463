@@ -24,14 +24,15 @@ parsed URL::URLparse(char* URL) {
 		*queryPart = '\0';
 	}
 	//3) Find / , extract path, truncate 
-	char* path = NULL;
+	char path[1024];
+	char* pathPtr = path;
+	memset(path, 0, 1024);
+	path[0] = '/';
+	path[1] = '\0';
 	char* pathPart = strchr(URL, '/');
 	if (pathPart != NULL) {
-		path = pathPart + 1;
+		pathPtr = pathPart + 1;
 		*pathPart = '\0';
-	}
-	else if (pathPart == NULL) {
-		*path = '/';
 	}
 	//4) Find :, extract port, truncate, obtain host
 	char port[128];
