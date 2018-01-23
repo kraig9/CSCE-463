@@ -41,13 +41,13 @@
     <ClCompile Include="URLParser.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Winsock.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="RecieveLoop.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="myHTMLParser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="myWinsock.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

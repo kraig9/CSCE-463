@@ -1,6 +1,6 @@
 #pragma once
-#define INITIAL_BUF_SIZE 20000
-#define THRESHOLD 8000
+#define INITIAL_BUF_SIZE 1000000
+#define THRESHOLD 2000
 
 #include "common.h"
 #include <winsock2.h>

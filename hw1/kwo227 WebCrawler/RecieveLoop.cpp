@@ -12,11 +12,10 @@ bool Socket::Read() {
 	readfds.fd_count=1;
 	timeval timeout;
 	timeout.tv_sec = 10000;
-	ofstream outBuf;
+	//ofstream outBuf;
 
 	//This code was copied from the homework paper, page 4
 	while (true) {
-		printf("p%d",sockt);
 		int ret = select(0, &readfds, 0, 0, &timeout);
 		if (ret > 0) {
 			int bytes = recv(sockt, buf + curPos, allocatedSize - curPos, 0);
@@ -45,9 +44,9 @@ bool Socket::Read() {
 			printf((char*)WSAGetLastError());
 			break;
 		}
-		outBuf.open("kwo227RecievedHTML.txt", ofstream::out);
+		/*outBuf.open("kwo227RecievedHTML.txt", ofstream::out);
 		outBuf << buf;
-		outBuf.close();
+		outBuf.close();*/
 	}
 
 	return false;

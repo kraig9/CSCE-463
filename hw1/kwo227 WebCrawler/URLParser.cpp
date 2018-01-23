@@ -9,8 +9,6 @@ parsed URL::URLparse(char* URL) {
 	strncpy_s(scheme, URL, schemePart - URL);
 	URL = schemePart + 3;
 	
-	cout << "schemePart URL is: " << URL << endl;
-	cout << "extracted scheme is: " << scheme << endl;
 	//TODO: if scheme is null either append one or throw error
 
 	//1) Find # using strchr() and truncate 
@@ -24,23 +22,18 @@ parsed URL::URLparse(char* URL) {
 	if (queryPart != NULL) {
 		query = queryPart + 1;
 		*queryPart = '\0';
-		cout << "extracted query is: " << query << endl;
 	}
-	else if(queryPart == NULL) cout << "extracted query is NULL " << endl;
 	//3) Find / , extract path, truncate 
 	char* path = NULL;
 	char* pathPart = strchr(URL, '/');
 	if (pathPart != NULL) {
 		path = pathPart + 1;
 		*pathPart = '\0';
-		cout << "extracted path is: " << path << endl;
 	}
 	else if (pathPart == NULL) {
 		*path = '/';
-		cout << "extracted path is: " << path << endl;
 	}
 	//4) Find :, extract port, truncate, obtain host
-	cout << "URL is: " << URL << endl;
 	char port[128];
 	strcpy_s(port, "80");
 	char host[10000];
@@ -49,13 +42,9 @@ parsed URL::URLparse(char* URL) {
 		strcpy_s(port, portPart + 1);
 		strncpy_s(host, URL, portPart - URL);
 		*portPart = '\0';
-		cout << "extracted port is: " << port << endl;
-		cout << "extracted host is: " << host << endl;
 	}
 	else if (portPart == NULL) {
 		strncpy_s(host, URL, strlen(URL));
-		cout << "extracted port is :80 " << endl;
-		cout << "extracted host is: " << host << endl;
 	}
 	parsed parsedURL(query, path, port, host);
 	return parsedURL;
@@ -64,4 +53,11 @@ parsed URL::URLparse(char* URL) {
 //getter
 char* URL::getURL() {
 	return url;
+}
+
+void getHeaderInfo(char* buf) {
+	char headerInfo[10000];
+	char* headerPart = strstr(buf, "\r\n\r\n");
+	strncpy_s(headerInfo, buf, headerPart - buf);
+	printf("%s", headerInfo);
 }

@@ -14,13 +14,10 @@ struct parsed {
 		memset(path, 0, 128);
 		memset(host, 0, 128);
 		memset(port, 0, 128);
-		printf("p%s p%s p%u",query, _query, sizeof(query));
-		if (query != NULL) memcpy(query, _query, sizeof(query));
-		if (path != NULL) memcpy(path, _path, sizeof(path));
-		if (host != NULL) memcpy(host, _host, sizeof(host));
-		printf("The host in the constructor is: p%s\n", host);
-		printf("p%s", _port);
-		if (port != NULL) memcpy(port, _port, sizeof(port));
+		if (_query != NULL) memcpy(query, _query, sizeof(query));
+		if (_path != NULL) memcpy(path, _path, sizeof(path));
+		if (_host != NULL) memcpy(host, _host, sizeof(host));
+		if (_port != NULL) memcpy(port, _port, sizeof(port));
 	}
 };
 
@@ -36,3 +33,5 @@ public:
 		URL::url = url;
 	}
 };
+
+void getHeaderInfo(char* buf);

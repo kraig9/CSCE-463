@@ -77,6 +77,9 @@
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
     </ClCompile>
+    <Link>
+      <AdditionalDependencies>HTMLParser_debug_win32.lib;HTMLParser_debug_x64.lib;HTMLParser_release_win32.lib;HTMLParser_release_x64.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
@@ -127,7 +130,7 @@
     <ClCompile Include="myHTMLParser.cpp" />
     <ClCompile Include="RecieveLoop.cpp" />
     <ClCompile Include="URLParser.cpp" />
-    <ClCompile Include="Winsock.cpp" />
+    <ClCompile Include="myWinsock.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
