@@ -39,4 +39,4 @@ private:
 	void	*parser;
 	void	*buffer;
 };
-void createParser(char* htmlCode, int codeSize,char* URLIn);
+int createParser(char* htmlCode, int codeSize,char* URLIn);

@@ -34,4 +34,4 @@ public:
 	}
 };
 
-void getHeaderInfo(char* buf);
+char* getHeaderInfo(char* buf, char* body);

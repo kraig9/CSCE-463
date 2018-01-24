@@ -13,6 +13,7 @@
 #include <iostream>
 #include <tchar.h>
 #include <fstream>
+#include <time.h>
 #include "targetver.h"
 
 

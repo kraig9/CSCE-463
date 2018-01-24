@@ -3,6 +3,9 @@
 
 parsed URL::URLparse(char* URL) {
 	//get scheme
+	printf("\tParsing URL... ");
+	char* schemeCheck = strstr(URL, "http");
+	if (schemeCheck == NULL) throw(1);
 	char* schemePart = strstr(URL, "://");
 	char scheme[128];
 	//http://www.cplusplus.com/reference/cstring/strncpy/
@@ -41,6 +44,13 @@ parsed URL::URLparse(char* URL) {
 	char* portPart = strchr(URL, ':');
 	if (portPart != NULL) {
 		strcpy_s(port, portPart + 1);
+		//https://stackoverflow.com/questions/4654636/how-to-determine-if-a-string-is-a-number-with-c
+		char* portErr;
+		long converted = strtol(port, &portErr, 10);
+		if (converted==NULL||converted==0) {
+			// conversion failed because the input wasn't a number
+			throw(2);
+		}
 		strncpy_s(host, URL, portPart - URL);
 		*portPart = '\0';
 	}
@@ -48,6 +58,8 @@ parsed URL::URLparse(char* URL) {
 		strncpy_s(host, URL, strlen(URL));
 	}
 	parsed parsedURL(query, path, port, host);
+	if(query!=NULL) strcat_s(path, query);
+	printf("host %s, port %s, request %s \n", host, port, path);
 	return parsedURL;
 }
 
@@ -56,9 +68,12 @@ char* URL::getURL() {
 	return url;
 }
 
-void getHeaderInfo(char* buf) {
+char* getHeaderInfo(char* buf, char* body) {
 	char headerInfo[10000];
 	char* headerPart = strstr(buf, "\r\n\r\n");
 	strncpy_s(headerInfo, buf, headerPart - buf);
-	printf("%s", headerInfo);
+	memcpy_s(body, 500000, headerPart, strlen(headerPart));
+	body[strlen(headerPart) - 1] = '\0';
+
+	return headerInfo;
 }

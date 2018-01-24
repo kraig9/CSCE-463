@@ -20,8 +20,8 @@ bool Socket::Read() {
 		if (ret > 0) {
 			int bytes = recv(sockt, buf + curPos, allocatedSize - curPos, 0);
 			if (bytes == SOCKET_ERROR) {
-				printf((char*)WSAGetLastError());
-				break;
+				printf("failed with %d on recv",WSAGetLastError());
+				throw(10);
 			}
 			if (bytes == 0) {
 				buf[curPos + 1] = '\0';
@@ -32,7 +32,10 @@ bool Socket::Read() {
 				char* tempBuf = new char[2 * allocatedSize];
 				//resize buffer with realloc or HeapReAlloc, or memcpy into bigger array
 				memcpy(tempBuf, buf, allocatedSize);
+				char* old_buf = buf;
 				buf = tempBuf;
+				allocatedSize = allocatedSize * 2;
+				delete old_buf;
 			}
 		}
 		else if (ret == 0) {

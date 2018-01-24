@@ -1,5 +1,5 @@
 #pragma once
-#define INITIAL_BUF_SIZE 1000000
+#define INITIAL_BUF_SIZE 8000
 #define THRESHOLD 2000
 
 #include "common.h"
