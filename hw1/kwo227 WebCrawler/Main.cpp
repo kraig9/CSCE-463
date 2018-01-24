@@ -26,6 +26,7 @@ int main(int argc, char** argv) {
 		if (e == 1) printf("failed with invalid scheme");
 		else if (e == 2) printf("failed with invalid port");
 		else if (e == 3) printf("failed with %d", WSAGetLastError());
+		else if (e == 4) printf("failed with non-HTTP header");
 		else if (e == 10);
 		return 1;
 	}

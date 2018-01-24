@@ -72,6 +72,8 @@ char* getHeaderInfo(char* buf, char* body) {
 	char headerInfo[10000];
 	char* headerPart = strstr(buf, "\r\n\r\n");
 	strncpy_s(headerInfo, buf, headerPart - buf);
+	char* headerErr = strstr(headerInfo, "http");
+	if (headerErr == NULL) throw(4);
 	memcpy_s(body, 500000, headerPart, strlen(headerPart));
 	body[strlen(headerPart) - 1] = '\0';
 
