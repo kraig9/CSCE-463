@@ -1,3 +1,5 @@
+//Kraig Orcutt, CSCE 463-500 Spring 2018
+
 #include "common.h"
 #include "URLparser.h"
 #include <process.h>

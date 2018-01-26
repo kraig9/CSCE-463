@@ -1,3 +1,5 @@
+//Kraig Orcutt, CSCE 463-500 Spring 2018
+
 //This code was taken from the sample code in winsock.cpp
 //written by Dr. Dmitri Loguinov, modified by Kraig Orcutt
 

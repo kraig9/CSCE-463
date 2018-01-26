@@ -1,3 +1,5 @@
+//Kraig Orcutt, CSCE 463-500 Spring 2018
+
 #pragma once
 
 // Including SDKDDKVer.h defines the highest available Windows platform.

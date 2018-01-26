@@ -1,3 +1,5 @@
+//Kraig Orcutt, CSCE 463-500 Spring 2018
+
 #pragma once
 #define INITIAL_BUF_SIZE 8000
 #define THRESHOLD 2000

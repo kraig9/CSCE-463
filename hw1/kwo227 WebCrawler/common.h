@@ -1,5 +1,5 @@
 //file written by Dr. Dmitri Loguinov
-//modified by Kraig Orcutt
+//Kraig Orcutt, CSCE 463-500 Spring 2018
 #pragma once
 
 #include <winsock2.h>

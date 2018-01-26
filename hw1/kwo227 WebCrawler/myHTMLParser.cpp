@@ -1,3 +1,5 @@
+//Kraig Orcutt, CSCE 463-500 Spring 2018
+
 #include "HTMLParserBase.h"
 #include "common.h"
 #include "Socket.h"

@@ -1,3 +1,5 @@
+//Kraig Orcutt, CSCE 463-500 Spring 2018
+
 #include "URLparser.h"
 // scheme://[user:pass@]host[:port][/path][?query][#fragment] 
 
