@@ -13,7 +13,8 @@ bool Socket::Read() {
 	readfds.fd_array[0]=sockt;
 	readfds.fd_count=1;
 	timeval timeout;
-	timeout.tv_sec = 10000;
+	timeout.tv_sec = 10;
+	timeout.tv_usec = 0;
 	//ofstream outBuf;
 
 	//This code was copied from the homework paper, page 4
@@ -22,7 +23,6 @@ bool Socket::Read() {
 		if (ret > 0) {
 			int bytes = recv(sockt, buf + curPos, allocatedSize - curPos, 0);
 			if (bytes == SOCKET_ERROR) {
-				printf("failed with %d on recv",WSAGetLastError());
 				throw(10);
 			}
 			if (bytes == 0) {
@@ -42,8 +42,8 @@ bool Socket::Read() {
 		}
 		else if (ret == 0) {
 			//report timeout
-			printf("Timeout occured");
-			break;
+			printf("failed with %u on recv\n", WSAGetLastError());
+			throw(10);
 		}
 		else {
 			printf((char*)WSAGetLastError());

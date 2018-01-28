@@ -7,7 +7,8 @@ parsed URL::URLparse(char* URL) {
 	//get scheme
 	printf("\tParsing URL... ");
 	char* schemeCheck = strstr(URL, "http");
-	if (schemeCheck == NULL) throw(1);
+	char* schemeCheck2 = strstr(URL, "https");
+	if (schemeCheck == NULL || schemeCheck2 != NULL) throw(1);
 	char* schemePart = strstr(URL, "://");
 	char scheme[128];
 	//http://www.cplusplus.com/reference/cstring/strncpy/
@@ -28,15 +29,14 @@ parsed URL::URLparse(char* URL) {
 		query = queryPart + 1;
 		*queryPart = '\0';
 	}
-	//3) Find / , extract path, truncate 
-	char path[1024];
-	char* pathPtr = path;
-	memset(path, 0, 1024);
-	path[0] = '/';
-	path[1] = '\0';
+	//3) Find / , extract path, truncate
+	char pathPtr[1024];
+	memset(pathPtr, 0, 1024);
+	pathPtr[0] = '/';
+	pathPtr[1] = '\0';
 	char* pathPart = strchr(URL, '/');
 	if (pathPart != NULL) {
-		pathPtr = pathPart + 1;
+		strcpy_s(pathPtr, pathPart);
 		*pathPart = '\0';
 	}
 	//4) Find :, extract port, truncate, obtain host
@@ -59,9 +59,10 @@ parsed URL::URLparse(char* URL) {
 	else if (portPart == NULL) {
 		strncpy_s(host, URL, strlen(URL));
 	}
-	parsed parsedURL(query, path, port, host);
-	if(query!=NULL) strcat_s(path, query);
-	printf("host %s, port %s, request %s \n", host, port, path);
+	parsed parsedURL(query, pathPtr, port, host);
+	if (pathPtr[0] == '/' && query == NULL) printf("host %s, port %s, request %s \n", host, port, pathPtr);
+	else if (pathPtr[0] == '/' && query != NULL)printf("host %s, port %s, request %s?%s \n", host, port, pathPtr, query);
+	else printf("host %s, port %s, request /%s?%s \n", host, port, pathPtr, query);
 	return parsedURL;
 }
 
@@ -70,14 +71,19 @@ char* URL::getURL() {
 	return url;
 }
 
-char* getHeaderInfo(char* buf, char* body) {
+char* getHeaderInfo(char* buf) {
 	char headerInfo[10000];
 	char* headerPart = strstr(buf, "\r\n\r\n");
 	strncpy_s(headerInfo, buf, headerPart - buf);
-	char* headerErr = strstr(headerInfo, "http");
-	if (headerErr == NULL) throw(4);
-	memcpy_s(body, 500000, headerPart, strlen(headerPart));
-	body[strlen(headerPart) - 1] = '\0';
-
+	char* headerErr = strstr(headerInfo, "HTTP");
+	//http://www.cplusplus.com/forum/beginner/68260/
+	int headerErr2 = buf[9]-48;
+	if (headerErr == NULL || headerPart == NULL) throw(4);
+	if (headerErr2 == 2) {
+		//strncpy_s(buf, strlen(headerPart+1), _TRUNCATE);
+		int headpartlen = strlen(headerPart + 1);
+		int buflen = strlen(buf);
+		strcpy_s(buf,strlen(buf),headerPart+1);
+	}
 	return headerInfo;
 }

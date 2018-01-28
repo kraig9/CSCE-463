@@ -1,12 +1,12 @@
 ﻿  Main.cpp
-  myHTMLParser.cpp
+Main.cpp(34): warning C4390: ';': empty controlled statement found; is this the intent?
   RecieveLoop.cpp
   URLParser.cpp
   myWinsock.cpp
   Generating code
-  103 of 119 functions (86.6%) were compiled, the rest were copied from previous compilation.
-    94 functions were new in current compilation
-    1 functions had inline decision re-evaluated but remain unchanged
+  21 of 171 functions (12.3%) were compiled, the rest were copied from previous compilation.
+    7 functions were new in current compilation
+    16 functions had inline decision re-evaluated but remain unchanged
   Finished generating code
 HTMLParser_release_win32.lib(HTMLParserBase.obj) : warning LNK4099: PDB 'HTMLParser.pdb' was not found with 'HTMLParser_release_win32.lib(HTMLParserBase.obj)' or at 'C:\Users\kraig\source\repos\CSCE-463\hw1\Release\HTMLParser.pdb'; linking object as if no debug info
 HTMLParser_release_win32.lib(stdafx.obj) : warning LNK4099: PDB 'HTMLParser.pdb' was not found with 'HTMLParser_release_win32.lib(stdafx.obj)' or at 'C:\Users\kraig\source\repos\CSCE-463\hw1\Release\HTMLParser.pdb'; linking object as if no debug info

@@ -29,6 +29,8 @@ int main(int argc, char** argv) {
 		else if (e == 2) printf("failed with invalid port");
 		else if (e == 3) printf("failed with %d", WSAGetLastError());
 		else if (e == 4) printf("failed with non-HTTP header");
+		//9 is for getting a status code other than 2xx
+		else if (e == 9) return 0;
 		else if (e == 10);
 		return 1;
 	}

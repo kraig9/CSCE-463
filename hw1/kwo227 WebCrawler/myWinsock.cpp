@@ -71,26 +71,35 @@ void winsock_test(parsed parsedURL)
 
 	// setup the port # and protocol type
 	server.sin_family = AF_INET;
-	server.sin_port = htons(80);		// host-to-network flips the byte order
+	//https://stackoverflow.com/questions/28492110/convert-string-to-short-in-c
+	string stringPort = string(parsedURL.port);
+	short num = (short)stoi(stringPort);
+	server.sin_port = htons(num);		// host-to-network flips the byte order
+	clock_t end = clock();
+	int duration = (int)(end - begin);
+	printf("done in %d ms, found %s\n", duration, inet_ntoa(server.sin_addr));
 
-										// connect to the server on port 80
+	printf("      * Connecting on page... ");
 	if (connect(sock.sockt, (struct sockaddr*) &server, sizeof(struct sockaddr_in)) == SOCKET_ERROR)
 	{
 		printf("failed with: %d\n", WSAGetLastError());
 		throw(10);
 	}
-	clock_t end = clock();
-	int duration = (int)(end - begin);
+	
 	//printf("Successfully connected to %s (%s) on port %d\n", str, inet_ntoa(server.sin_addr), htons(server.sin_port));
-	printf("done in %d ms, found %s\n", duration, inet_ntoa(server.sin_addr));
 
 	// send HTTP requests here
 	//https://msdn.microsoft.com/en-us/library/windows/desktop/bb530747(v=vs.85).aspx
 	char sendBuf[1000];
-	string thing = "GET /?status=15 HTTP/1.0\r\n\r\n";
+	string GETPath;
+	if (parsedURL.path[0] == '/') GETPath = (string)parsedURL.path;
+	else GETPath = "/" + (string)parsedURL.path;
+	string GETQuery = (string)parsedURL.query;
+	string restOfGet = " HTTP/1.0\r\nUser-agent: kwo227TAMUCrawler/1.0\r\nHost: " + string(parsedURL.host) + "\r\nConnection: close\r\n\r\n";
+	string GETPathCat = GETPath + GETQuery + restOfGet;
+	string thing = "GET " + GETPathCat + " HTTP/1.0\r\n";
 	strcpy_s(sendBuf, thing.c_str());
 	begin = clock();
-	printf("      * Connecting on page... ");
 	int result = send(sock.sockt, sendBuf, (int)strlen(sendBuf), 0);
 	if (result == SOCKET_ERROR) throw(3);
 	end = clock();
@@ -101,23 +110,23 @@ void winsock_test(parsed parsedURL)
 	printf("\tLoading... ");
 	begin = clock();
 	sock.Read();
+	string socketBuf = string(sock.buf);
+	char* headerInfo = getHeaderInfo(sock.buf);
+	char statusBuff[10];
+	char* statusPart = headerInfo + 9;
+	strncpy_s(statusBuff, statusPart, 3);
 	end = clock();
 	duration = (int)(end - begin);
-	printf("done in %d ms with %d bytes\n", duration, strlen(sock.buf));
-	char HTMLBody[500000];
-	char* headerInfo = getHeaderInfo(sock.buf, HTMLBody);
-	char statusBuff[10];
-	char* statusPart = sock.buf + 9;
-	strncpy_s(statusBuff, statusPart, 3);
-	printf("\tVerifying header... status code %s\n", statusBuff);
+	printf("done in %d ms with %d bytes", duration, strlen(sock.buf));
+	printf("\n\tVerifying header... status code %s", statusBuff);
 
 	if (statusBuff[0] == '2') {
-		printf("      + Parsing page... ");
+		printf("\n      + Parsing page... ");
 		begin = clock();
-		int nLinks = createParser(HTMLBody, strlen(HTMLBody), baseUrl);
+		int nLinks = createParser(sock.buf, strlen(sock.buf), baseUrl);
 		end = clock();
 		duration = (int)(end - begin);
-		printf("done in %d ms with %d links\n", duration, nLinks);
+		printf("done in %d ms with %d links", duration, nLinks);
 	}
 	printf("\n\n--------------------------------------\n%s", headerInfo);
 	closesocket(sock.sockt);

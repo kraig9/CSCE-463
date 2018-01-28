@@ -1,0 +1,155 @@
+I. http://www.tamu.edu/ ===============================
+
+C:\Users\kraig\source\repos\CSCE-463\hw1\Debug>"kwo227 WebCrawler.exe" http://www.tamu.edu/ 
+URL: http://www.tamu.edu/ 
+	Parsing URL... host www.tamu.edu, port 80, request / 
+	Doing DNS... done in 5 ms, found 165.91.22.70
+      * Connecting on page... done in 0 ms
+	Loading... done in 8 ms with 56236 bytes
+	Verifying header... status code 200
+      + Parsing page... done in 1 ms with 87 links
+
+--------------------------------------
+HTTP/1.1 200 OK
+Date: Sun, 28 Jan 2018 03:07:32 GMT
+Server: Apache
+Accept-Ranges: bytes
+Vary: Accept-Encoding
+Cache-Control: max-age=60
+Expires: Sun, 28 Jan 2018 03:08:32 GMT
+Content-Length: 56232
+Keep-Alive: timeout=5, max=97
+Connection: Keep-Alive
+Content-Type: text/html; charset=UTF-8
+II. http://128.194.135.72:80/courses/index.asp#location ===============================
+
+C:\Users\kraig\source\repos\CSCE-463\hw1\Debug>"kwo227 WebCrawler.exe" http://128.194.135.72:80/courses/index.asp#location 
+URL: http://128.194.135.72:80/courses/index.asp#location 
+	Parsing URL... host 128.194.135.72, port 80, request /courses/index.asp 
+	Doing DNS... done in 0 ms, found 128.194.135.72
+      * Connecting on page... done in 0 ms
+	Loading... done in 8 ms with 17386 bytes
+	Verifying header... status code 200
+      + Parsing page... done in 1 ms with 12 links
+
+--------------------------------------
+HTTP/1.1 200 OK
+Cache-Control: private
+Content-Length: 17382
+Content-Type: text/html
+Server: Microsoft-IIS/7.0
+Set-Cookie: ASPSESSIONIDQAQBTRDB=GOLFOEFCPFNAGCFGNJOACPIH; path=/
+Date: Sun, 28 Jan 2018 03:07:33 GMT
+Connection: close
+III. http://csnet.cs.tamu.edu:443?addrbook.php ===============================
+
+C:\Users\kraig\source\repos\CSCE-463\hw1\Debug>"kwo227 WebCrawler.exe" http://csnet.cs.tamu.edu:443?addrbook.php 
+URL: http://csnet.cs.tamu.edu:443?addrbook.php 
+	Parsing URL... host csnet.cs.tamu.edu, port 443, request /?addrbook.php 
+	Doing DNS... done in 33 ms, found 128.194.138.14
+      * Connecting on page... done in 0 ms
+	Loading... failed with non-HTTP header
+IV. http://s22.irl.cs.tamu.edu:990/view?test=1 ===============================
+
+C:\Users\kraig\source\repos\CSCE-463\hw1\Debug>"kwo227 WebCrawler.exe" http://s22.irl.cs.tamu.edu:990/view?test=1 
+URL: http://s22.irl.cs.tamu.edu:990/view?test=1 
+	Parsing URL... host s22.irl.cs.tamu.edu, port 990, request /view?test=1 
+	Doing DNS... failed with 11001
+
+V. http://128.194.135.11?viewcart.php/ ===============================
+
+C:\Users\kraig\source\repos\CSCE-463\hw1\Debug>"kwo227 WebCrawler.exe" http://128.194.135.11?viewcart.php/ 
+URL: http://128.194.135.11?viewcart.php/ 
+	Parsing URL... host 128.194.135.11, port 80, request /?viewcart.php/ 
+	Doing DNS... done in 0 ms, found 128.194.135.11
+      * Connecting on page... failed with: 10060
+
+VI. http://s6.irl.cs.tamu.edu/IRL96M.htm ===============================
+
+C:\Users\kraig\source\repos\CSCE-463\hw1\Debug>"kwo227 WebCrawler.exe" http://s6.irl.cs.tamu.edu/IRL96M.htm 
+URL: http://s6.irl.cs.tamu.edu/IRL96M.htm 
+	Parsing URL... host s6.irl.cs.tamu.edu, port 80, request /IRL96M.htm 
+	Doing DNS... done in 30 ms, found 128.194.135.85
+      * Connecting on page... done in 0 ms
+	Loading... done in 10181 ms with 99692861 bytes
+	Verifying header... status code 200
+      + Parsing page... done in 389 ms with 163944 links
+
+--------------------------------------
+HTTP/1.1 200 OK
+Content-Type: text/html
+Last-Modified: Fri, 20 Jan 2017 19:50:47 GMT
+Accept-Ranges: bytes
+ETag: "2ab7dc7e5673d21:0"
+Server: Microsoft-IIS/7.5
+X-Powered-By: ASP.NET
+Date: Sun, 28 Jan 2018 03:07:54 GMT
+Connection: close
+Content-Length: 99692857
+VII. http://host/blah:899 ===============================
+
+C:\Users\kraig\source\repos\CSCE-463\hw1\Debug>"kwo227 WebCrawler.exe" http://host/blah:899 
+URL: http://host/blah:899 
+	Parsing URL... host host, port 80, request /blah:899 
+	Doing DNS... failed with 11001
+
+VIII. http://host?query:8/99 ===============================
+
+C:\Users\kraig\source\repos\CSCE-463\hw1\Debug>"kwo227 WebCrawler.exe" http://host?query:8/99 
+URL: http://host?query:8/99 
+	Parsing URL... host host, port 80, request /?query:8/99 
+	Doing DNS... failed with 11001
+
+IX. https://host/blah ===============================
+
+C:\Users\kraig\source\repos\CSCE-463\hw1\Debug>"kwo227 WebCrawler.exe" https://host/blah 
+URL: https://host/blah 
+	Parsing URL... failed with invalid scheme
+X. ftp://host/blah ===============================
+
+C:\Users\kraig\source\repos\CSCE-463\hw1\Debug>"kwo227 WebCrawler.exe" ftp://host/blah 
+URL: ftp://host/blah 
+	Parsing URL... failed with invalid scheme
+XI. http://ftp.gnu.org:21/ ===============================
+
+C:\Users\kraig\source\repos\CSCE-463\hw1\Debug>"kwo227 WebCrawler.exe" http://ftp.gnu.org:21/ 
+URL: http://ftp.gnu.org:21/ 
+	Parsing URL... host ftp.gnu.org, port 21, request / 
+	Doing DNS... done in 34 ms, found 208.118.235.20
+      * Connecting on page... done in 0 ms
+	Loading... failed with 0 on recv
+
+XII. http://smtp-relay.tamu.edu:465/index.html ===============================
+
+C:\Users\kraig\source\repos\CSCE-463\hw1\Debug>"kwo227 WebCrawler.exe" http://smtp-relay.tamu.edu:465/index.html 
+URL: http://smtp-relay.tamu.edu:465/index.html 
+	Parsing URL... host smtp-relay.tamu.edu, port 465, request /index.html 
+	Doing DNS... done in 33 ms, found 165.91.22.120
+      * Connecting on page... done in 0 ms
+	Loading... XIII. http://www.yahoo.com ===============================
+
+C:\Users\kraig\source\repos\CSCE-463\hw1\Debug>"kwo227 WebCrawler.exe" http://www.yahoo.com 
+URL: http://www.yahoo.com 
+	Parsing URL... host www.yahoo.com, port 80, request / 
+	Doing DNS... done in 31 ms, found 206.190.39.43
+      * Connecting on page... done in 1 ms
+	Loading... done in 53 ms with 369 bytes
+	Verifying header... status code 301
+
+--------------------------------------
+HTTP/1.0 301 Moved Permanently
+Date: Sun, 28 Jan 2018 03:08:20 GMT
+Via: http/1.1 media-router-fp4.prod.media.gq1.yahoo.com (ApacheTrafficServer [c s f ])
+Server: ATS
+Cache-Control: no-store, no-cache
+Content-Type: text/html
+Content-Language: en
+Connection: keep-alive
+X-Frame-Options: SAMEORIGIN
+Location: https://www.yahoo.com/
+Content-Length: 8XIV. [blank] ===============================
+
+C:\Users\kraig\source\repos\CSCE-463\hw1\Debug>"kwo227 WebCrawler.exe"
+Error: not enough arguments provided.
+Syntax is scheme://host[port][/path][?query][#fragment]
+Params in [] are optional.
