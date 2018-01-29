@@ -31,7 +31,7 @@ void winsock_test(parsed parsedURL)
 	}
 
 	// open a TCP socket
-	printf("\tDoing DNS... ");
+	printf("\n\tDoing DNS... ");
 	//https://stackoverflow.com/questions/5248915/execution-time-of-c-program
 	clock_t begin = clock();
 	Socket sock;
@@ -109,7 +109,7 @@ void winsock_test(parsed parsedURL)
 	// close the socket to this server; open again for the next one
 	printf("\tLoading... ");
 	begin = clock();
-	sock.Read();
+	sock.Read(false);
 	string socketBuf = string(sock.buf);
 	char* headerInfo = getHeaderInfo(sock.buf);
 	char statusBuff[10];

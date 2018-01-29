@@ -23,17 +23,13 @@ struct parsed {
 	}
 };
 
-class URL {
-private:
-	char* url;
-public:
+struct URL {
+	char url[256];
+
 	//TODO: if path returned is null, put root directory in here!
 	parsed URLparse(char* URL);
 	char* getURL();
 
-	URL(char* url) {
-		URL::url = url;
-	}
 };
 
 char* getHeaderInfo(char* buf);

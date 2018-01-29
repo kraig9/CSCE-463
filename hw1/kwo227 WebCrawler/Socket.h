@@ -7,6 +7,7 @@
 #include "common.h"
 #include <winsock2.h>
 #include "URLparser.h"
+#include "uniqueness.h"
 
 struct Socket {
 	SOCKET sockt;
@@ -25,7 +26,8 @@ struct Socket {
 		curPos = currPos;
 	}
 	//member functions
-	bool Read();
+	bool Read(bool robot);
 };
 
 void winsock_test(parsed parsedURL);
+void winsock_test2(parsed parsedURL, Uniqueness &unique);

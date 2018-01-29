@@ -4,7 +4,7 @@
 #include "RecieveLoop.h"
 #include "Socket.h"
 
-bool Socket::Read() {
+bool Socket::Read(bool robot) {
 	//https://msdn.microsoft.com/en-us/library/ms740141%28VS.85%29.aspx?f=255&MSPPError=-2147217396
 	//used MSDN for reference about the select function and related file descriptors etc.
 	//Select parameters
@@ -15,6 +15,11 @@ bool Socket::Read() {
 	timeval timeout;
 	timeout.tv_sec = 10;
 	timeout.tv_usec = 0;
+	int maxBufSize = 0;
+	if (robot) {
+		maxBufSize = 16000;
+	}
+	else maxBufSize = 2000000;
 	//ofstream outBuf;
 
 	//This code was copied from the homework paper, page 4
@@ -30,7 +35,11 @@ bool Socket::Read() {
 				return true;
 			}
 			curPos += bytes;
-			if (allocatedSize - curPos < THRESHOLD) {
+			if (strlen(buf) > maxBufSize) {
+				realloc(buf,INITIAL_BUF_SIZE);
+				throw(5);
+			}
+			if (allocatedSize - curPos < THRESHOLD && strlen(buf) < maxBufSize) {
 				char* tempBuf = new char[2 * allocatedSize];
 				//resize buffer with realloc or HeapReAlloc, or memcpy into bigger array
 				memcpy(tempBuf, buf, allocatedSize);
@@ -42,7 +51,6 @@ bool Socket::Read() {
 		}
 		else if (ret == 0) {
 			//report timeout
-			printf("failed with %u on recv\n", WSAGetLastError());
 			throw(10);
 		}
 		else {

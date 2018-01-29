@@ -1,0 +1,2063 @@
+Opened URL-input-1M.txt with size 66152005
+URL: http://www.symantec.com/verisign/ssl-certificates
+	Parsing URL... host www.symantec.com, port 80, request /verisign/ssl-certificates
+	Checking host uniqueness... passed
+	Doing DNS... done in 48 ms, found 23.2.255.183
+	Checking IP uniqueness... passed
+    Connecting on robots... done in 6 ms
+	Loading... done in 8 ms with 172 bytes
+	Verifying header... status code 301
+URL: http://amti.csis.org/category/taiwan/
+	Parsing URL... host amti.csis.org, port 80, request /category/taiwan/
+	Checking host uniqueness... passed
+	Doing DNS... done in 27 ms, found 104.197.129.166
+	Checking IP uniqueness... passed
+    Connecting on robots... done in 29 ms
+	Loading... done in 30 ms with 4 bytes
+	Verifying header... status code 200
+URL: http://www.weatherline.net/
+	Parsing URL... host www.weatherline.net, port 80, request /
+	Checking host uniqueness... passed
+	Doing DNS... done in 1 ms, found 207.235.44.14
+	Checking IP uniqueness... passed
+    Connecting on robots... done in 12 ms
+	Loading... done in 12 ms with 180 bytes
+	Verifying header... status code 404
+  * Connecting on page... 	done in 25 msdone in 0 ms
+	Loading... done in 41 ms with 9703 bytes
+	Verifying header... status code 200
+  + Parsing page... done in 1 ms with 14 links
+URL: http://ace.wikipedia.org/wiki/%C3%94n_Keu%C3%AB
+	Parsing URL... host ace.wikipedia.org, port 80, request /wiki/%C3%94n_Keu%C3%AB
+	Checking host uniqueness... passed
+	Doing DNS... done in 34 ms, found 208.80.153.224
+	Checking IP uniqueness... passed
+    Connecting on robots... done in 7 ms
+	Loading... done in 8 ms with 501 bytes
+	Verifying header... status code 301
+URL: http://as.com/baloncesto/2015/01/01/euroliga/1420149317_950099.html
+	Parsing URL... host as.com, port 80, request /baloncesto/2015/01/01/euroliga/1420149317_950099.html
+	Checking host uniqueness... passed
+	Doing DNS... done in 27 ms, found 204.2.146.41
+	Checking IP uniqueness... passed
+    Connecting on robots... done in 5 ms
+	Loading... done in 153 ms with 268 bytes
+	Verifying header... status code 301
+URL: http://www.emirates.com/
+	Parsing URL... host www.emirates.com, port 80, request /
+	Checking host uniqueness... passed
+	Doing DNS... done in 56 ms, found 23.2.243.41
+	Checking IP uniqueness... passed
+    Connecting on robots... done in 6 ms
+	Loading... done in 10 ms with 874 bytes
+	Verifying header... status code 403
+  * Connecting on page... 	done in 26 msdone in 0 ms
+	Loading... done in 17 ms with 864 bytes
+	Verifying header... status code 301
+URL: http://animalresearch.wisc.edu/?attachment_id=719
+	Parsing URL... host animalresearch.wisc.edu, port 80, request /?attachment_id=719
+	Checking host uniqueness... passed
+	Doing DNS... done in 0 ms, found 144.92.9.53
+	Checking IP uniqueness... passed
+    Connecting on robots... done in 33 ms
+	Loading... done in 37 ms with 206 bytes
+	Verifying header... status code 301
+URL: http://allybruener.com/
+	Parsing URL... host allybruener.com, port 80, request /
+	Checking host uniqueness... passed
+	Doing DNS... done in 40 ms, found 184.168.173.1
+	Checking IP uniqueness... passed
+    Connecting on robots... done in 28 ms
+	Loading... done in 966 ms with 4 bytes
+	Verifying header... status code 200
+URL: http://youtube.com/user/USIMLS
+	Parsing URL... host youtube.com, port 80, request /user/USIMLS
+	Checking host uniqueness... passed
+	Doing DNS... done in 27 ms, found 216.58.194.78
+	Checking IP uniqueness... passed
+    Connecting on robots... done in 8 ms
+	Loading... done in 39 ms with 220 bytes
+	Verifying header... status code 404
+  * Connecting on page... 	done in 46 msdone in 0 ms
+	Loading... done in 28 ms with 224 bytes
+	Verifying header... status code 301
+URL: http://agitprop.typepad.com/agitprop/the-power-of-the-lord/
+	Parsing URL... host agitprop.typepad.com, port 80, request /agitprop/the-power-of-the-lord/
+	Checking host uniqueness... passed
+	Doing DNS... done in 37 ms, found 104.16.106.123
+	Checking IP uniqueness... passed
+    Connecting on robots... done in 9 ms
+	Loading... done in 77 ms with 4 bytes
+	Verifying header... status code 200
+URL: http://av.voanews.com/Videoroot/Pangeavideo/2014/12/f/fc/fc287671-d5f7-443b-b6dd-9b2e48b57c79_hq.mp4?download=1
+	Parsing URL... host av.voanews.com, port 80, request /Videoroot/Pangeavideo/2014/12/f/fc/fc287671-d5f7-443b-b6dd-9b2e48b57c79_hq.mp4?download=1
+	Checking host uniqueness... passed
+	Doing DNS... done in 36 ms, found 23.2.44.14
+	Checking IP uniqueness... passed
+    Connecting on robots... done in 6 ms
+	Loading... done in 8 ms with 288 bytes
+	Verifying header... status code 301
+URL: http://ask.arabnews.com/question/effect-emergency-vacation-contract-period/99476/law-labor
+	Parsing URL... host ask.arabnews.com, port 80, request /question/effect-emergency-vacation-contract-period/99476/law-labor
+	Checking host uniqueness... passed
+	Doing DNS... done in 31 ms, found 46.137.78.11
+	Checking IP uniqueness... passed
+    Connecting on robots... done in 126 ms
+	Loading... done in 125 ms with 296 bytes
+	Verifying header... status code 404
+  * Connecting on page... 	done in 246 msdone in 0 ms
+	Loading... done in 121 ms with 1266 bytes
+	Verifying header... status code 404
+URL: http://archive.wired.com/culture/?page=16
+	Parsing URL... host archive.wired.com, port 80, request /culture/?page=16
+	Checking host uniqueness... passed
+	Doing DNS... done in 39 ms, found 151.101.48.239
+	Checking IP uniqueness... passed
+    Connecting on robots... done in 9 ms
+	Loading... done in 9 ms with 781 bytes
+	Verifying header... status code 301
+URL: http://aburningpatience.blogspot.com/2012_01_01_archive.html
+	Parsing URL... host aburningpatience.blogspot.com, port 80, request /2012_01_01_archive.html
+	Checking host uniqueness... passed
+	Doing DNS... done in 28 ms, found 216.58.194.65
+	Checking IP uniqueness... passed
+    Connecting on robots... done in 8 ms
+	Loading... done in 26 ms with 4 bytes
+	Verifying header... status code 200
+URL: http://atr.rollcall.com/category/race-ratings/likely-republican/
+	Parsing URL... host atr.rollcall.com, port 80, request /category/race-ratings/likely-republican/
+	Checking host uniqueness... passed
+	Doing DNS... done in 1 ms, found 63.251.90.9
+	Checking IP uniqueness... passed
+    Connecting on robots... done in 54 ms
+	Loading... done in 53 ms with 131 bytes
+	Verifying header... status code 302
+URL: http://arabic.cnn.com/business/2014/06/11/money-toyota-recall
+	Parsing URL... host arabic.cnn.com, port 80, request /business/2014/06/11/money-toyota-recall
+	Checking host uniqueness... passed
+	Doing DNS... done in 40 ms, found 157.166.239.84
+	Checking IP uniqueness... passed
+    Connecting on robots... done in 25 ms
+	Loading... done in 25 ms with 201 bytes
+	Verifying header... status code 301
+URL: http://alumniconnect.wagner.edu/give
+	Parsing URL... host alumniconnect.wagner.edu, port 80, request /give
+	Checking host uniqueness... passed
+	Doing DNS... done in 29 ms, found 216.235.200.34
+	Checking IP uniqueness... passed
+    Connecting on robots... done in 69 ms
+	Loading... done in 70 ms with 309 bytes
+	Verifying header... status code 301
+URL: http://advanced.jhu.edu/academics/graduate-degree-programs/museum-studies/
+	Parsing URL... host advanced.jhu.edu, port 80, request /academics/graduate-degree-programs/museum-studies/
+	Checking host uniqueness... passed
+	Doing DNS... done in 27 ms, found 128.220.229.31
+	Checking IP uniqueness... passed
+    Connecting on robots... done in 46 ms
+	Loading... done in 205 ms with 4 bytes
+	Verifying header... status code 200
+URL: http://10plate.blog44.fc2.com/
+	Parsing URL... host 10plate.blog44.fc2.com, port 80, request /
+	Checking host uniqueness... passed
+	Doing DNS... done in 28 ms, found 104.244.98.64
+	Checking IP uniqueness... passed
+    Connecting on robots... done in 47 ms
+	Loading... done in 73 ms with 4 bytes
+	Verifying header... status code 200
+URL: http://4somaliwomen.com/index.php/component/content/article/1/937
+	Parsing URL... host 4somaliwomen.com, port 80, request /index.php/component/content/article/1/937
+	Checking host uniqueness... passed
+	Doing DNS... done in 38 ms, found 50.63.202.19
+	Checking IP uniqueness... passed
+    Connecting on robots... done in 37 ms
+	Loading... done in 36 ms with 114 bytes
+	Verifying header... status code 302
+URL: http://agrumer.livejournal.com/493956.html?title=Ello&hashtags=&text=For%20those%20trying%20out%20Ello,%20%20I%E2%80%99m%20there%20as%20avram.
+	Parsing URL... host agrumer.livejournal.com, port 80, request /493956.html?title=Ello&hashtags=&text=For%20those%20trying%20out%20Ello,%20%20I%E2%80%99m%20there%20as%20avram.
+	Checking host uniqueness... passed
+	Doing DNS... done in 35 ms, found 13.88.179.33
+	Checking IP uniqueness... passed
+    Connecting on robots... done in 61 ms
+	Loading... done in 67 ms with 4 bytes
+	Verifying header... status code 200
+URL: http://abigvictory.blogspot.com/search/label/Fluid
+	Parsing URL... host abigvictory.blogspot.com, port 80, request /search/label/Fluid
+	Checking host uniqueness... passed
+	Doing DNS... done in 1 ms, found 216.58.194.65
+	Checking IP uniqueness... failed
+URL: http://abriluno.com/doll-brothels-are-coming-to-a-city-near-you/
+	Parsing URL... host abriluno.com, port 80, request /doll-brothels-are-coming-to-a-city-near-you/
+	Checking host uniqueness... passed
+	Doing DNS... done in 36 ms, found 104.24.30.69
+	Checking IP uniqueness... passed
+    Connecting on robots... done in 8 ms
+	Loading... done in 14 ms with 4 bytes
+	Verifying header... status code 200
+URL: http://balkans.aljazeera.net/misljenja
+	Parsing URL... host balkans.aljazeera.net, port 80, request /misljenja
+	Checking host uniqueness... passed
+	Doing DNS... done in 35 ms, found 206.33.36.126
+	Checking IP uniqueness... passed
+    Connecting on robots... done in 6 ms
+	Loading... done in 6 ms with 4 bytes
+	Verifying header... status code 200
+URL: http://allafrica.com/stories/201501020135.html
+	Parsing URL... host allafrica.com, port 80, request /stories/201501020135.html
+	Checking host uniqueness... passed
+	Doing DNS... done in 1 ms, found 173.203.36.104
+	Checking IP uniqueness... passed
+    Connecting on robots... done in 36 ms
+	Loading... done in 37 ms with 4 bytes
+	Verifying header... status code 200
+URL: http://abc.go.com/shows/dancing-with-the-stars/cast/tommy-chong
+	Parsing URL... host abc.go.com, port 80, request /shows/dancing-with-the-stars/cast/tommy-chong
+	Checking host uniqueness... passed
+	Doing DNS... done in 31 ms, found 23.23.144.239
+	Checking IP uniqueness... passed
+    Connecting on robots... done in 40 ms
+	Loading... done in 42 ms with 4 bytes
+	Verifying header... status code 200
+URL: http://1000go.blog36.fc2.com/blog-category-8.html
+	Parsing URL... host 1000go.blog36.fc2.com, port 80, request /blog-category-8.html
+	Checking host uniqueness... passed
+	Doing DNS... done in 37 ms, found 104.244.98.64
+	Checking IP uniqueness... failed
+URL: http://aisudbury.com/
+	Parsing URL... host aisudbury.com, port 80, request /
+	Checking host uniqueness... passed
+	Doing DNS... done in 1 ms, found 173.236.170.212
+	Checking IP uniqueness... passed
+    Connecting on robots... done in 57 ms
+	Loading... done in 46 ms with 222 bytes
+	Verifying header... status code 301
+URL: http://ameblo.jp/19941021kusai/theme-10013164014.html
+	Parsing URL... host ameblo.jp, port 80, request /19941021kusai/theme-10013164014.html
+	Checking host uniqueness... passed
+	Doing DNS... done in 31 ms, found 23.200.20.55
+	Checking IP uniqueness... passed
+    Connecting on robots... done in 6 ms
+	Loading... done in 170 ms with 4 bytes
+	Verifying header... status code 200
+URL: http://andys184.deviantart.com/art/My-desktop-2008-83926803
+	Parsing URL... host andys184.deviantart.com, port 80, request /art/My-desktop-2008-83926803
+	Checking host uniqueness... passed
+	Doing DNS... done in 37 ms, found 52.84.150.13
+	Checking IP uniqueness... passed
+    Connecting on robots... done in 141 ms
+	Loading... done in 509 ms with 4 bytes
+	Verifying header... status code 200
+URL: http://antilandscaper.wordpress.com/
+	Parsing URL... host antilandscaper.wordpress.com, port 80, request /
+	Checking host uniqueness... passed
+	Doing DNS... done in 28 ms, found 192.0.78.13
+	Checking IP uniqueness... passed
+    Connecting on robots... done in 10 ms
+	Loading... done in 10 ms with 229 bytes
+	Verifying header... status code 301
+URL: http://aol.it/1bD5Mvp
+	Parsing URL... host aol.it, port 80, request /1bD5Mvp
+	Checking host uniqueness... passed
+	Doing DNS... done in 0 ms, found 67.199.248.13
+	Checking IP uniqueness... passed
+    Connecting on robots... done in 75 ms
+	Loading... done in 74 ms with 4 bytes
+	Verifying header... status code 200
+URL: http://abriluno.com/tag/fictional-news/
+	Parsing URL... host abriluno.com, port 80, request /tag/fictional-news/
+	Checking host uniqueness... failed
+URL: http://apps.cybersource.com/library/documentation/dev_guides/CC_Svcs_IG_BML_Supplement/html/
+	Parsing URL... host apps.cybersource.com, port 80, request /library/documentation/dev_guides/CC_Svcs_IG_BML_Supplement/html/
+	Checking host uniqueness... passed
+	Doing DNS... done in 28 ms, found 54.164.4.221
+	Checking IP uniqueness... passed
+    Connecting on robots... done in 41 ms
+	Loading... done in 42 ms with 4 bytes
+	Verifying header... status code 200
+URL: http://allafrica.com/stories/201501021178.html
+	Parsing URL... host allafrica.com, port 80, request /stories/201501021178.html
+	Checking host uniqueness... failed
+URL: http://aglifesciences.tamu.edu/careers
+	Parsing URL... host aglifesciences.tamu.edu, port 80, request /careers
+	Checking host uniqueness... passed
+	Doing DNS... done in 1 ms, found 104.154.23.203
+	Checking IP uniqueness... passed
+    Connecting on robots... done in 30 ms
+	Loading... done in 30 ms with 458 bytes
+	Verifying header... status code 301
+URL: http://361107.spreadshirt.net/en/GB/Shop/Index/index
+	Parsing URL... host 361107.spreadshirt.net, port 80, request /en/GB/Shop/Index/index
+	Checking host uniqueness... passed
+	Doing DNS... done in 35 ms, found 23.0.152.205
+	Checking IP uniqueness... passed
+    Connecting on robots... done in 6 ms
+	Loading... a timeout occurred
+URL: http://aol.sportingnews.com/nfl
+	Parsing URL... host aol.sportingnews.com, port 80, request /nfl
+	Checking host uniqueness... passed
+	Doing DNS... done in 30 ms, found 128.194.178.203
+	Checking IP uniqueness... passed
+    Connecting on robots... done in 3 ms
+	Loading... done in 4 ms with 181 bytes
+	Verifying header... status code 301
+URL: http://art.brainpickings.org/
+	Parsing URL... host art.brainpickings.org, port 80, request /
+	Checking host uniqueness... passed
+	Doing DNS... done in 34 ms, found 66.6.32.22
+	Checking IP uniqueness... passed
+    Connecting on robots... done in 42 ms
+	Loading... done in 42 ms with 4 bytes
+	Verifying header... status code 200
+URL: http://arts.gov/video/social-impact-design-creating-culture-storytelling-evaluation
+	Parsing URL... host arts.gov, port 80, request /video/social-impact-design-creating-culture-storytelling-evaluation
+	Checking host uniqueness... passed
+	Doing DNS... done in 0 ms, found 52.87.65.167
+	Checking IP uniqueness... passed
+    Connecting on robots... done in 40 ms
+	Loading... done in 40 ms with 511 bytes
+	Verifying header... status code 301
+URL: http://am.globalvoicesonline.org/page/2
+	Parsing URL... host am.globalvoicesonline.org, port 80, request /page/2
+	Checking host uniqueness... passed
+	Doing DNS... done in 31 ms, found 213.108.110.5
+	Checking IP uniqueness... passed
+    Connecting on robots... done in 118 ms
+	Loading... done in 117 ms with 248 bytes
+	Verifying header... status code 301
+URL: http://adv.ilsole24ore.it/RealMedia/ads/click_nx.ads/advertising.ilsole24ore.com/12/google_good_to_know/@VideoBox
+	Parsing URL... host adv.ilsole24ore.it, port 80, request /RealMedia/ads/click_nx.ads/advertising.ilsole24ore.com/12/google_good_to_know/@VideoBox
+	Checking host uniqueness... passed
+	Doing DNS... done in 0 ms, found 212.45.97.60
+	Checking IP uniqueness... passed
+    Connecting on robots... done in 135 ms
+	Loading... done in 135 ms with 201 bytes
+	Verifying header... status code 301
+URL: http://atwonline.com/taxonomy/term/7392/0/feed
+	Parsing URL... host atwonline.com, port 80, request /taxonomy/term/7392/0/feed
+	Checking host uniqueness... passed
+	Doing DNS... done in 33 ms, found 67.208.46.145
+	Checking IP uniqueness... passed
+    Connecting on robots... done in 6 ms
+	Loading... done in 6 ms with 4 bytes
+	Verifying header... status code 200
+URL: http://architectureandmorality.blogspot.com/
+	Parsing URL... host architectureandmorality.blogspot.com, port 80, request /
+	Checking host uniqueness... passed
+	Doing DNS... done in 1 ms, found 216.58.194.65
+	Checking IP uniqueness... failed
+URL: http://ba.voanews.com/media/video/2563280.html
+	Parsing URL... host ba.voanews.com, port 80, request /media/video/2563280.html
+	Checking host uniqueness... passed
+	Doing DNS... done in 31 ms, found 23.2.44.14
+	Checking IP uniqueness... failed
+URL: http://awoiaf.westeros.org/index.php/The_Winds_of_Winter
+	Parsing URL... host awoiaf.westeros.org, port 80, request /index.php/The_Winds_of_Winter
+	Checking host uniqueness... passed
+	Doing DNS... done in 30 ms, found 104.28.23.9
+	Checking IP uniqueness... passed
+    Connecting on robots... done in 9 ms
+	Loading... done in 29 ms with 4 bytes
+	Verifying header... status code 200
+URL: http://america.aljazeera.com/topics/topic/international-location/asia-pacific/china.html
+	Parsing URL... host america.aljazeera.com, port 80, request /topics/topic/international-location/asia-pacific/china.html
+	Checking host uniqueness... passed
+	Doing DNS... done in 27 ms, found 8.254.64.126
+	Checking IP uniqueness... passed
+    Connecting on robots... done in 5 ms
+	Loading... done in 7 ms with 4 bytes
+	Verifying header... status code 200
+URL: http://abesheet.wordpress.com/
+	Parsing URL... host abesheet.wordpress.com, port 80, request /
+	Checking host uniqueness... passed
+	Doing DNS... done in 29 ms, found 192.0.78.13
+	Checking IP uniqueness... failed
+URL: http://allafrica.com/view/group/main/main/id/00034787.html
+	Parsing URL... host allafrica.com, port 80, request /view/group/main/main/id/00034787.html
+	Checking host uniqueness... failed
+URL: http://ad.doubleclick.net/jump/nbcu.rotosports/roto_home;site=roto;sect=home;!c=home;!c=noopapd!c=home;pos=1;tile=1;sz=728x90;ord=123456a?
+	Parsing URL... host ad.doubleclick.net, port 80, request /jump/nbcu.rotosports/roto_home;site=roto;sect=home;!c=home;!c=noopapd!c=home;pos=1;tile=1;sz=728x90;ord=123456a?
+	Checking host uniqueness... passed
+	Doing DNS... done in 30 ms, found 172.217.12.70
+	Checking IP uniqueness... passed
+    Connecting on robots... done in 8 ms
+	Loading... done in 24 ms with 4 bytes
+	Verifying header... status code 200
+URL: http://atvs.carsoup.com/
+	Parsing URL... host atvs.carsoup.com, port 80, request /
+	Checking host uniqueness... passed
+	Doing DNS... done in 37 ms, found 23.23.205.220
+	Checking IP uniqueness... passed
+    Connecting on robots... done in 41 ms
+	Loading... done in 50 ms with 4 bytes
+	Verifying header... status code 200
+URL: http://ad.cn.doubleclick.net/jump/bottom.c.wsj.com/front;u=null**null**300x250,336x280;charset=gb2312;dcopt=ist;sz=300x250,336x280;tile=4;ord=4367059368471005?
+	Parsing URL... host ad.cn.doubleclick.net, port 80, request /jump/bottom.c.wsj.com/front;u=null**null**300x250,336x280;charset=gb2312;dcopt=ist;sz=300x250,336x280;tile=4;ord=4367059368471005?
+	Checking host uniqueness... passed
+	Doing DNS... done in 50 ms, found 172.217.12.70
+	Checking IP uniqueness... failed
+URL: http://arstechnica.com/science
+	Parsing URL... host arstechnica.com, port 80, request /science
+	Checking host uniqueness... passed
+	Doing DNS... done in 37 ms, found 50.31.169.131
+	Checking IP uniqueness... passed
+    Connecting on robots... done in 25 ms
+	Loading... done in 25 ms with 198 bytes
+	Verifying header... status code 301
+URL: http://astrecords.bigcartel.com/products
+	Parsing URL... host astrecords.bigcartel.com, port 80, request /products
+	Checking host uniqueness... passed
+	Doing DNS... done in 36 ms, found 151.101.49.211
+	Checking IP uniqueness... passed
+    Connecting on robots... done in 8 ms
+	Loading... done in 59 ms with 4 bytes
+	Verifying header... status code 200
+URL: http://balkans.aljazeera.net/vijesti/mjesecno-porodici-u-srbiji-treba-1000-eura
+	Parsing URL... host balkans.aljazeera.net, port 80, request /vijesti/mjesecno-porodici-u-srbiji-treba-1000-eura
+	Checking host uniqueness... failed
+URL: http://balkin.blogspot.com/2006/10/yes-its-no-brainer-waterboarding-is.html?showComment=1162066560000
+	Parsing URL... host balkin.blogspot.com, port 80, request /2006/10/yes-its-no-brainer-waterboarding-is.html?showComment=1162066560000
+	Checking host uniqueness... passed
+	Doing DNS... done in 0 ms, found 216.58.194.65
+	Checking IP uniqueness... failed
+URL: http://aperture.org/shop/larry-towell-afghanistan-books
+	Parsing URL... host aperture.org, port 80, request /shop/larry-towell-afghanistan-books
+	Checking host uniqueness... passed
+	Doing DNS... done in 37 ms, found 72.32.15.122
+	Checking IP uniqueness... passed
+    Connecting on robots... done in 14 ms
+	Loading... done in 15 ms with 395 bytes
+	Verifying header... status code 301
+URL: http://alantonelson.wordpress.com/
+	Parsing URL... host alantonelson.wordpress.com, port 80, request /
+	Checking host uniqueness... passed
+	Doing DNS... done in 41 ms, found 192.0.78.13
+	Checking IP uniqueness... failed
+URL: http://adindex.laweekly.com/palm-tree-l-a--69849/2350745
+	Parsing URL... host adindex.laweekly.com, port 80, request /palm-tree-l-a--69849/2350745
+	Checking host uniqueness... passed
+	Doing DNS... done in 1 ms, found 199.204.20.138
+	Checking IP uniqueness... passed
+    Connecting on robots... done in 32 ms
+	Loading... done in 98 ms with 4 bytes
+	Verifying header... status code 200
+URL: http://adswithoutproducts.com/category/handke/
+	Parsing URL... host adswithoutproducts.com, port 80, request /category/handke/
+	Checking host uniqueness... passed
+	Doing DNS... done in 35 ms, found 192.0.78.25
+	Checking IP uniqueness... passed
+    Connecting on robots... done in 10 ms
+	Loading... done in 10 ms with 223 bytes
+	Verifying header... status code 301
+URL: http://associatesmind.com/category/site-news-2/uncategorized/
+	Parsing URL... host associatesmind.com, port 80, request /category/site-news-2/uncategorized/
+	Checking host uniqueness... passed
+	Doing DNS... done in 0 ms, found 162.144.146.49
+	Checking IP uniqueness... passed
+    Connecting on robots... done in 56 ms
+	Loading... done in 655 ms with 4 bytes
+	Verifying header... status code 200
+URL: http://1ddreamgirlposts.tumblr.com/tagged/style
+	Parsing URL... host 1ddreamgirlposts.tumblr.com, port 80, request /tagged/style
+	Checking host uniqueness... passed
+	Doing DNS... done in 43 ms, found 66.6.32.21
+	Checking IP uniqueness... passed
+    Connecting on robots... done in 49 ms
+	Loading... done in 58 ms with 456 bytes
+	Verifying header... status code 404
+  * Connecting on page... 	done in 97 msdone in 0 ms
+	Loading... done in 54 ms with 4780 bytes
+	Verifying header... status code 404
+URL: http://airforce.com/parents-family/deployment/
+	Parsing URL... host airforce.com, port 80, request /parents-family/deployment/
+	Checking host uniqueness... passed
+	Doing DNS... done in 0 ms, found 65.61.136.17
+	Checking IP uniqueness... passed
+    Connecting on robots... done in 11 ms
+	Loading... done in 11 ms with 131 bytes
+	Verifying header... status code 301
+URL: http://4vector.deviantart.com/art/eGo-c-Twist-Preview-424667979
+	Parsing URL... host 4vector.deviantart.com, port 80, request /art/eGo-c-Twist-Preview-424667979
+	Checking host uniqueness... passed
+	Doing DNS... done in 31 ms, found 52.84.150.4
+	Checking IP uniqueness... passed
+    Connecting on robots... done in 141 ms
+	Loading... done in 506 ms with 4 bytes
+	Verifying header... status code 200
+URL: http://ar.globalvoicesonline.org/author/ibtehal-algohary/
+	Parsing URL... host ar.globalvoicesonline.org, port 80, request /author/ibtehal-algohary/
+	Checking host uniqueness... passed
+	Doing DNS... done in 35 ms, found 213.108.110.5
+	Checking IP uniqueness... failed
+URL: http://360.ch/blog/magazine/2014/08/cadeaux-fiscaux-aux-guerisseurs-de-gays/
+	Parsing URL... host 360.ch, port 80, request /blog/magazine/2014/08/cadeaux-fiscaux-aux-guerisseurs-de-gays/
+	Checking host uniqueness... passed
+	Doing DNS... done in 0 ms, found 128.65.198.18
+	Checking IP uniqueness... passed
+    Connecting on robots... done in 122 ms
+	Loading... done in 632 ms with 4 bytes
+	Verifying header... status code 200
+URL: http://1000go.blog36.fc2.com/blog-category-6.html
+	Parsing URL... host 1000go.blog36.fc2.com, port 80, request /blog-category-6.html
+	Checking host uniqueness... failed
+URL: http://awoiaf.westeros.org/index.php/Della_Frey
+	Parsing URL... host awoiaf.westeros.org, port 80, request /index.php/Della_Frey
+	Checking host uniqueness... failed
+URL: http://adobeevent.bizcom.com.cn/edm/20140930/DPS_Shanghai_CN-gdcbanner.htm
+	Parsing URL... host adobeevent.bizcom.com.cn, port 80, request /edm/20140930/DPS_Shanghai_CN-gdcbanner.htm
+	Checking host uniqueness... passed
+	Doing DNS... done in 0 ms, found 218.106.246.95
+	Checking IP uniqueness... passed
+    Connecting on robots... done in 236 ms
+	Loading... done in 235 ms with 180 bytes
+	Verifying header... status code 404
+  * Connecting on page... 	done in 470 msdone in 0 ms
+	Loading... done in 234 ms with 1488 bytes
+	Verifying header... status code 404
+URL: http://admissions.cornell.edu/learn/academics
+	Parsing URL... host admissions.cornell.edu, port 80, request /learn/academics
+	Checking host uniqueness... passed
+	Doing DNS... done in 39 ms, found 107.22.230.73
+	Checking IP uniqueness... passed
+    Connecting on robots... done in 40 ms
+	Loading... done in 45 ms with 480 bytes
+	Verifying header... status code 301
+URL: http://animalscience.tamu.edu/event/introductory-haccp-developing-and-implementing-haccp-plans-4/
+	Parsing URL... host animalscience.tamu.edu, port 80, request /event/introductory-haccp-developing-and-implementing-haccp-plans-4/
+	Checking host uniqueness... passed
+	Doing DNS... done in 0 ms, found 104.154.23.203
+	Checking IP uniqueness... failed
+URL: http://ar.wikinews.org/wiki/%D9%85%D9%84%D9%81:Tomboy_logo.svg
+	Parsing URL... host ar.wikinews.org, port 80, request /wiki/%D9%85%D9%84%D9%81:Tomboy_logo.svg
+	Checking host uniqueness... passed
+	Doing DNS... done in 37 ms, found 208.80.153.224
+	Checking IP uniqueness... failed
+URL: http://assembly.coe.int/main.asp?Link=/documents/adoptedtext/ta07/eres1577.htm
+	Parsing URL... host assembly.coe.int, port 80, request /main.asp?Link=/documents/adoptedtext/ta07/eres1577.htm
+	Checking host uniqueness... passed
+	Doing DNS... done in 0 ms, found 193.164.229.63
+	Checking IP uniqueness... passed
+    Connecting on robots... done in 126 ms
+	Loading... done in 253 ms with 217 bytes
+	Verifying header... status code 404
+  * Connecting on page... 	done in 378 msdone in 0 ms
+	Loading... done in 379 ms with 19394 bytes
+	Verifying header... status code 404
+URL: http://architecturaldigest.com/
+	Parsing URL... host architecturaldigest.com, port 80, request /
+	Checking host uniqueness... passed
+	Doing DNS... done in 27 ms, found 151.101.64.239
+	Checking IP uniqueness... passed
+    Connecting on robots... done in 9 ms
+	Loading... done in 9 ms with 998 bytes
+	Verifying header... status code 301
+URL: http://alphanow.thomsonreuters.com/membership-registration/
+	Parsing URL... host alphanow.thomsonreuters.com, port 80, request /membership-registration/
+	Checking host uniqueness... passed
+	Doing DNS... done in 28 ms, found 5.79.36.210
+	Checking IP uniqueness... passed
+    Connecting on robots... done in 114 ms
+	Loading... done in 116 ms with 311 bytes
+	Verifying header... status code 301
+URL: http://action.mediamatters.org/local-fox-stations
+	Parsing URL... host action.mediamatters.org, port 80, request /local-fox-stations
+	Checking host uniqueness... passed
+	Doing DNS... done in 29 ms, found 54.83.17.56
+	Checking IP uniqueness... passed
+    Connecting on robots... done in 41 ms
+	Loading... done in 40 ms with 486 bytes
+	Verifying header... status code 301
+URL: http://archive.wired.com/cars/?page=16
+	Parsing URL... host archive.wired.com, port 80, request /cars/?page=16
+	Checking host uniqueness... failed
+URL: http://alloyentertainment.com/authors/elena-perez/
+	Parsing URL... host alloyentertainment.com, port 80, request /authors/elena-perez/
+	Checking host uniqueness... passed
+	Doing DNS... done in 39 ms, found 35.166.72.113
+	Checking IP uniqueness... passed
+    Connecting on robots... done in 66 ms
+	Loading... done in 119 ms with 214 bytes
+	Verifying header... status code 301
+URL: http://allafrica.com/view/group/main/main/id/00034468.html
+	Parsing URL... host allafrica.com, port 80, request /view/group/main/main/id/00034468.html
+	Checking host uniqueness... failed
+URL: http://b.hatena.ne.jp/search/tag?q=%E3%82%A2%E3%83%97%E3%83%AA
+	Parsing URL... host b.hatena.ne.jp, port 80, request /search/tag?q=%E3%82%A2%E3%83%97%E3%83%AA
+	Checking host uniqueness... passed
+	Doing DNS... done in 31 ms, found 59.106.194.16
+	Checking IP uniqueness... passed
+    Connecting on robots... done in 135 ms
+	Loading... done in 135 ms with 4 bytes
+	Verifying header... status code 200
+URL: http://archive.wired.com/cars/?page=37
+	Parsing URL... host archive.wired.com, port 80, request /cars/?page=37
+	Checking host uniqueness... failed
+URL: http://9to5toys.com/2014/12/18/audio-technica-sonicpro-ckr-new-headphones/
+	Parsing URL... host 9to5toys.com, port 80, request /2014/12/18/audio-technica-sonicpro-ckr-new-headphones/
+	Checking host uniqueness... passed
+	Doing DNS... done in 36 ms, found 192.0.79.33
+	Checking IP uniqueness... passed
+    Connecting on robots... done in 10 ms
+	Loading... done in 10 ms with 213 bytes
+	Verifying header... status code 301
+URL: http://ansarov.com/
+	Parsing URL... host ansarov.com, port 80, request /
+	Checking host uniqueness... passed
+	Doing DNS... done in 1 ms, found 64.62.158.18
+	Checking IP uniqueness... passed
+    Connecting on robots... done in 45 ms
+	Loading... done in 49 ms with 4 bytes
+	Verifying header... status code 200
+URL: http://cuiyi.org/
+	Parsing URL... host cuiyi.org, port 80, request /
+	Checking host uniqueness... passed
+	Doing DNS... failed with 11001
+URL: http://akronohio.planetdiscover.com/sp?skin=&aff=1109&catId=20000000
+	Parsing URL... host akronohio.planetdiscover.com, port 80, request /sp?skin=&aff=1109&catId=20000000
+	Checking host uniqueness... passed
+	Doing DNS... failed with 11001
+URL: http://archive.fiba.com/pages/eng/fa/team/p/sid/8743/tid/282/_/2013_EuroBasket_Women/index.html
+	Parsing URL... host archive.fiba.com, port 80, request /pages/eng/fa/team/p/sid/8743/tid/282/_/2013_EuroBasket_Women/index.html
+	Checking host uniqueness... passed
+	Doing DNS... done in 1 ms, found 83.221.236.154
+	Checking IP uniqueness... passed
+    Connecting on robots... done in 126 ms
+	Loading... done in 130 ms with 4 bytes
+	Verifying header... status code 200
+URL: http://apartments.about.com/b/2014/05/23/a-heartfelt-thanks-to-my-readers.htm
+	Parsing URL... host apartments.about.com, port 80, request /b/2014/05/23/a-heartfelt-thanks-to-my-readers.htm
+	Checking host uniqueness... passed
+	Doing DNS... done in 28 ms, found 151.101.49.121
+	Checking IP uniqueness... passed
+    Connecting on robots... done in 9 ms
+	Loading... done in 9 ms with 517 bytes
+	Verifying header... status code 404
+  * Connecting on page... 	done in 18 msdone in 0 ms
+	Loading... done in 9 ms with 763 bytes
+	Verifying header... status code 404
+URL: http://angelmontes.my4life.com/
+	Parsing URL... host angelmontes.my4life.com, port 80, request /
+	Checking host uniqueness... passed
+	Doing DNS... done in 0 ms, found 65.126.125.170
+	Checking IP uniqueness... passed
+    Connecting on robots... done in 52 ms
+	Loading... done in 52 ms with 238 bytes
+	Verifying header... status code 302
+URL: http://agrilifeextension.tamu.edu/programs/volunteer-programs/
+	Parsing URL... host agrilifeextension.tamu.edu, port 80, request /programs/volunteer-programs/
+	Checking host uniqueness... passed
+	Doing DNS... done in 0 ms, found 104.154.23.203
+	Checking IP uniqueness... failed
+URL: http://abigvictory.blogspot.com/search/label/Turnersville
+	Parsing URL... host abigvictory.blogspot.com, port 80, request /search/label/Turnersville
+	Checking host uniqueness... failed
+URL: http://ad.doubleclick.net/N617/jump/defenseone.com/topic_middle-east;pos=river-ad;sz=300x150;
+	Parsing URL... host ad.doubleclick.net, port 80, request /N617/jump/defenseone.com/topic_middle-east;pos=river-ad;sz=300x150;
+	Checking host uniqueness... failed
+URL: http://all-that-is-interesting.com/australia-extreme-weather
+	Parsing URL... host all-that-is-interesting.com, port 80, request /australia-extreme-weather
+	Checking host uniqueness... passed
+	Doing DNS... done in 28 ms, found 104.25.94.114
+	Checking IP uniqueness... passed
+    Connecting on robots... done in 8 ms
+	Loading... done in 13 ms with 4 bytes
+	Verifying header... status code 200
+URL: http://artsandsciences.osu.edu/about/administration
+	Parsing URL... host artsandsciences.osu.edu, port 80, request /about/administration
+	Checking host uniqueness... passed
+	Doing DNS... done in 27 ms, found 52.70.50.42
+	Checking IP uniqueness... passed
+    Connecting on robots... done in 39 ms
+	Loading... done in 41 ms with 438 bytes
+	Verifying header... status code 302
+URL: http://am.globalvoicesonline.org/-/topics/economics-business
+	Parsing URL... host am.globalvoicesonline.org, port 80, request /-/topics/economics-business
+	Checking host uniqueness... failed
+URL: http://balkans.aljazeera.net/tag/ivan-vrdoljak
+	Parsing URL... host balkans.aljazeera.net, port 80, request /tag/ivan-vrdoljak
+	Checking host uniqueness... failed
+URL: http://archive.wired.com/reviews/productlisting/gaming_gear
+	Parsing URL... host archive.wired.com, port 80, request /reviews/productlisting/gaming_gear
+	Checking host uniqueness... failed
+URL: http://agitprop.typepad.com/agitprop/2009/08/index.html
+	Parsing URL... host agitprop.typepad.com, port 80, request /agitprop/2009/08/index.html
+	Checking host uniqueness... failed
+URL: http://aburningpatience.blogspot.com/2006/05/reading-denise-levertov-again.html
+	Parsing URL... host aburningpatience.blogspot.com, port 80, request /2006/05/reading-denise-levertov-again.html
+	Checking host uniqueness... failed
+URL: http://appleseeds.blair.com/t/sale/997-under/pc/69/2664.uts?count=12&i=1&intl=n&q=*&q1=69%7ESale&q2=2664%7E$9.97+%26+Under&q3=2X&rank=rank&sc=Y&store=1&x1=c.t1&x2=c.t2&x3=s.sizenormal
+	Parsing URL... host appleseeds.blair.com, port 80, request /t/sale/997-under/pc/69/2664.uts?count=12&i=1&intl=n&q=*&q1=69%7ESale&q2=2664%7E$9.97+%26+Under&q3=2X&rank=rank&sc=Y&store=1&x1=c.t1&x2=c.t2&x3=s.sizenormal
+	Checking host uniqueness... passed
+	Doing DNS... done in 36 ms, found 165.254.198.64
+	Checking IP uniqueness... passed
+    Connecting on robots... done in 9 ms
+	Loading... done in 79 ms with 4 bytes
+	Verifying header... status code 200
+URL: http://althouse.blogspot.com/2006_01_01_archive.html
+	Parsing URL... host althouse.blogspot.com, port 80, request /2006_01_01_archive.html
+	Checking host uniqueness... passed
+	Doing DNS... done in 0 ms, found 216.58.194.65
+	Checking IP uniqueness... failed
+URL: http://3arabtv.com/watch/%D8%B5%D9%88%D8%AA-%D8%A7%D9%84%D8%AD%D9%8A%D8%A7%D8%A9
+	Parsing URL... host 3arabtv.com, port 80, request /watch/%D8%B5%D9%88%D8%AA-%D8%A7%D9%84%D8%AD%D9%8A%D8%A7%D8%A9
+	Checking host uniqueness... passed
+	Doing DNS... done in 0 ms, found 64.15.158.198
+	Checking IP uniqueness... passed
+    Connecting on robots... done in 49 ms
+	Loading... done in 52 ms with 189 bytes
+	Verifying header... status code 404
+  * Connecting on page... 	done in 101 msdone in 0 ms
+	Loading... done in 105 ms with 31662 bytes
+	Verifying header... status code 404
+URL: http://arabic.alshahid.net/topics/history-civilation/history-of-islam
+	Parsing URL... host arabic.alshahid.net, port 80, request /topics/history-civilation/history-of-islam
+	Checking host uniqueness... passed
+	Doing DNS... failed with 11001
+URL: http://althouse.blogspot.com/2014/12/today-i-learned-something-about-my.html
+	Parsing URL... host althouse.blogspot.com, port 80, request /2014/12/today-i-learned-something-about-my.html
+	Checking host uniqueness... failed
+URL: http://abigvictory.blogspot.com/search/label/Gas
+	Parsing URL... host abigvictory.blogspot.com, port 80, request /search/label/Gas
+	Checking host uniqueness... failed
+URL: http://b.hatena.ne.jp/search/tag?q=%E5%BA%83%E5%A0%B1
+	Parsing URL... host b.hatena.ne.jp, port 80, request /search/tag?q=%E5%BA%83%E5%A0%B1
+	Checking host uniqueness... failed
+URL: http://abcnewsradioonline.com/politics-news
+	Parsing URL... host abcnewsradioonline.com, port 80, request /politics-news
+	Checking host uniqueness... passed
+	Doing DNS... done in 33 ms, found 65.39.205.54
+	Checking IP uniqueness... passed
+    Connecting on robots... done in 52 ms
+	Loading... done in 150 ms with 4 bytes
+	Verifying header... status code 200
+URL: http://aviation.blogactiv.eu/
+	Parsing URL... host aviation.blogactiv.eu, port 80, request /
+	Checking host uniqueness... passed
+	Doing DNS... done in 39 ms, found 178.33.101.162
+	Checking IP uniqueness... passed
+    Connecting on robots... done in 124 ms
+	Loading... done in 128 ms with 4 bytes
+	Verifying header... status code 200
+URL: http://ara.reuters.com/article/businessNews/idARAKBN0KB0TN20150102
+	Parsing URL... host ara.reuters.com, port 80, request /article/businessNews/idARAKBN0KB0TN20150102
+	Checking host uniqueness... passed
+	Doing DNS... done in 34 ms, found 54.192.7.63
+	Checking IP uniqueness... passed
+    Connecting on robots... done in 9 ms
+	Loading... done in 9 ms with 380 bytes
+	Verifying header... status code 301
+URL: http://advanced.jhu.edu/academics/certificate-programs/post-masters-certificate-in-quantitative-methods-in-applied-economics/
+	Parsing URL... host advanced.jhu.edu, port 80, request /academics/certificate-programs/post-masters-certificate-in-quantitative-methods-in-applied-economics/
+	Checking host uniqueness... failed
+URL: http://allafrica.com/aid/
+	Parsing URL... host allafrica.com, port 80, request /aid/
+	Checking host uniqueness... failed
+URL: http://3dblogger.typepad.com/minding_russia/2014/08/no-blowback-isnt-a-bitch-because-the-separatists-are-all-planned-and-run-from-the-kremlin.html?cid=6a00e54fce13cf883401a511f08a41970c
+	Parsing URL... host 3dblogger.typepad.com, port 80, request /minding_russia/2014/08/no-blowback-isnt-a-bitch-because-the-separatists-are-all-planned-and-run-from-the-kremlin.html?cid=6a00e54fce13cf883401a511f08a41970c
+	Checking host uniqueness... passed
+	Doing DNS... done in 41 ms, found 104.16.105.123
+	Checking IP uniqueness... passed
+    Connecting on robots... done in 8 ms
+	Loading... done in 129 ms with 4 bytes
+	Verifying header... status code 200
+URL: http://backissues.people.com/storefront/view-cart.ep
+	Parsing URL... host backissues.people.com, port 80, request /storefront/view-cart.ep
+	Checking host uniqueness... passed
+	Doing DNS... done in 39 ms, found 52.4.96.227
+	Checking IP uniqueness... passed
+    Connecting on robots... done in 41 ms
+	Loading... done in 42 ms with 144 bytes
+	Verifying header... status code 404
+  * Connecting on page... 	done in 82 msdone in 1 ms
+	Loading... done in 40 ms with 463 bytes
+	Verifying header... status code 302
+URL: http://ar.timesofisrael.com/%d8%a7%d9%84%d8%b4%d8%ae%d8%b5%d9%8a%d8%a7%d8%aa-%d8%a7%d9%84%d8%aa%d9%8a-%d8%b1%d8%ad%d9%84%d8%aa-%d9%81%d9%8a-2014/
+	Parsing URL... host ar.timesofisrael.com, port 80, request /%d8%a7%d9%84%d8%b4%d8%ae%d8%b5%d9%8a%d8%a7%d8%aa-%d8%a7%d9%84%d8%aa%d9%8a-%d8%b1%d8%ad%d9%84%d8%aa-%d9%81%d9%8a-2014/
+	Checking host uniqueness... passed
+	Doing DNS... done in 37 ms, found 205.185.216.10
+	Checking IP uniqueness... passed
+    Connecting on robots... done in 13 ms
+	Loading... done in 15 ms with 4 bytes
+	Verifying header... status code 200
+URL: http://abo.manager-magazin.de/de/c/mm/praemien-abo-1-jahr
+	Parsing URL... host abo.manager-magazin.de, port 80, request /de/c/mm/praemien-abo-1-jahr
+	Checking host uniqueness... passed
+	Doing DNS... done in 1 ms, found 62.138.116.59
+	Checking IP uniqueness... passed
+    Connecting on robots... done in 130 ms
+	Loading... done in 134 ms with 4 bytes
+	Verifying header... status code 200
+URL: http://au1.net/
+	Parsing URL... host au1.net, port 80, request /
+	Checking host uniqueness... passed
+	Doing DNS... done in 27 ms, found 202.87.24.165
+	Checking IP uniqueness... passed
+    Connecting on robots... done in 201 ms
+	Loading... done in 202 ms with 270 bytes
+	Verifying header... status code 301
+URL: http://ask.arabnews.com/discussion/expired-iqama-and-haroob/99091/law-labor
+	Parsing URL... host ask.arabnews.com, port 80, request /discussion/expired-iqama-and-haroob/99091/law-labor
+	Checking host uniqueness... failed
+URL: http://angryindian.blogspot.com/
+	Parsing URL... host angryindian.blogspot.com, port 80, request /
+	Checking host uniqueness... passed
+	Doing DNS... done in 1 ms, found 216.58.194.65
+	Checking IP uniqueness... failed
+URL: http://access.rdatoolkit.org/
+	Parsing URL... host access.rdatoolkit.org, port 80, request /
+	Checking host uniqueness... passed
+	Doing DNS... done in 28 ms, found 128.121.3.131
+	Checking IP uniqueness... passed
+    Connecting on robots... done in 48 ms
+	Loading... done in 1183 ms with 306 bytes
+	Verifying header... status code 404
+  * Connecting on page... 	done in 1231 msdone in 0 ms
+	Loading... done in 184 ms with 1382 bytes
+	Verifying header... status code 200
+  + Parsing page... done in 0 ms with 1 links
+URL: http://academia.stackexchange.com/questions/tagged/citation-style
+	Parsing URL... host academia.stackexchange.com, port 80, request /questions/tagged/citation-style
+	Checking host uniqueness... passed
+	Doing DNS... done in 43 ms, found 151.101.1.69
+	Checking IP uniqueness... passed
+    Connecting on robots... done in 9 ms
+	Loading... done in 9 ms with 561 bytes
+	Verifying header... status code 301
+URL: http://as.com/videos/2015/01/02/portada/1420238653_132841.html
+	Parsing URL... host as.com, port 80, request /videos/2015/01/02/portada/1420238653_132841.html
+	Checking host uniqueness... failed
+URL: http://allrecipes.com/recipe/evil-turkey/detail.aspx
+	Parsing URL... host allrecipes.com, port 80, request /recipe/evil-turkey/detail.aspx
+	Checking host uniqueness... passed
+	Doing DNS... done in 1 ms, found 13.93.202.50
+	Checking IP uniqueness... passed
+    Connecting on robots... done in 63 ms
+	Loading... done in 70 ms with 4 bytes
+	Verifying header... status code 200
+URL: http://abonnement.lesechos.fr/faq/
+	Parsing URL... host abonnement.lesechos.fr, port 80, request /faq/
+	Checking host uniqueness... passed
+	Doing DNS... done in 0 ms, found 212.95.72.31
+	Checking IP uniqueness... passed
+    Connecting on robots... done in 3400 ms
+	Loading... done in 415 ms with 228 bytes
+	Verifying header... status code 301
+URL: http://althouse.blogspot.com/2013_07_07_archive.html
+	Parsing URL... host althouse.blogspot.com, port 80, request /2013_07_07_archive.html
+	Checking host uniqueness... failed
+URL: http://archive.fiba.com/pages/eng/fa/team/p/sid/6232/tid/239/_/2012_Olympic_Men/index.html
+	Parsing URL... host archive.fiba.com, port 80, request /pages/eng/fa/team/p/sid/6232/tid/239/_/2012_Olympic_Men/index.html
+	Checking host uniqueness... failed
+URL: http://alicewhitmoresblog.com/category/mom-musings/
+	Parsing URL... host alicewhitmoresblog.com, port 80, request /category/mom-musings/
+	Checking host uniqueness... passed
+	Doing DNS... done in 30 ms, found 150.95.255.38
+	Checking IP uniqueness... passed
+    Connecting on robots... done in 133 ms
+	Loading... done in 134 ms with 4 bytes
+	Verifying header... status code 200
+URL: http://ads.intergi.com/adlink/3.0/5205/3359481/0/225/ADTECH;loc=300;key=key1+key2+key3+key4;grp=123
+	Parsing URL... host ads.intergi.com, port 80, request /adlink/3.0/5205/3359481/0/225/ADTECH;loc=300;key=key1+key2+key3+key4;grp=123
+	Checking host uniqueness... passed
+	Doing DNS... done in 37 ms, found 152.195.32.116
+	Checking IP uniqueness... passed
+    Connecting on robots... done in 17 ms
+	Loading... done in 74 ms with 4 bytes
+	Verifying header... status code 200
+URL: http://andrelv.com/
+	Parsing URL... host andrelv.com, port 80, request /
+	Checking host uniqueness... passed
+	Doing DNS... done in 32 ms, found 50.63.202.3
+	Checking IP uniqueness... passed
+    Connecting on robots... done in 37 ms
+	Loading... done in 36 ms with 114 bytes
+	Verifying header... status code 302
+URL: http://ar.reuters.com/article/topNews/idARL1N0UH12620150102
+	Parsing URL... host ar.reuters.com, port 80, request /article/topNews/idARL1N0UH12620150102
+	Checking host uniqueness... passed
+	Doing DNS... done in 34 ms, found 54.192.7.134
+	Checking IP uniqueness... passed
+    Connecting on robots... done in 9 ms
+	Loading... done in 11 ms with 379 bytes
+	Verifying header... status code 301
+URL: http://archives.newyorker.com/default.aspx?iid=15296&startpage=page0000038
+	Parsing URL... host archives.newyorker.com, port 80, request /default.aspx?iid=15296&startpage=page0000038
+	Checking host uniqueness... passed
+	Doing DNS... done in 40 ms, found 122.152.132.114
+	Checking IP uniqueness... passed
+    Connecting on robots... done in 194 ms
+	Loading... done in 196 ms with 4 bytes
+	Verifying header... status code 200
+URL: http://arc.applause.com/2015/01/02/google-bans-testimonials-google-play-review-section/
+	Parsing URL... host arc.applause.com, port 80, request /2015/01/02/google-bans-testimonials-google-play-review-section/
+	Checking host uniqueness... passed
+	Doing DNS... done in 26 ms, found 198.61.196.194
+	Checking IP uniqueness... passed
+    Connecting on robots... done in 12 ms
+	Loading... done in 13 ms with 210 bytes
+	Verifying header... status code 301
+URL: http://allrecipes.com/recipes/appetizers-and-snacks/
+	Parsing URL... host allrecipes.com, port 80, request /recipes/appetizers-and-snacks/
+	Checking host uniqueness... failed
+URL: http://abcfamily.go.com/shows/baby-daddy/about-the-show
+	Parsing URL... host abcfamily.go.com, port 80, request /shows/baby-daddy/about-the-show
+	Checking host uniqueness... passed
+	Doing DNS... done in 34 ms, found 199.181.132.250
+	Checking IP uniqueness... passed
+    Connecting on robots... done in 38 ms
+	Loading... done in 39 ms with 186 bytes
+	Verifying header... status code 301
+URL: http://aht.seriouseats.com/archives/2013/01/staff-picks-our-favorite-fast-food-burgers.html
+	Parsing URL... host aht.seriouseats.com, port 80, request /archives/2013/01/staff-picks-our-favorite-fast-food-burgers.html
+	Checking host uniqueness... passed
+	Doing DNS... done in 30 ms, found 104.20.200.57
+	Checking IP uniqueness... passed
+    Connecting on robots... done in 9 ms
+	Loading... done in 16 ms with 4 bytes
+	Verifying header... status code 200
+URL: http://askubuntu.com/questions/tagged/hard-drive
+	Parsing URL... host askubuntu.com, port 80, request /questions/tagged/hard-drive
+	Checking host uniqueness... passed
+	Doing DNS... done in 41 ms, found 151.101.193.69
+	Checking IP uniqueness... passed
+    Connecting on robots... done in 9 ms
+	Loading... done in 9 ms with 543 bytes
+	Verifying header... status code 301
+URL: http://2002.bloggi.es/
+	Parsing URL... host 2002.bloggi.es, port 80, request /
+	Checking host uniqueness... passed
+	Doing DNS... done in 0 ms, found 208.113.163.242
+	Checking IP uniqueness... passed
+    Connecting on robots... done in 49 ms
+	Loading... done in 49 ms with 4 bytes
+	Verifying header... status code 200
+URL: http://am.globalvoicesonline.org/-/topics/development
+	Parsing URL... host am.globalvoicesonline.org, port 80, request /-/topics/development
+	Checking host uniqueness... failed
+URL: http://apps.cybersource.com/library/documentation/dev_guides/BML_Supplement_SCMP/html/
+	Parsing URL... host apps.cybersource.com, port 80, request /library/documentation/dev_guides/BML_Supplement_SCMP/html/
+	Checking host uniqueness... failed
+URL: http://allaboutlatvia.com/
+	Parsing URL... host allaboutlatvia.com, port 80, request /
+	Checking host uniqueness... passed
+	Doing DNS... failed with 11002
+URL: http://9to5google.com/push/
+	Parsing URL... host 9to5google.com, port 80, request /push/
+	Checking host uniqueness... passed
+	Doing DNS... done in 31 ms, found 192.0.79.33
+	Checking IP uniqueness... failed
+URL: http://b.hatena.ne.jp/search/tag?q=%E3%83%86%E3%82%AF%E3%83%8E%E3%83%AD%E3%82%B8%E3%83%BC
+	Parsing URL... host b.hatena.ne.jp, port 80, request /search/tag?q=%E3%83%86%E3%82%AF%E3%83%8E%E3%83%AD%E3%82%B8%E3%83%BC
+	Checking host uniqueness... failed
+URL: http://awoiaf.westeros.org/index.php/Jeyne_Westerling
+	Parsing URL... host awoiaf.westeros.org, port 80, request /index.php/Jeyne_Westerling
+	Checking host uniqueness... failed
+URL: http://americasmarkets.usatoday.com/2015/01/02/with-a-bullet-the-dollar-oil-and-elvish-rings/
+	Parsing URL... host americasmarkets.usatoday.com, port 80, request /2015/01/02/with-a-bullet-the-dollar-oil-and-elvish-rings/
+	Checking host uniqueness... passed
+	Doing DNS... done in 29 ms, found 192.0.79.33
+	Checking IP uniqueness... failed
+URL: http://agitprop.typepad.com/agitprop/2009/11/in-case-youve-noticed.html?cid=6a00d8341c691053ef012876003a27970c
+	Parsing URL... host agitprop.typepad.com, port 80, request /agitprop/2009/11/in-case-youve-noticed.html?cid=6a00d8341c691053ef012876003a27970c
+	Checking host uniqueness... failed
+URL: http://alloyentertainment.com/cast/shay-mitchell/
+	Parsing URL... host alloyentertainment.com, port 80, request /cast/shay-mitchell/
+	Checking host uniqueness... failed
+URL: http://airforce.com/benefits/retirement/
+	Parsing URL... host airforce.com, port 80, request /benefits/retirement/
+	Checking host uniqueness... failed
+URL: http://atgma.org/
+	Parsing URL... host atgma.org, port 80, request /
+	Checking host uniqueness... passed
+	Doing DNS... done in 0 ms, found 159.203.155.23
+	Checking IP uniqueness... passed
+    Connecting on robots... done in 43 ms
+	Loading... done in 46 ms with 197 bytes
+	Verifying header... status code 404
+  * Connecting on page... 	done in 89 msdone in 1 ms
+	Loading... done in 252 ms with 124817 bytes
+	Verifying header... status code 200
+  + Parsing page... done in 0 ms with 49 links
+URL: http://advertising.aol.com/formats/spot
+	Parsing URL... host advertising.aol.com, port 80, request /formats/spot
+	Checking host uniqueness... passed
+	Doing DNS... done in 29 ms, found 64.12.79.73
+	Checking IP uniqueness... passed
+    Connecting on robots... done in 45 ms
+	Loading... done in 46 ms with 255 bytes
+	Verifying header... status code 302
+URL: http://allafrica.com/view/group/main/main/id/00034193.html
+	Parsing URL... host allafrica.com, port 80, request /view/group/main/main/id/00034193.html
+	Checking host uniqueness... failed
+URL: http://admissions.bradley.edu/estimator/
+	Parsing URL... host admissions.bradley.edu, port 80, request /estimator/
+	Checking host uniqueness... passed
+	Doing DNS... done in 0 ms, found 136.176.190.67
+	Checking IP uniqueness... passed
+    Connecting on robots... done in 30 ms
+	Loading... done in 37 ms with 144 bytes
+	Verifying header... status code 404
+  * Connecting on page... 	done in 67 msdone in 1 ms
+	Loading... done in 62 ms with 359 bytes
+	Verifying header... status code 200
+  + Parsing page... done in 0 ms with 0 links
+URL: http://balkans.aljazeera.com/tag/nogomet
+	Parsing URL... host balkans.aljazeera.com, port 80, request /tag/nogomet
+	Checking host uniqueness... passed
+	Doing DNS... done in 40 ms, found 8.254.63.254
+	Checking IP uniqueness... passed
+    Connecting on robots... done in 8 ms
+	Loading... done in 6 ms with 4 bytes
+	Verifying header... status code 200
+URL: http://adswithoutproducts.com/category/kafka/
+	Parsing URL... host adswithoutproducts.com, port 80, request /category/kafka/
+	Checking host uniqueness... failed
+URL: http://archive.pnj.com/usatoday/article/21188963?odyssey=mod_sectionstories
+	Parsing URL... host archive.pnj.com, port 80, request /usatoday/article/21188963?odyssey=mod_sectionstories
+	Checking host uniqueness... passed
+	Doing DNS... done in 35 ms, found 209.97.55.217
+	Checking IP uniqueness... passed
+    Connecting on robots... done in 30 ms
+	Loading... done in 31 ms with 189 bytes
+	Verifying header... status code 301
+URL: http://anastasiabeverlyhills.com/
+	Parsing URL... host anastasiabeverlyhills.com, port 80, request /
+	Checking host uniqueness... passed
+	Doing DNS... done in 30 ms, found 184.168.221.14
+	Checking IP uniqueness... passed
+    Connecting on robots... done in 37 ms
+	Loading... done in 36 ms with 114 bytes
+	Verifying header... status code 302
+URL: http://acephalous.typepad.com/acephalous/2014/11/you-made-a-bear.html
+	Parsing URL... host acephalous.typepad.com, port 80, request /acephalous/2014/11/you-made-a-bear.html
+	Checking host uniqueness... passed
+	Doing DNS... done in 34 ms, found 104.16.107.123
+	Checking IP uniqueness... passed
+    Connecting on robots... done in 8 ms
+	Loading... done in 15 ms with 4 bytes
+	Verifying header... status code 200
+URL: http://arewomenhuman.wordpress.com/
+	Parsing URL... host arewomenhuman.wordpress.com, port 80, request /
+	Checking host uniqueness... passed
+	Doing DNS... done in 37 ms, found 192.0.78.12
+	Checking IP uniqueness... passed
+    Connecting on robots... done in 10 ms
+	Loading... done in 10 ms with 228 bytes
+	Verifying header... status code 301
+URL: http://associatesmind.com/2014/06/26/how-to-build-a-20-year-relationship-with-your-clients/
+	Parsing URL... host associatesmind.com, port 80, request /2014/06/26/how-to-build-a-20-year-relationship-with-your-clients/
+	Checking host uniqueness... failed
+URL: http://alemarcheese.com/products/good-thunder/
+	Parsing URL... host alemarcheese.com, port 80, request /products/good-thunder/
+	Checking host uniqueness... passed
+	Doing DNS... done in 32 ms, found 104.198.111.22
+	Checking IP uniqueness... passed
+    Connecting on robots... done in 51 ms
+	Loading... done in 50 ms with 4 bytes
+	Verifying header... status code 200
+URL: http://althouse.blogspot.com/2011_08_14_archive.html
+	Parsing URL... host althouse.blogspot.com, port 80, request /2011_08_14_archive.html
+	Checking host uniqueness... failed
+URL: http://autos.cleveland.com/new-car-prices
+	Parsing URL... host autos.cleveland.com, port 80, request /new-car-prices
+	Checking host uniqueness... passed
+	Doing DNS... done in 37 ms, found 204.155.26.105
+	Checking IP uniqueness... passed
+    Connecting on robots... done in 45 ms
+	Loading... done in 47 ms with 4 bytes
+	Verifying header... status code 200
+URL: http://1stgarciniacambogiadroz.com/
+	Parsing URL... host 1stgarciniacambogiadroz.com, port 80, request /
+	Checking host uniqueness... passed
+	Doing DNS... failed with 11001
+URL: http://balkans.aljazeera.net/video/posljednji/EKONOMIJA
+	Parsing URL... host balkans.aljazeera.net, port 80, request /video/posljednji/EKONOMIJA
+	Checking host uniqueness... failed
+URL: http://angelverde.info/
+	Parsing URL... host angelverde.info, port 80, request /
+	Checking host uniqueness... passed
+	Doing DNS... done in 1 ms, found 216.144.242.66
+	Checking IP uniqueness... passed
+    Connecting on robots... done in 10 ms
+	Loading... done in 9 ms with 4 bytes
+	Verifying header... status code 200
+URL: http://ameblo.jp/19941021kusai/theme-10007259230.html
+	Parsing URL... host ameblo.jp, port 80, request /19941021kusai/theme-10007259230.html
+	Checking host uniqueness... failed
+URL: http://acephalous.typepad.com/acephalous/2009/05/the-best-of-acephalous-2007.html
+	Parsing URL... host acephalous.typepad.com, port 80, request /acephalous/2009/05/the-best-of-acephalous-2007.html
+	Checking host uniqueness... failed
+URL: http://astore.amazon.com/togweteafanssportsnhl-20/103-9616724-3181435?_encoding=UTF8&node=1658
+	Parsing URL... host astore.amazon.com, port 80, request /togweteafanssportsnhl-20/103-9616724-3181435?_encoding=UTF8&node=1658
+	Checking host uniqueness... passed
+	Doing DNS... done in 27 ms, found 176.32.100.108
+	Checking IP uniqueness... passed
+    Connecting on robots... done in 45 ms
+	Loading... done in 45 ms with 241 bytes
+	Verifying header... status code 503
+URL: http://api.shopstyle.com/action/apiVisitRetailer?url=http%3A%2F%2Fwww.newlook.com%2Fshop%2Fwomens%2Fdresses%2Fblack-leather-look-contrast-skater-dress_327297401&pid=uid2025-24009795-25
+	Parsing URL... host api.shopstyle.com, port 80, request /action/apiVisitRetailer?url=http%3A%2F%2Fwww.newlook.com%2Fshop%2Fwomens%2Fdresses%2Fblack-leather-look-contrast-skater-dress_327297401&pid=uid2025-24009795-25
+	Checking host uniqueness... passed
+	Doing DNS... done in 31 ms, found 184.73.232.167
+	Checking IP uniqueness... passed
+    Connecting on robots... done in 42 ms
+	Loading... done in 41 ms with 4 bytes
+	Verifying header... status code 200
+URL: http://appleseeds.blair.com/t/sale/997-under/pc/69/2664.uts?count=12&i=1&intl=n&q=*&q1=69%7ESale&q2=2664%7E$9.97+%26+Under&q3=Brown&rank=rank&sc=Y&store=1&x1=c.t1&x2=c.t2&x3=s.colornormal
+	Parsing URL... host appleseeds.blair.com, port 80, request /t/sale/997-under/pc/69/2664.uts?count=12&i=1&intl=n&q=*&q1=69%7ESale&q2=2664%7E$9.97+%26+Under&q3=Brown&rank=rank&sc=Y&store=1&x1=c.t1&x2=c.t2&x3=s.colornormal
+	Checking host uniqueness... failed
+URL: http://acephalous.typepad.com/acephalous/fun-home/
+	Parsing URL... host acephalous.typepad.com, port 80, request /acephalous/fun-home/
+	Checking host uniqueness... failed
+URL: http://astore.amazon.com/lancemannion-20
+	Parsing URL... host astore.amazon.com, port 80, request /lancemannion-20
+	Checking host uniqueness... failed
+URL: http://abcfamily.go.com/shows/baby-daddy/episode-guide/season-03/19-foos-it-or-lose-it
+	Parsing URL... host abcfamily.go.com, port 80, request /shows/baby-daddy/episode-guide/season-03/19-foos-it-or-lose-it
+	Checking host uniqueness... failed
+URL: http://a.dilcdn.com/g/es/parks/basic.html?bg=light
+	Parsing URL... host a.dilcdn.com, port 80, request /g/es/parks/basic.html?bg=light
+	Checking host uniqueness... passed
+	Doing DNS... done in 32 ms, found 8.26.218.107
+	Checking IP uniqueness... passed
+    Connecting on robots... done in 5 ms
+	Loading... done in 32 ms with 399 bytes
+	Verifying header... status code 404
+  * Connecting on page... 	done in 38 msdone in 1 ms
+	Loading... done in 37 ms with 414 bytes
+	Verifying header... status code 404
+URL: http://archive.wbai.org/show1.php?showid=voices
+	Parsing URL... host archive.wbai.org, port 80, request /show1.php?showid=voices
+	Checking host uniqueness... passed
+	Doing DNS... done in 1 ms, found 198.11.224.172
+	Checking IP uniqueness... passed
+    Connecting on robots... done in 6 ms
+	Loading... done in 7 ms with 146 bytes
+	Verifying header... status code 404
+  * Connecting on page... 	done in 14 msdone in 0 ms
+	Loading... done in 8 ms with 2171 bytes
+	Verifying header... status code 404
+URL: http://advertising.aol.com/about-us
+	Parsing URL... host advertising.aol.com, port 80, request /about-us
+	Checking host uniqueness... failed
+URL: http://azvox.net/comment/5
+	Parsing URL... host azvox.net, port 80, request /comment/5
+	Checking host uniqueness... passed
+	Doing DNS... done in 43 ms, found 213.32.108.33
+	Checking IP uniqueness... passed
+    Connecting on robots... done in 115 ms
+	Loading... done in 115 ms with 4 bytes
+	Verifying header... status code 200
+URL: http://adserver.adtechus.com/adlink/3.0/5277/2454460/0/165/ADTECH;loc=300;key=key1+key2+key3+key4;grp=%5Bgroup%5D
+	Parsing URL... host adserver.adtechus.com, port 80, request /adlink/3.0/5277/2454460/0/165/ADTECH;loc=300;key=key1+key2+key3+key4;grp=%5Bgroup%5D
+	Checking host uniqueness... passed
+	Doing DNS... done in 31 ms, found 152.195.32.119
+	Checking IP uniqueness... passed
+    Connecting on robots... done in 16 ms
+	Loading... done in 73 ms with 4 bytes
+	Verifying header... status code 200
+URL: http://afp-photo.tumblr.com/tagged/Conflict
+	Parsing URL... host afp-photo.tumblr.com, port 80, request /tagged/Conflict
+	Checking host uniqueness... passed
+	Doing DNS... done in 33 ms, found 66.6.33.21
+	Checking IP uniqueness... passed
+    Connecting on robots... done in 42 ms
+	Loading... done in 43 ms with 4 bytes
+	Verifying header... status code 200
+URL: http://abcnewsradioonline.com/music-news/?currentPage=5
+	Parsing URL... host abcnewsradioonline.com, port 80, request /music-news/?currentPage=5
+	Checking host uniqueness... failed
+URL: http://archive.fiba.com/pages/eng/fa/team/p/sid/6583/tid/350/_/2013_FIBA_Asia_Championship_for_Men/index.html
+	Parsing URL... host archive.fiba.com, port 80, request /pages/eng/fa/team/p/sid/6583/tid/350/_/2013_FIBA_Asia_Championship_for_Men/index.html
+	Checking host uniqueness... failed
+URL: http://askubuntu.com/questions/tagged/gparted
+	Parsing URL... host askubuntu.com, port 80, request /questions/tagged/gparted
+	Checking host uniqueness... failed
+URL: http://arabic.cnn.com/%D8%B9%D8%A8%D8%AF%D8%A7%D9%84%D9%81%D8%AA%D8%A7%D8%AD-%D8%A7%D9%84%D8%B3%D9%8A%D8%B3%D9%8A?page=8
+	Parsing URL... host arabic.cnn.com, port 80, request /%D8%B9%D8%A8%D8%AF%D8%A7%D9%84%D9%81%D8%AA%D8%A7%D8%AD-%D8%A7%D9%84%D8%B3%D9%8A%D8%B3%D9%8A?page=8
+	Checking host uniqueness... failed
+URL: http://answers.usgs.gov/cgi-bin/gsanswers?pemail=GS_Pubs_Web_Contact&subject=pubs.usgs.gov+inquiry
+	Parsing URL... host answers.usgs.gov, port 80, request /cgi-bin/gsanswers?pemail=GS_Pubs_Web_Contact&subject=pubs.usgs.gov+inquiry
+	Checking host uniqueness... passed
+	Doing DNS... done in 35 ms, found 52.32.209.3
+	Checking IP uniqueness... passed
+    Connecting on robots... done in 65 ms
+	Loading... done in 66 ms with 203 bytes
+	Verifying header... status code 301
+URL: http://archive.wired.com/culture/?page=34
+	Parsing URL... host archive.wired.com, port 80, request /culture/?page=34
+	Checking host uniqueness... failed
+URL: http://add.my.yahoo.com/rss?url=http%3A%2F%2Fnwsource.kaango.com%2Fads%2Ffeed%2Frss%2Fcat%2F365%2Fsubcat%2F433
+	Parsing URL... host add.my.yahoo.com, port 80, request /rss?url=http%3A%2F%2Fnwsource.kaango.com%2Fads%2Ffeed%2Frss%2Fcat%2F365%2Fsubcat%2F433
+	Checking host uniqueness... passed
+	Doing DNS... done in 27 ms, found 206.190.39.42
+	Checking IP uniqueness... passed
+    Connecting on robots... done in 48 ms
+	Loading... done in 50 ms with 374 bytes
+	Verifying header... status code 301
+URL: http://abigvictory.blogspot.com/search/label/06
+	Parsing URL... host abigvictory.blogspot.com, port 80, request /search/label/06
+	Checking host uniqueness... failed
+URL: http://3arabtv.com/watch/%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9-%D8%A7%D9%84%D9%8A%D9%88%D9%85
+	Parsing URL... host 3arabtv.com, port 80, request /watch/%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9-%D8%A7%D9%84%D9%8A%D9%88%D9%85
+	Checking host uniqueness... failed
+URL: http://arxiv.org/abs/1105.2326
+	Parsing URL... host arxiv.org, port 80, request /abs/1105.2326
+	Checking host uniqueness... passed
+	Doing DNS... done in 30 ms, found 128.84.21.199
+	Checking IP uniqueness... passed
+    Connecting on robots... done in 44 ms
+	Loading... done in 64 ms with 317 bytes
+	Verifying header... status code 301
+URL: http://atlanticnoir.tumblr.com/
+	Parsing URL... host atlanticnoir.tumblr.com, port 80, request /
+	Checking host uniqueness... passed
+	Doing DNS... done in 28 ms, found 66.6.33.149
+	Checking IP uniqueness... passed
+    Connecting on robots... done in 43 ms
+	Loading... done in 57 ms with 456 bytes
+	Verifying header... status code 404
+  * Connecting on page... 	done in 100 msdone in 1 ms
+	Loading... done in 56 ms with 4780 bytes
+	Verifying header... status code 404
+URL: http://ad.de.doubleclick.net/jump/iqdsde/homepage;kw=iqadtile12,iqdsde,homepage;doc=index;sz=320x250;tile=12;ord=123456789?
+	Parsing URL... host ad.de.doubleclick.net, port 80, request /jump/iqdsde/homepage;kw=iqadtile12,iqdsde,homepage;doc=index;sz=320x250;tile=12;ord=123456789?
+	Checking host uniqueness... passed
+	Doing DNS... done in 1 ms, found 172.217.12.70
+	Checking IP uniqueness... failed
+URL: http://amestrib.com/contact-us
+	Parsing URL... host amestrib.com, port 80, request /contact-us
+	Checking host uniqueness... passed
+	Doing DNS... done in 30 ms, found 52.202.222.192
+	Checking IP uniqueness... passed
+    Connecting on robots... done in 40 ms
+	Loading... done in 41 ms with 484 bytes
+	Verifying header... status code 301
+URL: http://10daime999.blog.fc2.com/blog-date-201306.html
+	Parsing URL... host 10daime999.blog.fc2.com, port 80, request /blog-date-201306.html
+	Checking host uniqueness... passed
+	Doing DNS... done in 42 ms, found 104.244.98.64
+	Checking IP uniqueness... failed
+URL: http://aardvark.ucsd.edu/
+	Parsing URL... host aardvark.ucsd.edu, port 80, request /
+	Checking host uniqueness... passed
+	Doing DNS... done in 28 ms, found 132.239.205.215
+	Checking IP uniqueness... passed
+    Connecting on robots... done in 39 ms
+	Loading... done in 38 ms with 219 bytes
+	Verifying header... status code 404
+  * Connecting on page... 	done in 77 msdone in 0 ms
+	Loading... done in 41 ms with 4380 bytes
+	Verifying header... status code 200
+  + Parsing page... done in 0 ms with 13 links
+URL: http://allafrica.com/view/group/main/main/id/00033863.html
+	Parsing URL... host allafrica.com, port 80, request /view/group/main/main/id/00033863.html
+	Checking host uniqueness... failed
+URL: http://archive.wired.com/wired/archive/15.02/
+	Parsing URL... host archive.wired.com, port 80, request /wired/archive/15.02/
+	Checking host uniqueness... failed
+URL: http://ar.timesofisrael.com/writers/%d8%a7%d9%8a%d8%aa%d8%a7%d9%85%d8%a7%d8%b1-%d8%b4%d8%a7%d8%b1%d9%88%d9%86/
+	Parsing URL... host ar.timesofisrael.com, port 80, request /writers/%d8%a7%d9%8a%d8%aa%d8%a7%d9%85%d8%a7%d8%b1-%d8%b4%d8%a7%d8%b1%d9%88%d9%86/
+	Checking host uniqueness... failed
+URL: http://americandigest.org/mt-archives/grace_notes/one_moment_in_t.php
+	Parsing URL... host americandigest.org, port 80, request /mt-archives/grace_notes/one_moment_in_t.php
+	Checking host uniqueness... passed
+	Doing DNS... done in 37 ms, found 63.247.137.134
+	Checking IP uniqueness... passed
+    Connecting on robots... done in 37 ms
+	Loading... done in 37 ms with 144 bytes
+	Verifying header... status code 404
+  * Connecting on page... 	done in 75 msdone in 0 ms
+	Loading... done in 88 ms with 40491 bytes
+	Verifying header... status code 200
+  + Parsing page... done in 1 ms with 10 links
+URL: http://3x3worldtour.com/pages/eng/fe/14/3x3/chicago/p/schedule.html
+	Parsing URL... host 3x3worldtour.com, port 80, request /pages/eng/fe/14/3x3/chicago/p/schedule.html
+	Checking host uniqueness... passed
+	Doing DNS... done in 35 ms, found 83.221.236.154
+	Checking IP uniqueness... failed
+URL: http://allafrica.com/stories/201412111079.html
+	Parsing URL... host allafrica.com, port 80, request /stories/201412111079.html
+	Checking host uniqueness... failed
+URL: http://aclu-tn.org/release071014.html
+	Parsing URL... host aclu-tn.org, port 80, request /release071014.html
+	Checking host uniqueness... passed
+	Doing DNS... done in 28 ms, found 52.40.207.250
+	Checking IP uniqueness... passed
+    Connecting on robots... done in 65 ms
+	Loading... done in 615 ms with 442 bytes
+	Verifying header... status code 301
+URL: http://arabic.alshahid.net/culture-society/litrature/poem/119128
+	Parsing URL... host arabic.alshahid.net, port 80, request /culture-society/litrature/poem/119128
+	Checking host uniqueness... failed
+URL: http://adst.org/tag/oops/
+	Parsing URL... host adst.org, port 80, request /tag/oops/
+	Checking host uniqueness... passed
+	Doing DNS... done in 43 ms, found 104.24.28.118
+	Checking IP uniqueness... passed
+    Connecting on robots... done in 9 ms
+	Loading... done in 16 ms with 4 bytes
+	Verifying header... status code 200
+URL: http://allafrica.com/stories/201412111044.html
+	Parsing URL... host allafrica.com, port 80, request /stories/201412111044.html
+	Checking host uniqueness... failed
+URL: http://ad.doubleclick.net/jump/espn.local.dallas.com/nfl;pgn=dallascowboys;pgtyp=blog;sp=dallasblog;tm=dal;col=archer_todd;sz=1280x946,200x800,1x1;
+	Parsing URL... host ad.doubleclick.net, port 80, request /jump/espn.local.dallas.com/nfl;pgn=dallascowboys;pgtyp=blog;sp=dallasblog;tm=dal;col=archer_todd;sz=1280x946,200x800,1x1;
+	Checking host uniqueness... failed
+URL: http://angrybearblog.com/page/2
+	Parsing URL... host angrybearblog.com, port 80, request /page/2
+	Checking host uniqueness... passed
+	Doing DNS... done in 1 ms, found 64.156.192.167
+	Checking IP uniqueness... passed
+    Connecting on robots... done in 35 ms
+	Loading... done in 36 ms with 227 bytes
+	Verifying header... status code 302
+URL: http://ameblo.jp/kamegilisha/
+	Parsing URL... host ameblo.jp, port 80, request /kamegilisha/
+	Checking host uniqueness... failed
+URL: http://apod.nasa.gov/apod/
+	Parsing URL... host apod.nasa.gov, port 80, request /apod/
+	Checking host uniqueness... passed
+	Doing DNS... done in 30 ms, found 129.164.179.22
+	Checking IP uniqueness... passed
+    Connecting on robots... done in 50 ms
+	Loading... done in 48 ms with 132 bytes
+	Verifying header... status code 301
+URL: http://abovethelaw.com/2012/01/atls-2011-lawyer-of-the-year-the-winner/paul-campos/
+	Parsing URL... host abovethelaw.com, port 80, request /2012/01/atls-2011-lawyer-of-the-year-the-winner/paul-campos/
+	Checking host uniqueness... passed
+	Doing DNS... done in 38 ms, found 104.25.196.99
+	Checking IP uniqueness... passed
+    Connecting on robots... done in 9 ms
+	Loading... done in 13 ms with 256 bytes
+	Verifying header... status code 301
+URL: http://althouse.blogspot.com/2013_08_25_archive.html
+	Parsing URL... host althouse.blogspot.com, port 80, request /2013_08_25_archive.html
+	Checking host uniqueness... failed
+URL: http://backchannel.al-monitor.com/index.php/tag/michael-mann/
+	Parsing URL... host backchannel.al-monitor.com, port 80, request /index.php/tag/michael-mann/
+	Checking host uniqueness... passed
+	Doing DNS... done in 38 ms, found 104.130.159.237
+	Checking IP uniqueness... passed
+    Connecting on robots... done in 13 ms
+	Loading... done in 13 ms with 4 bytes
+	Verifying header... status code 200
+URL: http://arabic.alshahid.net/columnists/119331
+	Parsing URL... host arabic.alshahid.net, port 80, request /columnists/119331
+	Checking host uniqueness... failed
+URL: http://awoiaf.westeros.org/index.php/Shieldhall
+	Parsing URL... host awoiaf.westeros.org, port 80, request /index.php/Shieldhall
+	Checking host uniqueness... failed
+URL: http://accelus.thomsonreuters.com/zh-hans
+	Parsing URL... host accelus.thomsonreuters.com, port 80, request /zh-hans
+	Checking host uniqueness... passed
+	Doing DNS... done in 43 ms, found 164.57.192.16
+	Checking IP uniqueness... passed
+    Connecting on robots... done in 7 ms
+	Loading... done in 11 ms with 139 bytes
+	Verifying header... status code 301
+URL: http://afp-photo.tumblr.com/post/106702448684/australia-sydney-new-years-eve-fireworks-erupt
+	Parsing URL... host afp-photo.tumblr.com, port 80, request /post/106702448684/australia-sydney-new-years-eve-fireworks-erupt
+	Checking host uniqueness... failed
+URL: http://academia.stackexchange.com/questions/tagged/ranking
+	Parsing URL... host academia.stackexchange.com, port 80, request /questions/tagged/ranking
+	Checking host uniqueness... failed
+URL: http://balkans.aljazeera.net/video/slabljenje-dinara-u-odnosu-na-euro
+	Parsing URL... host balkans.aljazeera.net, port 80, request /video/slabljenje-dinara-u-odnosu-na-euro
+	Checking host uniqueness... failed
+URL: http://allafrica.com/view/group/main/main/id/00034417.html
+	Parsing URL... host allafrica.com, port 80, request /view/group/main/main/id/00034417.html
+	Checking host uniqueness... failed
+URL: http://balkans.aljazeera.net/vijesti/rim-vracanje-latinskog-jezika-u-zivot
+	Parsing URL... host balkans.aljazeera.net, port 80, request /vijesti/rim-vracanje-latinskog-jezika-u-zivot
+	Checking host uniqueness... failed
+URL: http://6084601.blog.hexun.com/97579653_d.html
+	Parsing URL... host 6084601.blog.hexun.com, port 80, request /97579653_d.html
+	Checking host uniqueness... passed
+	Doing DNS... done in 37 ms, found 42.81.62.206
+	Checking IP uniqueness... passed
+    Connecting on robots... done in 380 ms
+	Loading... done in 379 ms with 4 bytes
+	Verifying header... status code 200
+URL: http://api.jquery.com/selected-selector/
+	Parsing URL... host api.jquery.com, port 80, request /selected-selector/
+	Checking host uniqueness... passed
+	Doing DNS... done in 42 ms, found 104.16.15.15
+	Checking IP uniqueness... passed
+    Connecting on robots... done in 9 ms
+	Loading... done in 20 ms with 4 bytes
+	Verifying header... status code 200
+URL: http://50shadesofeleanor.tumblr.com/image/106414062714
+	Parsing URL... host 50shadesofeleanor.tumblr.com, port 80, request /image/106414062714
+	Checking host uniqueness... passed
+	Doing DNS... done in 30 ms, found 66.6.33.149
+	Checking IP uniqueness... failed
+URL: http://allafrica.com/stories/201412161843.html
+	Parsing URL... host allafrica.com, port 80, request /stories/201412161843.html
+	Checking host uniqueness... failed
+URL: http://ay.globalvoicesonline.org/-/topics/history
+	Parsing URL... host ay.globalvoicesonline.org, port 80, request /-/topics/history
+	Checking host uniqueness... passed
+	Doing DNS... done in 29 ms, found 213.108.110.5
+	Checking IP uniqueness... failed
+URL: http://av.voanews.com/Videoroot/Pangeavideo/2014/12/2/2c/2ceb1b47-fa72-4378-ae28-d906e43ff5d2_hq.mp4?download=1
+	Parsing URL... host av.voanews.com, port 80, request /Videoroot/Pangeavideo/2014/12/2/2c/2ceb1b47-fa72-4378-ae28-d906e43ff5d2_hq.mp4?download=1
+	Checking host uniqueness... failed
+URL: http://adst.org/tag/embassy-security/
+	Parsing URL... host adst.org, port 80, request /tag/embassy-security/
+	Checking host uniqueness... failed
+URL: http://ad.doubleclick.net/adi/interactive.wsj.com/marketsdata_front;sz=300x250;ord=5797453746199
+	Parsing URL... host ad.doubleclick.net, port 80, request /adi/interactive.wsj.com/marketsdata_front;sz=300x250;ord=5797453746199
+	Checking host uniqueness... failed
+URL: http://arlaadii.net/2014/12/dulmiga-ka-jira-bilaawgiiba-dowlad-goboleedka-koonfur-galbeed-soomaaliya/
+	Parsing URL... host arlaadii.net, port 80, request /2014/12/dulmiga-ka-jira-bilaawgiiba-dowlad-goboleedka-koonfur-galbeed-soomaaliya/
+	Checking host uniqueness... passed
+	Doing DNS... done in 0 ms, found 46.30.215.70
+	Checking IP uniqueness... passed
+    Connecting on robots... done in 223 ms
+	Loading... done in 143 ms with 229 bytes
+	Verifying header... status code 404
+  * Connecting on page... 	done in 285 msdone in 1 ms
+	Loading... done in 143 ms with 529 bytes
+	Verifying header... status code 404
+URL: http://alicublog.blogspot.com/ncr
+	Parsing URL... host alicublog.blogspot.com, port 80, request /ncr
+	Checking host uniqueness... passed
+	Doing DNS... done in 27 ms, found 172.217.12.65
+	Checking IP uniqueness... passed
+    Connecting on robots... done in 7 ms
+	Loading... done in 30 ms with 4 bytes
+	Verifying header... status code 200
+URL: http://aclu.org/accountability/
+	Parsing URL... host aclu.org, port 80, request /accountability/
+	Checking host uniqueness... passed
+	Doing DNS... done in 39 ms, found 151.101.64.74
+	Checking IP uniqueness... passed
+    Connecting on robots... done in 9 ms
+	Loading... done in 9 ms with 327 bytes
+	Verifying header... status code 301
+URL: http://aplicaciones.digestyc.gob.sv/Clasificadores/Default.aspx
+	Parsing URL... host aplicaciones.digestyc.gob.sv, port 80, request /Clasificadores/Default.aspx
+	Checking host uniqueness... passed
+	Doing DNS... done in 0 ms, found 179.5.80.103
+	Checking IP uniqueness... passed
+    Connecting on robots... done in 81 ms
+	Loading... done in 82 ms with 180 bytes
+	Verifying header... status code 404
+  * Connecting on page... 	done in 162 msdone in 1 ms
+	Loading... done in 245 ms with 8700 bytes
+	Verifying header... status code 200
+  + Parsing page... done in 0 ms with 24 links
+URL: http://antiwar.com/viewpoints.php
+	Parsing URL... host antiwar.com, port 80, request /viewpoints.php
+	Checking host uniqueness... passed
+	Doing DNS... done in 0 ms, found 67.192.17.210
+	Checking IP uniqueness... passed
+    Connecting on robots... done in 11 ms
+	Loading... done in 10 ms with 255 bytes
+	Verifying header... status code 302
+URL: http://allafrica.com/stories/201501021408.html
+	Parsing URL... host allafrica.com, port 80, request /stories/201501021408.html
+	Checking host uniqueness... failed
+URL: http://allgedo.com/category/enews/
+	Parsing URL... host allgedo.com, port 80, request /category/enews/
+	Checking host uniqueness... passed
+	Doing DNS... done in 0 ms, found 65.254.227.224
+	Checking IP uniqueness... passed
+    Connecting on robots... done in 47 ms
+	Loading... done in 632 ms with 4 bytes
+	Verifying header... status code 200
+URL: http://annuaire.univ-amu.fr/
+	Parsing URL... host annuaire.univ-amu.fr, port 80, request /
+	Checking host uniqueness... passed
+	Doing DNS... done in 31 ms, found 139.124.244.79
+	Checking IP uniqueness... passed
+    Connecting on robots... done in 138 ms
+	Loading... done in 140 ms with 229 bytes
+	Verifying header... status code 302
+URL: http://apod.nasa.gov/apod/calendar/ca9511.html
+	Parsing URL... host apod.nasa.gov, port 80, request /apod/calendar/ca9511.html
+	Checking host uniqueness... failed
+URL: http://atlanticsentinel.com/about
+	Parsing URL... host atlanticsentinel.com, port 80, request /about
+	Checking host uniqueness... passed
+	Doing DNS... done in 0 ms, found 46.30.213.3
+	Checking IP uniqueness... passed
+    Connecting on robots... done in 142 ms
+	Loading... done in 651 ms with 4 bytes
+	Verifying header... status code 200
+URL: http://askarmotors.com/Cabdi-Fanax.html
+	Parsing URL... host askarmotors.com, port 80, request /Cabdi-Fanax.html
+	Checking host uniqueness... passed
+	Doing DNS... done in 27 ms, found 185.53.178.9
+	Checking IP uniqueness... passed
+    Connecting on robots... done in 148 ms
+	Loading... done in 138 ms with 144 bytes
+	Verifying header... status code 403
+  * Connecting on page... 	done in 277 msdone in 0 ms
+	Loading... done in 138 ms with 306 bytes
+	Verifying header... status code 403
+URL: http://api.jquery.com/removeAttr/
+	Parsing URL... host api.jquery.com, port 80, request /removeAttr/
+	Checking host uniqueness... failed
+URL: http://arblogs.timesofisrael.com/%d8%a7%d9%84%d8%a3%d8%b7%d9%81%d8%a7%d9%84-%d8%a7%d9%84%d8%a3%d9%84%d9%85-%d9%88%d8%a7%d9%84%d8%a8%d9%8a%d8%a7%d9%86%d9%88/
+	Parsing URL... host arblogs.timesofisrael.com, port 80, request /%d8%a7%d9%84%d8%a3%d8%b7%d9%81%d8%a7%d9%84-%d8%a7%d9%84%d8%a3%d9%84%d9%85-%d9%88%d8%a7%d9%84%d8%a8%d9%8a%d8%a7%d9%86%d9%88/
+	Checking host uniqueness... passed
+	Doing DNS... done in 39 ms, found 205.185.216.42
+	Checking IP uniqueness... passed
+    Connecting on robots... done in 12 ms
+	Loading... done in 16 ms with 4 bytes
+	Verifying header... status code 200
+URL: http://amzn.to/1ztEn9O
+	Parsing URL... host amzn.to, port 80, request /1ztEn9O
+	Checking host uniqueness... passed
+	Doing DNS... done in 33 ms, found 67.199.248.13
+	Checking IP uniqueness... failed
+URL: http://airforce.com/joining-the-air-force/commissioned-officer-training/
+	Parsing URL... host airforce.com, port 80, request /joining-the-air-force/commissioned-officer-training/
+	Checking host uniqueness... failed
+URL: http://accelus.thomsonreuters.com/fr/press-release-listing
+	Parsing URL... host accelus.thomsonreuters.com, port 80, request /fr/press-release-listing
+	Checking host uniqueness... failed
+URL: http://archive.onearth.org/articles/2014/04/the-meat-racket-review
+	Parsing URL... host archive.onearth.org, port 80, request /articles/2014/04/the-meat-racket-review
+	Checking host uniqueness... passed
+	Doing DNS... done in 0 ms, found 173.255.227.32
+	Checking IP uniqueness... passed
+    Connecting on robots... done in 42 ms
+	Loading... done in 41 ms with 4 bytes
+	Verifying header... status code 200
+URL: http://amestrib.com/sports/big-12
+	Parsing URL... host amestrib.com, port 80, request /sports/big-12
+	Checking host uniqueness... failed
+URL: http://avianflu.typepad.com/
+	Parsing URL... host avianflu.typepad.com, port 80, request /
+	Checking host uniqueness... passed
+	Doing DNS... done in 27 ms, found 104.16.108.123
+	Checking IP uniqueness... passed
+    Connecting on robots... done in 9 ms
+	Loading... done in 23 ms with 4 bytes
+	Verifying header... status code 200
+URL: http://ad.uk.doubleclick.net/N5748/jump/mws.main/page/home;ord=313563116;adloc=t101;tile=5;cjc=mws;auth=0;lang=en-gb;adloc=t101;sz=970x250,728x90;
+	Parsing URL... host ad.uk.doubleclick.net, port 80, request /N5748/jump/mws.main/page/home;ord=313563116;adloc=t101;tile=5;cjc=mws;auth=0;lang=en-gb;adloc=t101;sz=970x250,728x90;
+	Checking host uniqueness... passed
+	Doing DNS... done in 27 ms, found 172.217.12.70
+	Checking IP uniqueness... failed
+URL: http://accelus.thomsonreuters.com/ru/viewpoints-listing
+	Parsing URL... host accelus.thomsonreuters.com, port 80, request /ru/viewpoints-listing
+	Checking host uniqueness... failed
+URL: http://antville.org/
+	Parsing URL... host antville.org, port 80, request /
+	Checking host uniqueness... passed
+	Doing DNS... done in 0 ms, found 85.10.238.28
+	Checking IP uniqueness... passed
+    Connecting on robots... done in 119 ms
+	Loading... done in 119 ms with 183 bytes
+	Verifying header... status code 302
+URL: http://arabic.alshahid.net/report/interviews/118440
+	Parsing URL... host arabic.alshahid.net, port 80, request /report/interviews/118440
+	Checking host uniqueness... failed
+URL: http://animalresearch.wisc.edu/?attachment_id=706
+	Parsing URL... host animalresearch.wisc.edu, port 80, request /?attachment_id=706
+	Checking host uniqueness... failed
+URL: http://aglifesciences.tamu.edu/academics/departments/
+	Parsing URL... host aglifesciences.tamu.edu, port 80, request /academics/departments/
+	Checking host uniqueness... failed
+URL: http://althouse.blogspot.com/2007_08_12_archive.html
+	Parsing URL... host althouse.blogspot.com, port 80, request /2007_08_12_archive.html
+	Checking host uniqueness... failed
+URL: http://4.nbcla.com/NBCLAnewsletters
+	Parsing URL... host 4.nbcla.com, port 80, request /NBCLAnewsletters
+	Checking host uniqueness... passed
+	Doing DNS... done in 31 ms, found 184.73.156.246
+	Checking IP uniqueness... passed
+    Connecting on robots... done in 40 ms
+	Loading... done in 41 ms with 4 bytes
+	Verifying header... status code 200
+URL: http://archive.pressthink.org/2005/09/
+	Parsing URL... host archive.pressthink.org, port 80, request /2005/09/
+	Checking host uniqueness... passed
+	Doing DNS... done in 26 ms, found 70.32.81.50
+	Checking IP uniqueness... passed
+    Connecting on robots... done in 149 ms
+	Loading... done in 109 ms with 143 bytes
+	Verifying header... status code 404
+  * Connecting on page... 	done in 147 msdone in 0 ms
+	Loading... done in 136 ms with 53935 bytes
+	Verifying header... status code 200
+  + Parsing page... done in 0 ms with 220 links
+URL: http://api.addthis.com/oexchange/0.8/forward/email/offer?username=hhsgov&url=http://www.hhs.gov/healthcare/facts/blog/2014/12/open-enrollment-week-five.html&title=Open+Enrollment+Week+5%3A+December+13+%E2%80%93+December+19,+2014
+	Parsing URL... host api.addthis.com, port 80, request /oexchange/0.8/forward/email/offer?username=hhsgov&url=http://www.hhs.gov/healthcare/facts/blog/2014/12/open-enrollment-week-five.html&title=Open+Enrollment+Week+5%3A+December+13+%E2%80%93+December+19,+2014
+	Checking host uniqueness... passed
+	Doing DNS... done in 37 ms, found 208.49.103.222
+	Checking IP uniqueness... passed
+    Connecting on robots... done in 38 ms
+	Loading... done in 40 ms with 170 bytes
+	Verifying header... status code 404
+  * Connecting on page... 	done in 78 msdone in 1 ms
+	Loading... done in 38 ms with 4 bytes
+	Verifying header... status code 200
+  + Parsing page... done in 0 ms with 0 links
+URL: http://api.jquery.com/first-selector/
+	Parsing URL... host api.jquery.com, port 80, request /first-selector/
+	Checking host uniqueness... failed
+URL: http://ar.wikinews.org/wiki/%D9%85%D9%84%D9%81:Soccer_ball.svg
+	Parsing URL... host ar.wikinews.org, port 80, request /wiki/%D9%85%D9%84%D9%81:Soccer_ball.svg
+	Checking host uniqueness... failed
+URL: http://artsandsciences.osu.edu/giveto/support
+	Parsing URL... host artsandsciences.osu.edu, port 80, request /giveto/support
+	Checking host uniqueness... failed
+URL: http://abigvictory.blogspot.com/search/label/Oem
+	Parsing URL... host abigvictory.blogspot.com, port 80, request /search/label/Oem
+	Checking host uniqueness... failed
+URL: http://angkorone.com/groups.aspx?grp_link=VOAKhmer
+	Parsing URL... host angkorone.com, port 80, request /groups.aspx?grp_link=VOAKhmer
+	Checking host uniqueness... passed
+	Doing DNS... done in 0 ms, found 63.219.178.247
+	Checking IP uniqueness... passed
+    Connecting on robots... done in 48 ms
+	Loading... done in 48 ms with 144 bytes
+	Verifying header... status code 404
+  * Connecting on page... 	done in 95 msdone in 0 ms
+	Loading... done in 48 ms with 240 bytes
+	Verifying header... status code 301
+URL: http://atwonline.com/operations/safety
+	Parsing URL... host atwonline.com, port 80, request /operations/safety
+	Checking host uniqueness... failed
+URL: http://avtotransfer.com/js/lv-evwgzz-xtrans.php
+	Parsing URL... host avtotransfer.com, port 80, request /js/lv-evwgzz-xtrans.php
+	Checking host uniqueness... passed
+	Doing DNS... done in 27 ms, found 77.222.61.42
+	Checking IP uniqueness... passed
+    Connecting on robots... done in 186 ms
+	Loading... done in 181 ms with 4 bytes
+	Verifying header... status code 200
+URL: http://api.jquery.com/attribute-equals-selector/
+	Parsing URL... host api.jquery.com, port 80, request /attribute-equals-selector/
+	Checking host uniqueness... failed
+URL: http://archive.delawareonline.com/article/20141202/ANNOUNCEWAVE/412020308/Robert-V-Stachnik
+	Parsing URL... host archive.delawareonline.com, port 80, request /article/20141202/ANNOUNCEWAVE/412020308/Robert-V-Stachnik
+	Checking host uniqueness... passed
+	Doing DNS... done in 27 ms, found 159.54.247.251
+	Checking IP uniqueness... passed
+    Connecting on robots... done in 40 ms
+	Loading... done in 41 ms with 200 bytes
+	Verifying header... status code 301
+URL: http://25iq.com/2014/12/19/a-dozen-things-ive-learned-from-comedians-about-the-business-of-life/
+	Parsing URL... host 25iq.com, port 80, request /2014/12/19/a-dozen-things-ive-learned-from-comedians-about-the-business-of-life/
+	Checking host uniqueness... passed
+	Doing DNS... done in 27 ms, found 209.15.20.207
+	Checking IP uniqueness... passed
+    Connecting on robots... done in 15 ms
+	Loading... done in 15 ms with 242 bytes
+	Verifying header... status code 301
+URL: http://appworld.blackberry.com/webstore/content/32066887/
+	Parsing URL... host appworld.blackberry.com, port 80, request /webstore/content/32066887/
+	Checking host uniqueness... passed
+	Doing DNS... done in 27 ms, found 184.86.161.51
+	Checking IP uniqueness... passed
+    Connecting on robots... done in 6 ms
+	Loading... done in 118 ms with 242 bytes
+	Verifying header... status code 404
+  * Connecting on page... 	done in 124 msdone in 0 ms
+	Loading... done in 10 ms with 201 bytes
+	Verifying header... status code 302
+URL: http://balanbal.net/?p=27889
+	Parsing URL... host balanbal.net, port 80, request /?p=27889
+	Checking host uniqueness... passed
+	Doing DNS... done in 29 ms, found 136.0.78.137
+	Checking IP uniqueness... passed
+    Connecting on robots... done in 43 ms
+	Loading... done in 696 ms with 4 bytes
+	Verifying header... status code 200
+URL: http://advertising.aol.com/events/best-ces-awards
+	Parsing URL... host advertising.aol.com, port 80, request /events/best-ces-awards
+	Checking host uniqueness... failed
+URL: http://andrewbreitbartfearless.com/
+	Parsing URL... host andrewbreitbartfearless.com, port 80, request /
+	Checking host uniqueness... passed
+	Doing DNS... done in 44 ms, found 206.188.192.75
+	Checking IP uniqueness... passed
+    Connecting on robots... done in 69 ms
+	Loading... done in 77 ms with 259 bytes
+	Verifying header... status code 404
+  * Connecting on page... 	done in 142 msdone in 0 ms
+	Loading... done in 151 ms with 5531 bytes
+	Verifying header... status code 200
+  + Parsing page... done in 0 ms with 1 links
+URL: http://adventure.nationalgeographic.com/adventure/adventure-photos/?source=NavAdvPhoto
+	Parsing URL... host adventure.nationalgeographic.com, port 80, request /adventure/adventure-photos/?source=NavAdvPhoto
+	Checking host uniqueness... passed
+	Doing DNS... done in 27 ms, found 128.194.178.201
+	Checking IP uniqueness... passed
+    Connecting on robots... done in 2 ms
+	Loading... done in 3 ms with 4 bytes
+	Verifying header... status code 200
+URL: http://aburningpatience.blogspot.com/2012/03/few-paragraphs-of-lorna-dee-cervantes.html
+	Parsing URL... host aburningpatience.blogspot.com, port 80, request /2012/03/few-paragraphs-of-lorna-dee-cervantes.html
+	Checking host uniqueness... failed
+URL: http://9to5toys.com/2015/01/02/itunes-documentary-rentals-deals/?replytocom=3255
+	Parsing URL... host 9to5toys.com, port 80, request /2015/01/02/itunes-documentary-rentals-deals/?replytocom=3255
+	Checking host uniqueness... failed
+URL: http://atwonline.com/search/results/Air%20New%20Zealand?solrsort=created%20desc
+	Parsing URL... host atwonline.com, port 80, request /search/results/Air%20New%20Zealand?solrsort=created%20desc
+	Checking host uniqueness... failed
+URL: http://atlanticinfocus.tumblr.com/page/2
+	Parsing URL... host atlanticinfocus.tumblr.com, port 80, request /page/2
+	Checking host uniqueness... passed
+	Doing DNS... done in 33 ms, found 66.6.32.21
+	Checking IP uniqueness... failed
+URL: http://archive.wired.com/cars/?page=33
+	Parsing URL... host archive.wired.com, port 80, request /cars/?page=33
+	Checking host uniqueness... failed
+URL: http://abo.spiegel.de/de/c/spiegel-studenten-angebote/digital-testpaket
+	Parsing URL... host abo.spiegel.de, port 80, request /de/c/spiegel-studenten-angebote/digital-testpaket
+	Checking host uniqueness... passed
+	Doing DNS... done in 27 ms, found 128.65.210.191
+	Checking IP uniqueness... passed
+    Connecting on robots... done in 131 ms
+	Loading... done in 147 ms with 4 bytes
+	Verifying header... status code 200
+URL: http://ae.webcams.travel/lang/ar_ae/
+	Parsing URL... host ae.webcams.travel, port 80, request /lang/ar_ae/
+	Checking host uniqueness... passed
+	Doing DNS... done in 0 ms, found 137.74.89.42
+	Checking IP uniqueness... passed
+    Connecting on robots... done in 115 ms
+	Loading... done in 116 ms with 200 bytes
+	Verifying header... status code 301
+URL: http://app1.vote.cntv.cn/viewResult.jsp?voteId=12795
+	Parsing URL... host app1.vote.cntv.cn, port 80, request /viewResult.jsp?voteId=12795
+	Checking host uniqueness... passed
+	Doing DNS... done in 28 ms, found 115.182.9.230
+	Checking IP uniqueness... passed
+    Connecting on robots... done in 246 ms
+	Loading... done in 246 ms with 172 bytes
+	Verifying header... status code 404
+  * Connecting on page... 	done in 486 msdone in 0 ms
+	Loading... done in 237 ms with 512 bytes
+	Verifying header... status code 404
+URL: http://asiancentury.dpmc.gov.au/about
+	Parsing URL... host asiancentury.dpmc.gov.au, port 80, request /about
+	Checking host uniqueness... passed
+	Doing DNS... failed with 11004
+URL: http://americanhouselocationunknown.com/2011/11
+	Parsing URL... host americanhouselocationunknown.com, port 80, request /2011/11
+	Checking host uniqueness... passed
+	Doing DNS... done in 27 ms, found 192.124.249.113
+	Checking IP uniqueness... passed
+    Connecting on robots... done in 6 ms
+	Loading... done in 6 ms with 456 bytes
+	Verifying header... status code 301
+URL: http://allafrica.com/stories/201501020747.html
+	Parsing URL... host allafrica.com, port 80, request /stories/201501020747.html
+	Checking host uniqueness... failed
+URL: http://aliciamaule.people.msnbc.com/
+	Parsing URL... host aliciamaule.people.msnbc.com, port 80, request /
+	Checking host uniqueness... passed
+	Doing DNS... done in 27 ms, found 128.194.178.201
+	Checking IP uniqueness... failed
+URL: http://adswithoutproducts.com/category/obama/
+	Parsing URL... host adswithoutproducts.com, port 80, request /category/obama/
+	Checking host uniqueness... failed
+URL: http://alldaludug.com/tag/tantas/
+	Parsing URL... host alldaludug.com, port 80, request /tag/tantas/
+	Checking host uniqueness... passed
+	Doing DNS... failed with 11001
+URL: http://althouse.blogspot.com/2011_10_23_archive.html
+	Parsing URL... host althouse.blogspot.com, port 80, request /2011_10_23_archive.html
+	Checking host uniqueness... failed
+URL: http://abo.manager-magazin.de/de/c/hbm/hbm-edition
+	Parsing URL... host abo.manager-magazin.de, port 80, request /de/c/hbm/hbm-edition
+	Checking host uniqueness... failed
+URL: http://advocacy.globalvoicesonline.org/2014/07/30/tajik-blogger-we-must-prove-our-professionalism-and-close-the-case-against-alexander-sodiqov/
+	Parsing URL... host advocacy.globalvoicesonline.org, port 80, request /2014/07/30/tajik-blogger-we-must-prove-our-professionalism-and-close-the-case-against-alexander-sodiqov/
+	Checking host uniqueness... passed
+	Doing DNS... done in 28 ms, found 213.108.110.5
+	Checking IP uniqueness... failed
+URL: http://archive.org/details/RobynHitchcock
+	Parsing URL... host archive.org, port 80, request /details/RobynHitchcock
+	Checking host uniqueness... passed
+	Doing DNS... done in 28 ms, found 207.241.224.2
+	Checking IP uniqueness... passed
+    Connecting on robots... done in 60 ms
+	Loading... done in 61 ms with 4 bytes
+	Verifying header... status code 200
+URL: http://advertisershowcase.seattletimes.com/living/
+	Parsing URL... host advertisershowcase.seattletimes.com, port 80, request /living/
+	Checking host uniqueness... passed
+	Doing DNS... done in 27 ms, found 35.185.17.219
+	Checking IP uniqueness... passed
+    Connecting on robots... done in 44 ms
+	Loading... done in 44 ms with 167 bytes
+	Verifying header... status code 404
+  * Connecting on page... 	done in 87 msdone in 1 ms
+	Loading... done in 44 ms with 2249 bytes
+	Verifying header... status code 404
+URL: http://askarmotors.com/Axmed-mooge-kaban.html
+	Parsing URL... host askarmotors.com, port 80, request /Axmed-mooge-kaban.html
+	Checking host uniqueness... failed
+URL: http://babiroshi.blog69.fc2.com/
+	Parsing URL... host babiroshi.blog69.fc2.com, port 80, request /
+	Checking host uniqueness... passed
+	Doing DNS... done in 28 ms, found 104.244.98.64
+	Checking IP uniqueness... failed
+URL: http://atwonline.com/search/results/Royal%20Air%20Maroc?solrsort=created%20desc
+	Parsing URL... host atwonline.com, port 80, request /search/results/Royal%20Air%20Maroc?solrsort=created%20desc
+	Checking host uniqueness... failed
+URL: http://archinte.jamanetwork.com/collection.aspx?categoryid=5544
+	Parsing URL... host archinte.jamanetwork.com, port 80, request /collection.aspx?categoryid=5544
+	Checking host uniqueness... passed
+	Doing DNS... done in 27 ms, found 173.254.190.147
+	Checking IP uniqueness... passed
+    Connecting on robots... done in 44 ms
+	Loading... done in 39 ms with 152 bytes
+	Verifying header... status code 301
+URL: http://adswithoutproducts.com/category/simplicity/
+	Parsing URL... host adswithoutproducts.com, port 80, request /category/simplicity/
+	Checking host uniqueness... failed
+URL: http://b.hatena.ne.jp/entry/d.hatena.ne.jp/tt_clown/20140414/retweet_hack
+	Parsing URL... host b.hatena.ne.jp, port 80, request /entry/d.hatena.ne.jp/tt_clown/20140414/retweet_hack
+	Checking host uniqueness... failed
+URL: http://abcmundial.com/en/news/economy/
+	Parsing URL... host abcmundial.com, port 80, request /en/news/economy/
+	Checking host uniqueness... passed
+	Doing DNS... done in 29 ms, found 104.24.118.243
+	Checking IP uniqueness... passed
+    Connecting on robots... done in 9 ms
+	Loading... done in 21 ms with 4 bytes
+	Verifying header... status code 200
+URL: http://3arabtv.com/watch/%D9%86%D9%88%D8%B1%D8%AA
+	Parsing URL... host 3arabtv.com, port 80, request /watch/%D9%86%D9%88%D8%B1%D8%AA
+	Checking host uniqueness... failed
+URL: http://art.brainpickings.org/tagged/Susan-Sontag
+	Parsing URL... host art.brainpickings.org, port 80, request /tagged/Susan-Sontag
+	Checking host uniqueness... failed
+URL: http://amazon.co.jp/o/ASIN/B00E5FPZ9M/urahana3-22
+	Parsing URL... host amazon.co.jp, port 80, request /o/ASIN/B00E5FPZ9M/urahana3-22
+	Checking host uniqueness... passed
+	Doing DNS... done in 28 ms, found 52.119.164.121
+	Checking IP uniqueness... passed
+    Connecting on robots... done in 425 ms
+	Loading... done in 84 ms with 201 bytes
+	Verifying header... status code 301
+URL: http://apartments.about.com/od/leaseshouserules/a/breakalease.htm
+	Parsing URL... host apartments.about.com, port 80, request /od/leaseshouserules/a/breakalease.htm
+	Checking host uniqueness... failed
+URL: http://ba.voanews.com/media/video/2575123.html
+	Parsing URL... host ba.voanews.com, port 80, request /media/video/2575123.html
+	Checking host uniqueness... failed
+URL: http://3wineguys.com/htdocs/img/chanel/8BIEJ/DAtS/
+	Parsing URL... host 3wineguys.com, port 80, request /htdocs/img/chanel/8BIEJ/DAtS/
+	Checking host uniqueness... passed
+	Doing DNS... done in 27 ms, found 209.17.116.8
+	Checking IP uniqueness... passed
+    Connecting on robots... done in 71 ms
+	Loading... done in 76 ms with 180 bytes
+	Verifying header... status code 404
+  * Connecting on page... 	done in 143 msdone in 0 ms
+	Loading... done in 92 ms with 1413 bytes
+	Verifying header... status code 403
+URL: http://atwonline.com/search/results/air%20comet?solrsort=created%20desc
+	Parsing URL... host atwonline.com, port 80, request /search/results/air%20comet?solrsort=created%20desc
+	Checking host uniqueness... failed
+URL: http://appleseeds.blair.com/t/apparel/sleepwear/pc/8/40.uts?count=12&i=1&intl=n&page=3&q=*&q1=8%7EApparel&q2=40%7ESleepwear&rank=rank&sc=N&store=1&x1=c.t1&x2=c.t2
+	Parsing URL... host appleseeds.blair.com, port 80, request /t/apparel/sleepwear/pc/8/40.uts?count=12&i=1&intl=n&page=3&q=*&q1=8%7EApparel&q2=40%7ESleepwear&rank=rank&sc=N&store=1&x1=c.t1&x2=c.t2
+	Checking host uniqueness... failed
+URL: http://advice.careerbuilder.com/posts/working-and-living-in-new-york-city
+	Parsing URL... host advice.careerbuilder.com, port 80, request /posts/working-and-living-in-new-york-city
+	Checking host uniqueness... passed
+	Doing DNS... done in 27 ms, found 104.20.19.4
+	Checking IP uniqueness... passed
+    Connecting on robots... done in 12 ms
+	Loading... done in 19 ms with 4 bytes
+	Verifying header... status code 200
+URL: http://9to5google.com/tag/android-m/
+	Parsing URL... host 9to5google.com, port 80, request /tag/android-m/
+	Checking host uniqueness... failed
+URL: http://althouse.blogspot.com/2014_02_16_archive.html
+	Parsing URL... host althouse.blogspot.com, port 80, request /2014_02_16_archive.html
+	Checking host uniqueness... failed
+URL: http://ad.doubleclick.net/N8659385/jump/9TO5MAC.COM/Stories6;sz=600x300;ord=123456789?
+	Parsing URL... host ad.doubleclick.net, port 80, request /N8659385/jump/9TO5MAC.COM/Stories6;sz=600x300;ord=123456789?
+	Checking host uniqueness... failed
+URL: http://adst.org/tag/negotiations/
+	Parsing URL... host adst.org, port 80, request /tag/negotiations/
+	Checking host uniqueness... failed
+URL: http://awoiaf.westeros.org/index.php/Garse_Goodbrook
+	Parsing URL... host awoiaf.westeros.org, port 80, request /index.php/Garse_Goodbrook
+	Checking host uniqueness... failed
+URL: http://americaswatchtower.com/2014/11/12/why-is-the-mainstream-media-ignoring-jonathan-grubers-comments-on-the-stupidity-of-the-american-voters-ben-carson-has-a-theory/?replytocom=153183
+	Parsing URL... host americaswatchtower.com, port 80, request /2014/11/12/why-is-the-mainstream-media-ignoring-jonathan-grubers-comments-on-the-stupidity-of-the-american-voters-ben-carson-has-a-theory/?replytocom=153183
+	Checking host uniqueness... passed
+	Doing DNS... done in 27 ms, found 192.0.78.25
+	Checking IP uniqueness... failed
+URL: http://apps.ci.minneapolis.mn.us/deptdirapp/ContactDetails.aspx?contactID=4110
+	Parsing URL... host apps.ci.minneapolis.mn.us, port 80, request /deptdirapp/ContactDetails.aspx?contactID=4110
+	Checking host uniqueness... passed
+	Doing DNS... done in 27 ms, found 170.159.4.13
+	Checking IP uniqueness... passed
+    Connecting on robots... done in 43 ms
+	Loading... done in 45 ms with 4 bytes
+	Verifying header... status code 200
+URL: http://aatombomb.tumblr.com/post/106637622317/goal-for-2015-post-more-raccoon-pics
+	Parsing URL... host aatombomb.tumblr.com, port 80, request /post/106637622317/goal-for-2015-post-more-raccoon-pics
+	Checking host uniqueness... passed
+	Doing DNS... done in 27 ms, found 66.6.32.21
+	Checking IP uniqueness... failed
+URL: http://althouse.blogspot.com/2006_05_28_archive.html
+	Parsing URL... host althouse.blogspot.com, port 80, request /2006_05_28_archive.html
+	Checking host uniqueness... failed
+URL: http://ajbalkans.disqus.com/?url=http%3A%2F%2Fstaff.balkans.aljazeera.net%2Fvijesti%2Fpet-naftnih-kompanija-istrazivat-ce-jadran
+	Parsing URL... host ajbalkans.disqus.com, port 80, request /?url=http%3A%2F%2Fstaff.balkans.aljazeera.net%2Fvijesti%2Fpet-naftnih-kompanija-istrazivat-ce-jadran
+	Checking host uniqueness... passed
+	Doing DNS... done in 29 ms, found 151.101.48.134
+	Checking IP uniqueness... passed
+    Connecting on robots... done in 9 ms
+	Loading... done in 9 ms with 392 bytes
+	Verifying header... status code 301
+URL: http://althouse.blogspot.com/2009_02_01_archive.html
+	Parsing URL... host althouse.blogspot.com, port 80, request /2009_02_01_archive.html
+	Checking host uniqueness... failed
+URL: http://articles.latimes.com/2006/oct/11/opinion/oe-jacoby11
+	Parsing URL... host articles.latimes.com, port 80, request /2006/oct/11/opinion/oe-jacoby11
+	Checking host uniqueness... passed
+	Doing DNS... done in 29 ms, found 151.101.48.204
+	Checking IP uniqueness... passed
+    Connecting on robots... done in 9 ms
+	Loading... done in 9 ms with 4 bytes
+	Verifying header... status code 200
+URL: http://altinvillage.bandcamp.com/album/deerhoof-la-isla-bonita
+	Parsing URL... host altinvillage.bandcamp.com, port 80, request /album/deerhoof-la-isla-bonita
+	Checking host uniqueness... passed
+	Doing DNS... done in 29 ms, found 151.101.129.28
+	Checking IP uniqueness... passed
+    Connecting on robots... done in 10 ms
+	Loading... done in 22 ms with 4 bytes
+	Verifying header... status code 200
+URL: http://akronohio.planetdiscover.com/sp?aff=1109&catId=13000000&skin=100
+	Parsing URL... host akronohio.planetdiscover.com, port 80, request /sp?aff=1109&catId=13000000&skin=100
+	Checking host uniqueness... failed
+URL: http://ar.wikinews.org/wiki/%D8%A7%D9%86%D8%B7%D9%84%D8%A7%D9%82_%D9%85%D8%B9%D8%B1%D8%B6_%D8%A8%D8%A7%D8%B1%D9%8A%D8%B3_%D8%A7%D9%84%D8%AC%D9%88%D9%8A
+	Parsing URL... host ar.wikinews.org, port 80, request /wiki/%D8%A7%D9%86%D8%B7%D9%84%D8%A7%D9%82_%D9%85%D8%B9%D8%B1%D8%B6_%D8%A8%D8%A7%D8%B1%D9%8A%D8%B3_%D8%A7%D9%84%D8%AC%D9%88%D9%8A
+	Checking host uniqueness... failed
+URL: http://ameblo.jp/denkosekka-skin/
+	Parsing URL... host ameblo.jp, port 80, request /denkosekka-skin/
+	Checking host uniqueness... failed
+URL: http://anyiyangbeauty.tumblr.com/post/106916377181
+	Parsing URL... host anyiyangbeauty.tumblr.com, port 80, request /post/106916377181
+	Checking host uniqueness... passed
+	Doing DNS... done in 28 ms, found 66.6.33.149
+	Checking IP uniqueness... failed
+URL: http://albuquerqueculturalconference.org/2013/08/
+	Parsing URL... host albuquerqueculturalconference.org, port 80, request /2013/08/
+	Checking host uniqueness... passed
+	Doing DNS... done in 28 ms, found 74.220.199.6
+	Checking IP uniqueness... passed
+    Connecting on robots... done in 56 ms
+	Loading... done in 58 ms with 4 bytes
+	Verifying header... status code 200
+URL: http://arabic.cnn.com/%D8%B9%D8%A8%D8%AF%D8%A7%D9%84%D9%81%D8%AA%D8%A7%D8%AD-%D8%A7%D9%84%D8%B3%D9%8A%D8%B3%D9%8A?page=4
+	Parsing URL... host arabic.cnn.com, port 80, request /%D8%B9%D8%A8%D8%AF%D8%A7%D9%84%D9%81%D8%AA%D8%A7%D8%AD-%D8%A7%D9%84%D8%B3%D9%8A%D8%B3%D9%8A?page=4
+	Checking host uniqueness... failed
+URL: http://912member.blogspot.com/
+	Parsing URL... host 912member.blogspot.com, port 80, request /
+	Checking host uniqueness... passed
+	Doing DNS... done in 27 ms, found 172.217.12.65
+	Checking IP uniqueness... failed
+URL: http://api.jquery.com/last-selector/
+	Parsing URL... host api.jquery.com, port 80, request /last-selector/
+	Checking host uniqueness... failed
+URL: http://atwonline.com/airframes/atw-photo-gallery-etihad-a380-delivery
+	Parsing URL... host atwonline.com, port 80, request /airframes/atw-photo-gallery-etihad-a380-delivery
+	Checking host uniqueness... failed
+URL: http://althouse.blogspot.com/2005_10_02_archive.html
+	Parsing URL... host althouse.blogspot.com, port 80, request /2005_10_02_archive.html
+	Checking host uniqueness... failed
+URL: http://archive.wired.com/culture/?page=38
+	Parsing URL... host archive.wired.com, port 80, request /culture/?page=38
+	Checking host uniqueness... failed
+URL: http://althouse.blogspot.com/2009_02_22_archive.html
+	Parsing URL... host althouse.blogspot.com, port 80, request /2009_02_22_archive.html
+	Checking host uniqueness... failed
+URL: http://aka.ms/de3p1g
+	Parsing URL... host aka.ms, port 80, request /de3p1g
+	Checking host uniqueness... passed
+	Doing DNS... done in 27 ms, found 23.206.199.179
+	Checking IP uniqueness... passed
+    Connecting on robots... done in 18 ms
+	Loading... done in 66 ms with 432 bytes
+	Verifying header... status code 302
+URL: http://art.brainpickings.org/tagged/philosophy
+	Parsing URL... host art.brainpickings.org, port 80, request /tagged/philosophy
+	Checking host uniqueness... failed
+URL: http://amestrib.com/columns-blogs/woods-wildlife-and-wanderings
+	Parsing URL... host amestrib.com, port 80, request /columns-blogs/woods-wildlife-and-wanderings
+	Checking host uniqueness... failed
+URL: http://agonist.org/tag/obamas-legacy/
+	Parsing URL... host agonist.org, port 80, request /tag/obamas-legacy/
+	Checking host uniqueness... passed
+	Doing DNS... done in 0 ms, found 50.116.11.164
+	Checking IP uniqueness... passed
+    Connecting on robots... failed with: 10060
+a timeout occurred
+URL: http://ba.voanews.com/media/photogallery/january-1-2015-day-in-photos/2583725.html
+	Parsing URL... host ba.voanews.com, port 80, request /media/photogallery/january-1-2015-day-in-photos/2583725.html
+	Checking host uniqueness... failed
+URL: http://apod.nasa.gov/apod/calendar/ca0412.html
+	Parsing URL... host apod.nasa.gov, port 80, request /apod/calendar/ca0412.html
+	Checking host uniqueness... failed
+URL: http://academia.stackexchange.com/?tags=publications
+	Parsing URL... host academia.stackexchange.com, port 80, request /?tags=publications
+	Checking host uniqueness... failed
+URL: http://airamerica.com/blog/2008/apr/03/statement-air-america-radio-chair-charlie-kireker-1
+	Parsing URL... host airamerica.com, port 80, request /blog/2008/apr/03/statement-air-america-radio-chair-charlie-kireker-1
+	Checking host uniqueness... passed
+	Doing DNS... done in 30 ms, found 107.180.58.66
+	Checking IP uniqueness... passed
+    Connecting on robots... done in 40 ms
+	Loading... done in 39 ms with 202 bytes
+	Verifying header... status code 404
+  * Connecting on page... 	done in 78 msdone in 0 ms
+	Loading... done in 40 ms with 1901 bytes
+	Verifying header... status code 404
+URL: http://abcnews.go.com/International/wireStory/apnewsbreak-iran-powers-move-closer-nuke-talks-deal-27965501
+	Parsing URL... host abcnews.go.com, port 80, request /International/wireStory/apnewsbreak-iran-powers-move-closer-nuke-talks-deal-27965501
+	Checking host uniqueness... passed
+	Doing DNS... done in 26 ms, found 68.71.209.235
+	Checking IP uniqueness... passed
+    Connecting on robots... done in 39 ms
+	Loading... done in 38 ms with 4 bytes
+	Verifying header... status code 200
+URL: http://archive.wired.com/about/mobile/
+	Parsing URL... host archive.wired.com, port 80, request /about/mobile/
+	Checking host uniqueness... failed
+URL: http://b12partners.net/photo/you-wont-tell-me-your-private-thoughts-anymore
+	Parsing URL... host b12partners.net, port 80, request /photo/you-wont-tell-me-your-private-thoughts-anymore
+	Checking host uniqueness... passed
+	Doing DNS... done in 1 ms, found 66.39.61.76
+	Checking IP uniqueness... passed
+    Connecting on robots... done in 44 ms
+	Loading... done in 44 ms with 4 bytes
+	Verifying header... status code 200
+URL: http://api.addthis.com/oexchange/0.8/forward/delicious/offer?username=hhsgov&url=http://www.hhs.gov/healthcare/facts/blog/2014/12/open-enrollment-week-five.html&title=Open+Enrollment+Week+5%3A+December+13+%E2%80%93+December+19,+2014
+	Parsing URL... host api.addthis.com, port 80, request /oexchange/0.8/forward/delicious/offer?username=hhsgov&url=http://www.hhs.gov/healthcare/facts/blog/2014/12/open-enrollment-week-five.html&title=Open+Enrollment+Week+5%3A+December+13+%E2%80%93+December+19,+2014
+	Checking host uniqueness... failed
+URL: http://1tpl.com/
+	Parsing URL... host 1tpl.com, port 80, request /
+	Checking host uniqueness... passed
+	Doing DNS... done in 0 ms, found 143.95.39.131
+	Checking IP uniqueness... passed
+    Connecting on robots... done in 6 ms
+	Loading... done in 9 ms with 146 bytes
+	Verifying header... status code 404
+  * Connecting on page... 	done in 15 msdone in 0 ms
+	Loading... done in 99 ms with 17453 bytes
+	Verifying header... status code 200
+  + Parsing page... done in 1 ms with 19 links
+URL: http://af.reuters.com/article/sportsNews/idAFKBN0KB0LY20150102
+	Parsing URL... host af.reuters.com, port 80, request /article/sportsNews/idAFKBN0KB0LY20150102
+	Checking host uniqueness... passed
+	Doing DNS... done in 37 ms, found 54.192.7.87
+	Checking IP uniqueness... passed
+    Connecting on robots... done in 9 ms
+	Loading... done in 9 ms with 379 bytes
+	Verifying header... status code 301

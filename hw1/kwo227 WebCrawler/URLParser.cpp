@@ -5,7 +5,7 @@
 
 parsed URL::URLparse(char* URL) {
 	//get scheme
-	printf("\tParsing URL... ");
+	printf("\n\tParsing URL... ");
 	char* schemeCheck = strstr(URL, "http");
 	char* schemeCheck2 = strstr(URL, "https");
 	if (schemeCheck == NULL || schemeCheck2 != NULL) throw(1);
@@ -58,11 +58,12 @@ parsed URL::URLparse(char* URL) {
 	}
 	else if (portPart == NULL) {
 		strncpy_s(host, URL, strlen(URL));
+		host[strlen(URL)] = '\0';
 	}
 	parsed parsedURL(query, pathPtr, port, host);
-	if (pathPtr[0] == '/' && query == NULL) printf("host %s, port %s, request %s \n", host, port, pathPtr);
-	else if (pathPtr[0] == '/' && query != NULL)printf("host %s, port %s, request %s?%s \n", host, port, pathPtr, query);
-	else printf("host %s, port %s, request /%s?%s \n", host, port, pathPtr, query);
+	if (pathPtr[0] == '/' && query == NULL) printf("host %s, port %s, request %s", host, port, pathPtr);
+	else if (pathPtr[0] == '/' && query != NULL)printf("host %s, port %s, request %s?%s", host, port, pathPtr, query);
+	else printf("host %s, port %s, request /%s?%s", host, port, pathPtr, query);
 	return parsedURL;
 }
 
