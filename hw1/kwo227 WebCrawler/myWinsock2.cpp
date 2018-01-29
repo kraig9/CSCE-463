@@ -78,7 +78,7 @@ void winsock_test2(parsed parsedURL, Uniqueness &unique)
 	printf("done in %d ms, found %s", duration, inet_ntoa(server.sin_addr));
 	unique.checkUniqueIp(server.sin_addr.S_un.S_addr);
 
-	printf("\n    Connecting on robots... ");
+	printf("\n\tConnecting on robots... ");
 	begin = clock();
 	if (connect(sock.sockt, (struct sockaddr*) &server, sizeof(struct sockaddr_in)) == SOCKET_ERROR)
 	{
@@ -125,7 +125,7 @@ void winsock_test2(parsed parsedURL, Uniqueness &unique)
 		return;
 	}
 
-	printf("\n  * Connecting on page... ");
+	printf("\n      * Connecting on page... ");
 	if (connect(sock2.sockt, (struct sockaddr*) &server, sizeof(struct sockaddr_in)) == SOCKET_ERROR)
 	{
 		printf("\n\tfailed with: %d", WSAGetLastError());
@@ -168,7 +168,7 @@ void winsock_test2(parsed parsedURL, Uniqueness &unique)
 	printf("\n\tVerifying header... status code %s", statusBuff2);
 
 	if (statusBuff2[0] == '2') {
-		printf("\n  + Parsing page... ");
+		printf("\n      + Parsing page... ");
 		begin = clock();
 		int nLinks = createParser(sock2.buf, strlen(sock2.buf), baseUrl);
 		end = clock();

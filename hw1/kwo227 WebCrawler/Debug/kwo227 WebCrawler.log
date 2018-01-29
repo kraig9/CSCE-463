@@ -1,5 +1,3 @@
-﻿  RecieveLoop.cpp
-c:\users\kraig\source\repos\csce-463\hw1\kwo227 webcrawler\recieveloop.h(4): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-c:\users\kraig\source\repos\csce-463\hw1\kwo227 webcrawler\recieveloop.cpp(38): warning C4018: '>': signed/unsigned mismatch
-c:\users\kraig\source\repos\csce-463\hw1\kwo227 webcrawler\recieveloop.cpp(42): warning C4018: '<': signed/unsigned mismatch
+﻿  URLParser.cpp
+c:\users\kraig\source\repos\csce-463\hw1\kwo227 webcrawler\urlparser.cpp(89): warning C4172: returning address of local variable or temporary: headerInfo
   kwo227 WebCrawler.vcxproj -> C:\Users\kraig\source\repos\CSCE-463\hw1\Debug\kwo227 WebCrawler.exe

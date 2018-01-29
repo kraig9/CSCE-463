@@ -61,9 +61,9 @@ parsed URL::URLparse(char* URL) {
 		host[strlen(URL)] = '\0';
 	}
 	parsed parsedURL(query, pathPtr, port, host);
-	if (pathPtr[0] == '/' && query == NULL) printf("host %s, port %s, request %s", host, port, pathPtr);
-	else if (pathPtr[0] == '/' && query != NULL)printf("host %s, port %s, request %s?%s", host, port, pathPtr, query);
-	else printf("host %s, port %s, request /%s?%s", host, port, pathPtr, query);
+	if (pathPtr[0] == '/' && query == NULL) printf("host %s, port %s", host, port);
+	else if (pathPtr[0] == '/' && query != NULL)printf("host %s, port %s", host, port);
+	else printf("host %s, port %s", host, port);
 	return parsedURL;
 }
 

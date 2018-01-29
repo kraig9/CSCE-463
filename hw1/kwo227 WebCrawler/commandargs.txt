@@ -1,3 +1,5 @@
 1 URL-input-1M.txt > test.txt
 
+1 URL-input-100.txt > test.txt
+
 1 URLTest.txt

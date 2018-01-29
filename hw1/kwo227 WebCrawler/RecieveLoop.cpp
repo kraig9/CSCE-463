@@ -35,8 +35,7 @@ bool Socket::Read(bool robot) {
 				return true;
 			}
 			curPos += bytes;
-			if (strlen(buf) > maxBufSize) {
-				realloc(buf,INITIAL_BUF_SIZE);
+			if (curPos > maxBufSize) {
 				throw(5);
 			}
 			if (allocatedSize - curPos < THRESHOLD && strlen(buf) < maxBufSize) {
