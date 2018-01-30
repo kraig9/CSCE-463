@@ -30,7 +30,7 @@ int main(int argc, char** argv) {
 			if (atoi(argv[1]) != 1) throw(11);
 			int numThreads = atoi(argv[1]);
 			//http://www.cplusplus.com/doc/tutorial/files/
-			char URLbuf[256];
+			char URLbuf[4096];
 			ifstream inputFile(argv[2],ios::ate);
 			if (inputFile.good() != 1) throw(12);
 			cout << "Opened " + string(argv[2]) + " with size " + to_string((inputFile.tellg()));
@@ -39,7 +39,7 @@ int main(int argc, char** argv) {
 			inputFile.seekg(0, ios::beg);
 			vector<parsed> parsedURLS;
 			Uniqueness uniqueStruct;
-			while (inputFile.getline(URLbuf, 256)) {
+			while (inputFile.getline(URLbuf, 4096)) {
 				try {
 					URL url;
 					memcpy_s(url.url, strlen(URLbuf), URLbuf, strlen(URLbuf));
