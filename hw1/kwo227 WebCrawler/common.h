@@ -16,6 +16,13 @@
 #include <time.h>
 #include "targetver.h"
 #include <unordered_set>
+#include "WinBase.h"
+#include <ostream>
+
+#define MAX_HOST_LEN		256
+#define MAX_URL_LEN			2048
+#define MAX_REQUEST_LEN		2048
+#define MAX_PATH_LEN		1792
 
 
 using namespace std;

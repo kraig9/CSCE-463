@@ -111,22 +111,23 @@ void winsock_test(parsed parsedURL)
 	begin = clock();
 	sock.Read(false);
 	string socketBuf = string(sock.buf);
-	char* headerInfo = getHeaderInfo(sock.buf);
+	char headerInfo[10000];
+	getHeaderInfo(sock.buf, headerInfo);
 	char statusBuff[10];
 	char* statusPart = headerInfo + 9;
 	strncpy_s(statusBuff, statusPart, 3);
 	end = clock();
 	duration = (int)(end - begin);
-	printf("done in %d ms with %d bytes", duration, strlen(sock.buf));
+	printf("done in %d ms with %Iu bytes", duration, strlen(sock.buf));
 	printf("\n\tVerifying header... status code %s", statusBuff);
 
 	if (statusBuff[0] == '2') {
 		printf("\n      + Parsing page... ");
 		begin = clock();
-		int nLinks = createParser(sock.buf, strlen(sock.buf), baseUrl);
+		size_t nLinks = createParser(sock.buf, strlen(sock.buf), baseUrl);
 		end = clock();
 		duration = (int)(end - begin);
-		printf("done in %d ms with %d links", duration, nLinks);
+		printf("done in %d ms with %Iu links", duration, nLinks);
 	}
 	printf("\n\n--------------------------------------\n%s", headerInfo);
 	closesocket(sock.sockt);

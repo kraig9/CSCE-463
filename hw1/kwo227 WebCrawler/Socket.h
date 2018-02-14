@@ -1,13 +1,14 @@
 //Kraig Orcutt, CSCE 463-500 Spring 2018
 
 #pragma once
-#define INITIAL_BUF_SIZE 8000
+#define INITIAL_BUF_SIZE 4000
 #define THRESHOLD 2000
 
 #include "common.h"
 #include <winsock2.h>
 #include "URLparser.h"
 #include "uniqueness.h"
+#include "multithread.h"
 
 struct Socket {
 	SOCKET sockt;
@@ -30,4 +31,4 @@ struct Socket {
 };
 
 void winsock_test(parsed parsedURL);
-void winsock_test2(parsed parsedURL, Uniqueness &unique);
+void winsock_test2(parsed parsedURL, threadParams &inpParam);

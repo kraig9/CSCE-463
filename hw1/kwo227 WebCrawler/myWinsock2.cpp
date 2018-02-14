@@ -12,12 +12,14 @@
 #include "URLparser.h"
 #include "HTMLParserBase.h"
 
-void winsock_test2(parsed parsedURL, Uniqueness &unique)
+void winsock_test2(parsed parsedURL, threadParams &inpParam)
 {
+	Uniqueness* unique = inpParam.uniquePoint;
 	// string pointing to an HTTP server (DNS name or IP)
-	unique.checkUniqueHost(parsedURL.host);
+	unique->checkUniqueHost(parsedURL.host);
+	inpParam.incH();
 	char* str = parsedURL.host;
-	char baseUrl[256] = "http://";
+	char baseUrl[MAX_URL_LEN] = "http://";
 	strcat_s(baseUrl, parsedURL.host);
 	//char str [] = "128.194.135.72";
 
@@ -26,20 +28,16 @@ void winsock_test2(parsed parsedURL, Uniqueness &unique)
 	//Initialize WinSock; once per program run
 	WORD wVersionRequested = MAKEWORD(2, 2);
 	if (WSAStartup(wVersionRequested, &wsaData) != 0) {
-		printf("WSAStartup error %d\n", WSAGetLastError());
 		WSACleanup();
 		return;
 	}
-
 	// open a TCP socket
-	printf("\n\tDoing DNS... ");
 	//https://stackoverflow.com/questions/5248915/execution-time-of-c-program
 	clock_t begin = clock();
 	Socket sock;
 	sock.sockt = socket(AF_INET, SOCK_STREAM, IPPROTO_TCP);
 	if (sock.sockt == INVALID_SOCKET)
 	{
-		printf("socket() generated error %d", WSAGetLastError());
 		WSACleanup();
 		return;
 	}
@@ -69,74 +67,67 @@ void winsock_test2(parsed parsedURL, Uniqueness &unique)
 	}
 	// setup the port # and protocol type
 	server.sin_family = AF_INET;
+	inpParam.incD();
 	//https://stackoverflow.com/questions/28492110/convert-string-to-short-in-c
 	string stringPort = string(parsedURL.port);
 	short num = (short)stoi(stringPort);
 	server.sin_port = htons(num);		// host-to-network flips the byte order
 	clock_t end = clock();
 	int duration = (int)(end - begin);
-	printf("done in %d ms, found %s", duration, inet_ntoa(server.sin_addr));
-	unique.checkUniqueIp(server.sin_addr.S_un.S_addr);
+	unique->checkUniqueIp(server.sin_addr.S_un.S_addr);
+	inpParam.incI();
 
-	printf("\n\tConnecting on robots... ");
 	begin = clock();
 	if (connect(sock.sockt, (struct sockaddr*) &server, sizeof(struct sockaddr_in)) == SOCKET_ERROR)
 	{
-		printf("failed with: %d\n", WSAGetLastError());
 		throw(10);
 	}
 	end = clock();
 	duration = (int)(end - begin);
-	printf("done in %d ms\n", duration);
 
 	//Send http requests here
 	//robots HEAD request
-	char sendBuf[1000];
+	char sendBuf[4096];
 	string restOfHead = " HTTP/1.0\r\nUser-agent: kwo227TAMUCrawler/1.2\r\nHost: " + string(parsedURL.host) + "\r\nConnection: close\r\n\r\n";
 	string GETHostCat = " /robots.txt" + restOfHead;
 	string thing = "HEAD" + GETHostCat;
 	strcpy_s(sendBuf, thing.c_str());
 	int result = send(sock.sockt, sendBuf, (int)strlen(sendBuf), 0);
 	if (result == SOCKET_ERROR) throw(3);
-	printf("\tLoading... ");
 	begin = clock();
 	sock.Read(true);
 	string socketBuf = string(sock.buf);
-	char* headerInfo = getHeaderInfo(sock.buf);
+	char headerInfo[10000];
+	getHeaderInfo(sock.buf, headerInfo);
 	char statusBuff[10];
 	char* statusPart = headerInfo + 9;
 	strncpy_s(statusBuff, statusPart, 3);
 	end = clock();
 	duration = (int)(end - begin);
-	printf("done in %d ms with %d bytes", duration, strlen(sock.buf));
-	printf("\n\tVerifying header... status code %s", statusBuff);
 	if (statusBuff[0] != '4') {
 		closesocket(sock.sockt);
 		throw(13);
 	}
 	closesocket(sock.sockt);
+	inpParam.incR();
 
 	Socket sock2;
 	sock2.sockt = socket(AF_INET, SOCK_STREAM, IPPROTO_TCP);
 	if (sock2.sockt == INVALID_SOCKET)
 	{
-		printf("socket() generated error %d", WSAGetLastError());
 		WSACleanup();
 		return;
 	}
 
-	printf("\n      * Connecting on page... ");
 	if (connect(sock2.sockt, (struct sockaddr*) &server, sizeof(struct sockaddr_in)) == SOCKET_ERROR)
 	{
-		printf("\n\tfailed with: %d", WSAGetLastError());
 		throw(10);
 	}
 	end = clock();
 	duration = (int)(end - begin);
-	printf("\tdone in %d ms", duration);
 
 	//page GET request
-	char sendBuf2[1000];
+	char sendBuf2[4096];
 	begin = clock();
 	//https://msdn.microsoft.com/en-us/library/windows/desktop/bb530747(v=vs.85).aspx
 	string GETPath;
@@ -151,33 +142,29 @@ void winsock_test2(parsed parsedURL, Uniqueness &unique)
 	if (result2 == SOCKET_ERROR) throw(3);
 	end = clock();
 	duration = (int)(end - begin);
-	printf("done in %d ms\n", duration);
 
 
-	printf("\tLoading... ");
 	begin = clock();
 	sock2.Read(false);
 	string socketBuf2 = string(sock2.buf);
-	char* headerInfo2 = getHeaderInfo(sock2.buf);
+	char headerInfo2[10000];
+	getHeaderInfo(sock2.buf, headerInfo2);
 	char statusBuff2[10];
 	char* statusPart2 = headerInfo2 + 9;
 	strncpy_s(statusBuff2, statusPart2, 3);
 	end = clock();
 	duration = (int)(end - begin);
-	printf("done in %d ms with %d bytes", duration, strlen(sock2.buf));
-	printf("\n\tVerifying header... status code %s", statusBuff2);
 
 	if (statusBuff2[0] == '2') {
-		printf("\n      + Parsing page... ");
 		begin = clock();
 		int nLinks = createParser(sock2.buf, strlen(sock2.buf), baseUrl);
 		end = clock();
 		duration = (int)(end - begin);
-		printf("done in %d ms with %d links", duration, nLinks);
+		inpParam.incC();
+		inpParam.incL();
 	}
 	// close the socket to this server; open again for the next one
 	closesocket(sock2.sockt);
 
 	// call cleanup when done with everything and ready to exit program
-	WSACleanup();
 }

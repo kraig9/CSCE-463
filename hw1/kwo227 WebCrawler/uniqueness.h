@@ -10,4 +10,11 @@ struct Uniqueness{
 
 	void checkUniqueHost(string host);
 	void checkUniqueIp(DWORD IP);
+	CRITICAL_SECTION* hostUniqueSection;
+	CRITICAL_SECTION* IPUniqueSection;
+public:
+	Uniqueness(CRITICAL_SECTION hostUniqueSection,CRITICAL_SECTION IPUniqueSection) {
+		Uniqueness::hostUniqueSection = &hostUniqueSection;
+		Uniqueness::IPUniqueSection = &IPUniqueSection;
+	}
 };

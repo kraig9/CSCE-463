@@ -1,3 +1,16 @@
-﻿  Main.cpp
-c:\users\kraig\source\repos\csce-463\hw1\kwo227 webcrawler\main.cpp(64): warning C4390: ';': empty controlled statement found; is this the intent?
-  kwo227 WebCrawler.vcxproj -> C:\Users\kraig\source\repos\CSCE-463\hw1\Debug\kwo227 WebCrawler.exe
+﻿  uniqueness.cpp
+  myWinsock2.cpp
+  myWinsock.cpp
+  multithread.cpp
+c:\users\kwo227\source\repos\csce-463\hw1\kwo227 webcrawler\multithread.cpp(28): warning C4390: ';': empty controlled statement found; is this the intent?
+  URLParser.cpp
+  Main.cpp
+c:\users\kwo227\source\repos\csce-463\hw1\kwo227 webcrawler\main.cpp(100): warning C4390: ';': empty controlled statement found; is this the intent?
+  Generating Code...
+c:\users\kwo227\source\repos\csce-463\hw1\kwo227 webcrawler\urlparser.cpp(74): warning C4715: 'URL::URLparse': not all control paths return a value
+  Compiling...
+  myHTMLParser.cpp
+  RecieveLoop.cpp
+c:\users\kwo227\source\repos\csce-463\hw1\kwo227 webcrawler\recieveloop.cpp(41): warning C4018: '<': signed/unsigned mismatch
+  Generating Code...
+  kwo227 WebCrawler.vcxproj -> C:\Users\kwo227\source\repos\CSCE-463\hw1\Debug\kwo227 WebCrawler.exe

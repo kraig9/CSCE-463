@@ -45,7 +45,11 @@ bool Socket::Read(bool robot) {
 				char* old_buf = buf;
 				buf = tempBuf;
 				allocatedSize = allocatedSize * 2;
-				delete old_buf;
+				delete[] old_buf;
+				delete[] tempBuf;
+				/*char* oldBuf = buf;
+				buf = realloc(buf, allocatedSize);
+				allocatedSize = allocatedSize * 2;*/
 			}
 		}
 		else if (ret == 0) {
