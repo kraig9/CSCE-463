@@ -158,10 +158,11 @@ void winsock_test2(parsed parsedURL, threadParams &inpParam)
 	if (statusBuff2[0] == '2') {
 		begin = clock();
 		int nLinks = createParser(sock2.buf, strlen(sock2.buf), baseUrl);
+		
 		end = clock();
 		duration = (int)(end - begin);
 		inpParam.incC();
-		inpParam.incL();
+		inpParam.incL(nLinks);
 	}
 	// close the socket to this server; open again for the next one
 	closesocket(sock2.sockt);

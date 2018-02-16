@@ -10,18 +10,22 @@
 #include "uniqueness.h"
 #include "multithread.h"
 
-struct Socket {
+class Socket {
+public:
 	SOCKET sockt;
-	char* buf = new char[INITIAL_BUF_SIZE];
+	char* buf;
 	int allocatedSize = INITIAL_BUF_SIZE;
 	int curPos = 0;
 
 	//constructors
 	Socket() {
-
+		buf = new char[INITIAL_BUF_SIZE];
+	}
+	~Socket() {
+		delete buf;
 	}
 	Socket(char* buffer, int allSize, int currPos) {
-		memset(buf, 0, INITIAL_BUF_SIZE);
+		buf = new char[INITIAL_BUF_SIZE];
 		strcpy_s(buf, allSize, buffer);
 		allocatedSize = allSize;
 		curPos = currPos;

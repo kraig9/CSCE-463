@@ -5,16 +5,18 @@ DWORD WINAPI threadFunc(LPVOID lpParams)
 {
 	threadParams* input = (threadParams*)lpParams;
 	EnterCriticalSection(input->lpCriticalSection);
-	size_t emptyQueue = 0;
-	while (input->queuePoint->size() > emptyQueue) {
+	while (input->queuePoint->size() > 0) {
 		try {
+			if (input->queuePoint == 0) {
+				printf("wtf dude");
+			}
 			parsed parsedURL = input->queuePoint->front();
 			input->queuePoint->pop();
 			input->decQ();
-			LeaveCriticalSection(input->lpCriticalSection);
 			input->incE();
+			LeaveCriticalSection(input->lpCriticalSection);
 			winsock_test2(parsedURL, *input);
-			EnterCriticalSection(input->lpCriticalSection);
+			parsedURL.cleanup();
 		}
 		catch (int f) {
 			continue;
@@ -31,9 +33,10 @@ DWORD WINAPI threadFunc(LPVOID lpParams)
 			////this is for the case that the robots header isn't status code 4xx
 			//else if (f == 13);
 		}
+		EnterCriticalSection(input->lpCriticalSection);
 	}
-	LeaveCriticalSection(input->lpCriticalSection);
 	input->activeThreadsDec();
+	LeaveCriticalSection(input->lpCriticalSection);
 	return 0;
 }
 //thread safe decrementers
@@ -140,9 +143,9 @@ void threadParams::incC()
 	C++;
 	LeaveCriticalSection(statsCriticalSection);
 }
-void threadParams::incL()
+void threadParams::incL(int amount)
 {
 	EnterCriticalSection(statsCriticalSection);
-	L++;
+	L=L+amount;
 	LeaveCriticalSection(statsCriticalSection);
 }

@@ -7,13 +7,14 @@
 #include "uniqueness.h"
 #include "multithread.h"
 #include "HTMLParserBase.h"
+//#include "vld.h"
 
 DWORD statThreadFunc(LPVOID input) {
 	threadParams* params = (threadParams*)input;
 	//EnterCriticalSection(params->lpCriticalSection);
 	while (params->Q > 0) {
 		//LeaveCriticalSection(params->lpCriticalSection);
-		Sleep(200);
+		Sleep(2000);
 		//EnterCriticalSection(params->statsCriticalSection);
 		//EnterCriticalSection(params->lpCriticalSection);
 		params->time = params->time + 2;
@@ -104,8 +105,8 @@ int main(int argc, char** argv) {
 				WaitForMultipleObjects(numThreads, pDataArray, true, INFINITE);
 				WaitForSingleObject(statHandle, INFINITE);
 				
-				delete pDataArray;
-				delete dwThreadIdArray;
+				delete[] pDataArray;
+				delete[] dwThreadIdArray;
 				printf("\nnumber of links found %d\n", params.L);
 				WSACleanup();
 			}

@@ -13,7 +13,7 @@ struct Uniqueness{
 	CRITICAL_SECTION* hostUniqueSection;
 	CRITICAL_SECTION* IPUniqueSection;
 public:
-	Uniqueness(CRITICAL_SECTION hostUniqueSection,CRITICAL_SECTION IPUniqueSection) {
+	Uniqueness(CRITICAL_SECTION& hostUniqueSection,CRITICAL_SECTION& IPUniqueSection) {
 		Uniqueness::hostUniqueSection = &hostUniqueSection;
 		Uniqueness::IPUniqueSection = &IPUniqueSection;
 	}

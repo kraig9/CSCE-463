@@ -13,7 +13,7 @@ struct threadParams {
 	CRITICAL_SECTION* lpCriticalSection;
 	CRITICAL_SECTION* statsCriticalSection;
 public:
-	threadParams(CRITICAL_SECTION lpCriticalSection, CRITICAL_SECTION statsCriticalSection) {
+	threadParams(CRITICAL_SECTION& lpCriticalSection, CRITICAL_SECTION& statsCriticalSection) {
 		threadParams::lpCriticalSection = &lpCriticalSection;
 		threadParams::statsCriticalSection = &statsCriticalSection;
 	}
@@ -33,7 +33,7 @@ public:
 	void decR();
 	void incC();
 	void decC();
-	void incL();
+	void incL(int amount);
 	void decL();
 
 	//ostream& operator<<(ostream os)

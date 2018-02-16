@@ -17,6 +17,7 @@ int createParser(char* htmlCode, int codeSize, char* URLIn) {
 	// check for errors indicated by negative values
 	if (nLinks < 0)	nLinks = 0;
 
+
 	return nLinks;
 	delete parser;
 }
