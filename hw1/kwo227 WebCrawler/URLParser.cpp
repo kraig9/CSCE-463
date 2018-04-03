@@ -6,14 +6,8 @@
 parsed URLparse(char* URL) {
 	try {
 		//get scheme
-		char* schemeCheck = strstr(URL, "http");
-		char* schemeCheck2 = strstr(URL, "https");
-		if (schemeCheck == NULL || schemeCheck2 != NULL) throw(1);
-		char* schemePart = strstr(URL, "://");
-		char scheme[10];
-		//http://www.cplusplus.com/reference/cstring/strncpy/
-		strncpy_s(scheme, URL, schemePart - URL);
-		URL = schemePart + 3;
+		if (strncmp(URL, "http://", 7) ) throw(1);
+		URL += 7;
 
 		//TODO: if scheme is null either append one or throw error
 
@@ -23,11 +17,16 @@ parsed URLparse(char* URL) {
 		if (fragmentPart != NULL) *fragmentPart = '\0';
 
 		//2) Find ? , extract query, truncate 
-		char* query = NULL;
+		char* query = 0;
 		char* queryPart = strchr(URL, '?');
 		if (queryPart != NULL) {
 			query = queryPart + 1;
 			*queryPart = '\0';
+		}
+		else {
+			query = new char;
+			query[0] = 0;
+
 		}
 		//3) Find / , extract path, truncate
 		char pathPtr[MAX_PATH_LEN];
@@ -40,7 +39,7 @@ parsed URLparse(char* URL) {
 			*pathPart = '\0';
 		}
 		//4) Find :, extract port, truncate, obtain host
-		char port[4];
+		char port[6];
 		strcpy_s(port, "80");
 		char host[MAX_HOST_LEN];
 		char* portPart = strchr(URL, ':');
@@ -61,7 +60,11 @@ parsed URLparse(char* URL) {
 			strncpy_s(host, URL, strlen(URL));
 			host[strlen(URL)] = '\0';
 		}
-		parsed parsedURL(query, pathPtr, port, host);
+		//https://stackoverflow.com/questions/8960087/how-to-convert-a-char-array-to-a-string
+		parsed parsedURL(string(query), string(pathPtr), atoi(port), string(host));
+		if (query == 0) {
+			delete query;
+		}
 		return parsedURL;
 	}
 	catch(int f){

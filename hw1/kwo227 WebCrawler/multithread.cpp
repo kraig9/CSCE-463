@@ -7,18 +7,16 @@ DWORD WINAPI threadFunc(LPVOID lpParams)
 	EnterCriticalSection(input->lpCriticalSection);
 	while (input->queuePoint->size() > 0) {
 		try {
-			if (input->queuePoint == 0) {
-				printf("wtf dude");
-			}
+			input->queuePoint->front();
 			parsed parsedURL = input->queuePoint->front();
 			input->queuePoint->pop();
 			input->decQ();
 			input->incE();
 			LeaveCriticalSection(input->lpCriticalSection);
 			winsock_test2(parsedURL, *input);
-			parsedURL.cleanup();
 		}
 		catch (int f) {
+			EnterCriticalSection(input->lpCriticalSection);
 			continue;
 			//if (f == 1);
 			//else if (f == 2);
@@ -94,8 +92,39 @@ void threadParams::decL()
 	L--;
 	LeaveCriticalSection(statsCriticalSection);
 }
+void threadParams::incNumTAMU()
+{
+	EnterCriticalSection(statsCriticalSection);
+	numTAMU++;
+	LeaveCriticalSection(statsCriticalSection);
+}
+void threadParams::decpp(float amount)
+{
+	EnterCriticalSection(statsCriticalSection);
+	pp = pp - amount;
+	LeaveCriticalSection(statsCriticalSection);
+}
+void threadParams::decMB(float amount)
+{
+	EnterCriticalSection(statsCriticalSection);
+	MB = MB - amount;
+	LeaveCriticalSection(statsCriticalSection);
+}
 
 //thread safe incrementers
+void threadParams::incMB(float amount) {
+	EnterCriticalSection(statsCriticalSection);
+	MB = MB + amount;
+	totalMB = totalMB + amount;
+	LeaveCriticalSection(statsCriticalSection);
+}
+
+void threadParams::incpp(float amount)
+{
+	EnterCriticalSection(statsCriticalSection);
+	pp = pp + amount;
+	LeaveCriticalSection(statsCriticalSection);
+}
 void threadParams::activeThreadsInc() {
 	EnterCriticalSection(statsCriticalSection);
 	activeThreads++;
@@ -147,5 +176,47 @@ void threadParams::incL(int amount)
 {
 	EnterCriticalSection(statsCriticalSection);
 	L=L+amount;
+	LeaveCriticalSection(statsCriticalSection);
+}
+void threadParams::inc2xx()
+{
+	EnterCriticalSection(statsCriticalSection);
+	twoxx++;
+	LeaveCriticalSection(statsCriticalSection);
+}
+void threadParams::inc3xx()
+{
+	EnterCriticalSection(statsCriticalSection);
+	threexx++;
+	LeaveCriticalSection(statsCriticalSection);
+}
+void threadParams::inc4xx()
+{
+	EnterCriticalSection(statsCriticalSection);
+	fourxx++;
+	LeaveCriticalSection(statsCriticalSection);
+}
+void threadParams::inc5xx()
+{
+	EnterCriticalSection(statsCriticalSection);
+	fivexx++;
+	LeaveCriticalSection(statsCriticalSection);
+}
+void threadParams::incother()
+{
+	EnterCriticalSection(statsCriticalSection);
+	other++;
+	LeaveCriticalSection(statsCriticalSection);
+}
+
+//setters
+void threadParams::setpp(float amount) {
+	EnterCriticalSection(statsCriticalSection);
+	pp = amount;
+	LeaveCriticalSection(statsCriticalSection);
+}
+void threadParams::setMB(float amount) {
+	EnterCriticalSection(statsCriticalSection);
+	MB = amount;
 	LeaveCriticalSection(statsCriticalSection);
 }

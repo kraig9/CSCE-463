@@ -1,6 +1,8 @@
 //Kraig Orcutt, CSCE 463-500 Spring 2018
 
 #pragma once
+#include "common.h"
+//#include "multithread.h"
 
 #ifdef _WIN64
 #ifdef _DEBUG
@@ -37,4 +39,5 @@ private:
 	void	*parser;
 	void	*buffer;
 };
-int createParser(char* htmlCode, int codeSize,char* URLIn);
+int HTMLParse(HTMLParserBase* parser, char* htmlCode, int codeSize, string URLIn);
+int createParser(char* htmlCode, int codeSize, char* URLIn);

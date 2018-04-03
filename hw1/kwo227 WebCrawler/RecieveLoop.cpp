@@ -38,7 +38,7 @@ bool Socket::Read(bool robot) {
 			if (curPos > maxBufSize) {
 				throw(5);
 			}
-			if (allocatedSize - curPos < THRESHOLD && strlen(buf) < maxBufSize) {
+			if (allocatedSize - curPos < THRESHOLD && curPos < maxBufSize) {
 				char* tempBuf = new char[2 * allocatedSize];
 				//resize buffer with realloc or HeapReAlloc, or memcpy into bigger array
 				memcpy(tempBuf, buf, allocatedSize);

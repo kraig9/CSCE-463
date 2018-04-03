@@ -22,12 +22,28 @@ DWORD statThreadFunc(LPVOID input) {
 		//    << params->E << " H\t" << params->H << " D\t" << params->D << " I\t"
 		//	<< params->I << " R\t" << params->R << " C\t" << params->C << " L\t"
 		//	<< params->L << endl;
-		printf("[ %d] %d Q %d E\t%d H\t%d D\t%d I\t%d R\t%d C\t%d L\t%d\n",
+		printf("[ %3d] %4d Q %6d E %7d H %7d D %7d I %5d R %5d C %5d L %4d\n",
 			params->time, params->activeThreads, params->Q, params->E, params->H, params->D,
 			params->I, params->R, params->C, params->L);
+		printf("      *** crawling %.0f pps @ %.0f Mbps\n", params->pp / 2, params->MB / 2);
+		params->setpp(0);
+		params->setMB(0);
 		//LeaveCriticalSection(params->lpCriticalSection);
 		//LeaveCriticalSection(params->statsCriticalSection);
 	}
+	EnterCriticalSection(params->statsCriticalSection);
+	EnterCriticalSection(params->lpCriticalSection);
+	if (params->Q == 0) {
+		printf("Extracted %d URLs @ %d/s\n", params->E, params->E / params->time);
+		printf("Looked up %d DNS names @ %d/s\n", params->D, params->D / params->time);
+		printf("Downloaded %d robots @ %d/s\n", params->I, params->I / params->time);
+		printf("Crawled %d pages @ %d/s (%.0f MB)\n", params->C, params->C / params->time, params->totalMB);
+		printf("Parsed %d links @ %d/s\n", params->L, params->L / params->time);
+		printf("HTTP codes: 2xx = %d, 3xx = %d, 4xx = %d, 5xx = %d, other = %d",
+			params->twoxx, params->threexx, params->fourxx, params->fivexx, params->other);
+	}
+	LeaveCriticalSection(params->statsCriticalSection);
+	LeaveCriticalSection(params->lpCriticalSection);
 	return 0;
 }
 //part 2 accept 2 args as well
@@ -57,10 +73,12 @@ int main(int argc, char** argv) {
 			CRITICAL_SECTION hostUniqueSection;
 			CRITICAL_SECTION IPUniqueSection;
 			CRITICAL_SECTION statsCriticalSection;
+			CRITICAL_SECTION parserCriticalSection;
 			InitializeCriticalSection(&lpCriticalSection);
 			InitializeCriticalSection(&hostUniqueSection);
 			InitializeCriticalSection(&IPUniqueSection);
 			InitializeCriticalSection(&statsCriticalSection);
+			InitializeCriticalSection(&parserCriticalSection);
 
 			threadParams params(lpCriticalSection, statsCriticalSection);
 			Uniqueness uniqueStruct(hostUniqueSection, IPUniqueSection);
@@ -69,12 +87,15 @@ int main(int argc, char** argv) {
 			params.uniquePoint = &uniqueStruct;
 			char URLbuf[MAX_URL_LEN];
 			DWORD*   dwThreadIdArray = new DWORD[numThreads];
+			HTMLParserBase* parser = new HTMLParserBase;
+			params.parser = parser;
+			params.parserCriticalSection = &parserCriticalSection;
 
 			//read file and populate shared queue
 			//http://www.cplusplus.com/doc/tutorial/files/
 			ifstream inputFile(argv[2],ios::ate);
 			if (inputFile.good() != 1) throw(12);
-			//cout << "Opened " + string(argv[2]) + " with size " + to_string((inputFile.tellg()));
+			cout << "Opened " + string(argv[2]) + " with size " + to_string((inputFile.tellg())) << endl;
 			//https://stackoverflow.com/questions/5343173/returning-to-beginning-of-file-after-getline
 			inputFile.clear();
 			inputFile.seekg(0, ios::beg);
@@ -87,7 +108,6 @@ int main(int argc, char** argv) {
 
 			//start stats thread
 			//https://msdn.microsoft.com/en-us/library/windows/desktop/ms682516(v=vs.85).aspx
-			params.activeThreadsInc();
 			HANDLE statHandle = CreateThread(NULL, 0, statThreadFunc, (LPVOID*)&params, 0, dwThreadIdArray);
 			
 
@@ -107,8 +127,9 @@ int main(int argc, char** argv) {
 				
 				delete[] pDataArray;
 				delete[] dwThreadIdArray;
-				printf("\nnumber of links found %d\n", params.L);
+				delete parser;
 				WSACleanup();
+				return 0;
 			}
 			//https://msdn.microsoft.com/en-us/library/windows/desktop/ms687025(v=vs.85).aspx
 			catch (int f) {
@@ -140,4 +161,5 @@ int main(int argc, char** argv) {
 		else if (e == 12) printf("The input file couldn't be opened. Check the filename passed in.");
 		return 1;
 	}
+	return 0;
 }

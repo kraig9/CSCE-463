@@ -18,9 +18,9 @@ void winsock_test2(parsed parsedURL, threadParams &inpParam)
 	// string pointing to an HTTP server (DNS name or IP)
 	unique->checkUniqueHost(parsedURL.host);
 	inpParam.incH();
-	char* str = parsedURL.host;
-	char baseUrl[MAX_URL_LEN] = "http://";
-	strcat_s(baseUrl, parsedURL.host);
+	string str = parsedURL.host;
+	string baseUrl = "http://";
+	baseUrl = baseUrl + parsedURL.host;
 	//char str [] = "128.194.135.72";
 
 	WSADATA wsaData;
@@ -49,11 +49,11 @@ void winsock_test2(parsed parsedURL, threadParams &inpParam)
 	struct sockaddr_in server;
 
 	// first assume that the string is an IP address
-	DWORD IP = inet_addr(str);
+	DWORD IP = inet_addr(str.c_str());
 	if (IP == INADDR_NONE)
 	{
 		// if not a valid IP, then do a DNS lookup
-		if ((remote = gethostbyname(str)) == NULL)
+		if ((remote = gethostbyname(str.c_str())) == NULL)
 		{
 			throw(3);
 		}
@@ -69,9 +69,7 @@ void winsock_test2(parsed parsedURL, threadParams &inpParam)
 	server.sin_family = AF_INET;
 	inpParam.incD();
 	//https://stackoverflow.com/questions/28492110/convert-string-to-short-in-c
-	string stringPort = string(parsedURL.port);
-	short num = (short)stoi(stringPort);
-	server.sin_port = htons(num);		// host-to-network flips the byte order
+	server.sin_port = htons(parsedURL.port);		// host-to-network flips the byte order
 	clock_t end = clock();
 	int duration = (int)(end - begin);
 	unique->checkUniqueIp(server.sin_addr.S_un.S_addr);
@@ -88,7 +86,7 @@ void winsock_test2(parsed parsedURL, threadParams &inpParam)
 	//Send http requests here
 	//robots HEAD request
 	char sendBuf[4096];
-	string restOfHead = " HTTP/1.0\r\nUser-agent: kwo227TAMUCrawler/1.2\r\nHost: " + string(parsedURL.host) + "\r\nConnection: close\r\n\r\n";
+	string restOfHead = " HTTP/1.0\r\nUser-agent: kwo227TAMUCrawler/1.2\r\nHost: " + parsedURL.host + "\r\nConnection: close\r\n\r\n";
 	string GETHostCat = " /robots.txt" + restOfHead;
 	string thing = "HEAD" + GETHostCat;
 	strcpy_s(sendBuf, thing.c_str());
@@ -108,6 +106,7 @@ void winsock_test2(parsed parsedURL, threadParams &inpParam)
 		closesocket(sock.sockt);
 		throw(13);
 	}
+	inpParam.incMB((strlen(sock.buf)*8)/1000000);
 	closesocket(sock.sockt);
 	inpParam.incR();
 
@@ -134,7 +133,7 @@ void winsock_test2(parsed parsedURL, threadParams &inpParam)
 	if (parsedURL.path[0] == '/') GETPath = (string)parsedURL.path;
 	else GETPath = "/" + (string)parsedURL.path;
 	string GETQuery = (string)parsedURL.query;
-	string restOfGet = " HTTP/1.0\r\nUser-agent: kwo227TAMUCrawler/1.2\r\nHost: " + string(parsedURL.host) + "\r\nConnection: close\r\n\r\n";
+	string restOfGet = " HTTP/1.0\r\nUser-agent: kwo227TAMUCrawler/1.2\r\nHost: " + parsedURL.host + "\r\nConnection: close\r\n\r\n";
 	string GETPathCat = GETPath + GETQuery + restOfGet;
 	string thing2 = "GET " + GETPathCat;
 	strcpy_s(sendBuf2, thing2.c_str());
@@ -154,16 +153,32 @@ void winsock_test2(parsed parsedURL, threadParams &inpParam)
 	strncpy_s(statusBuff2, statusPart2, 3);
 	end = clock();
 	duration = (int)(end - begin);
-
+	switch (statusBuff2[0]) {
+	case '2':inpParam.inc2xx();
+		break;
+	case '3':inpParam.inc3xx();
+		break;
+	case '4':inpParam.inc4xx();
+		break;
+	case '5':inpParam.inc5xx();
+		break;
+	default:inpParam.incother();
+		break;
+	}
 	if (statusBuff2[0] == '2') {
 		begin = clock();
-		int nLinks = createParser(sock2.buf, strlen(sock2.buf), baseUrl);
-		
+		//int nLinks = createParser(sock2.buf, strlen(sock2.buf), baseUrl);
+		EnterCriticalSection(inpParam.parserCriticalSection);
+		int nLinks = HTMLParse(inpParam.parser, sock2.buf, strlen(sock2.buf), baseUrl);
+		LeaveCriticalSection(inpParam.parserCriticalSection);
 		end = clock();
 		duration = (int)(end - begin);
 		inpParam.incC();
 		inpParam.incL(nLinks);
+		inpParam.incMB((strlen(sock2.buf)*8)/1000000);
+		inpParam.incpp(1);
 	}
+
 	// close the socket to this server; open again for the next one
 	closesocket(sock2.sockt);
 

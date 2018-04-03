@@ -24,5 +24,4 @@
 #define MAX_REQUEST_LEN		2048
 #define MAX_PATH_LEN		1792
 
-
 using namespace std;

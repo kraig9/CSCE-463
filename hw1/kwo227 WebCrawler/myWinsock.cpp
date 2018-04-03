@@ -15,9 +15,9 @@
 void winsock_test(parsed parsedURL)
 {
 	// string pointing to an HTTP server (DNS name or IP)
-	char* str = parsedURL.host;
-	char baseUrl[256] = "http://";
-	strcat_s(baseUrl, parsedURL.host);
+	string str = parsedURL.host;
+	char baseUrl[MAX_URL_LEN] = "http://";
+	parsedURL.host + baseUrl;
 	//char str [] = "128.194.135.72";
 
 	WSADATA wsaData;
@@ -50,11 +50,11 @@ void winsock_test(parsed parsedURL)
 	struct sockaddr_in server;
 
 	// first assume that the string is an IP address
-	DWORD IP = inet_addr(str);
+	DWORD IP = inet_addr(str.c_str());
 	if (IP == INADDR_NONE)
 	{
 		// if not a valid IP, then do a DNS lookup
-		if ((remote = gethostbyname(str)) == NULL)
+		if ((remote = gethostbyname(str.c_str())) == NULL)
 		{
 			printf("failed with %d\n",WSAGetLastError());
 			throw(10);
@@ -72,9 +72,8 @@ void winsock_test(parsed parsedURL)
 	// setup the port # and protocol type
 	server.sin_family = AF_INET;
 	//https://stackoverflow.com/questions/28492110/convert-string-to-short-in-c
-	string stringPort = string(parsedURL.port);
-	short num = (short)stoi(stringPort);
-	server.sin_port = htons(num);		// host-to-network flips the byte order
+	int stringPort = parsedURL.port;
+	server.sin_port = htons(stringPort);		// host-to-network flips the byte order
 	clock_t end = clock();
 	int duration = (int)(end - begin);
 	printf("done in %d ms, found %s\n", duration, inet_ntoa(server.sin_addr));
